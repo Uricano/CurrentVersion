@@ -1,0 +1,483 @@
+28/10/2017 01:31:19 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc ]
+  Name:p1 - Value:3.10481
+[SQL: select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 14:03:16 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc ]
+  Name:p1 - Value:691212
+[SQL: select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 14:29:51 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity19_, price0_.dDate as dDate19_, price0_.fOpen as fOpen19_, price0_.fClose as fClose19_, price0_.fNISOpen as fNISOpen19_, price0_.fNISClose as fNISClose19_, price0_.FAC as FAC19_, price0_.isHoliday as isHoliday19_, price0_.dAdjPrice as dAdjPrice19_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 14:32:06 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 15:24:39 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity20_, price0_.dDate as dDate20_, price0_.fOpen as fOpen20_, price0_.fClose as fClose20_, price0_.fNISOpen as fNISOpen20_, price0_.fNISClose as fNISClose20_, price0_.FAC as FAC20_, price0_.isHoliday as isHoliday20_, price0_.dAdjPrice as dAdjPrice20_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:1.4396
+[SQL: select price0_.Idsecurity as Idsecurity20_, price0_.dDate as dDate20_, price0_.fOpen as fOpen20_, price0_.fClose as fClose20_, price0_.fNISOpen as fNISOpen20_, price0_.fNISClose as fNISClose20_, price0_.FAC as FAC20_, price0_.isHoliday as isHoliday20_, price0_.dAdjPrice as dAdjPrice20_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 15:55:57 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+28/10/2017 23:49:42 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity18_, price0_.dDate as dDate18_, price0_.fOpen as fOpen18_, price0_.fClose as fClose18_, price0_.fNISOpen as fNISOpen18_, price0_.fNISClose as fNISClose18_, price0_.FAC as FAC18_, price0_.isHoliday as isHoliday18_, price0_.dAdjPrice as dAdjPrice18_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:695437
+[SQL: select price0_.Idsecurity as Idsecurity18_, price0_.dDate as dDate18_, price0_.fOpen as fOpen18_, price0_.fClose as fClose18_, price0_.fNISOpen as fNISOpen18_, price0_.fNISClose as fNISClose18_, price0_.FAC as FAC18_, price0_.isHoliday as isHoliday18_, price0_.dAdjPrice as dAdjPrice18_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 23:52:36 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:613034
+[SQL: select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/10/2017 23:57:01 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+29/10/2017 00:06:40 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:1085166
+[SQL: select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+29/10/2017 20:35:58 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:629014
+[SQL: select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+29/10/2017 20:42:54 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity18_, price0_.dDate as dDate18_, price0_.fOpen as fOpen18_, price0_.fClose as fClose18_, price0_.fNISOpen as fNISOpen18_, price0_.fNISClose as fNISClose18_, price0_.FAC as FAC18_, price0_.isHoliday as isHoliday18_, price0_.dAdjPrice as dAdjPrice18_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+29/10/2017 23:32:13 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs. Line Number 85. Error MessageIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurity.get_PriceTable() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurity.cs:line 191
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cRateData.setUpdatedRateData(cDateRange drPeriod) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs:line 85
+
+
+29/10/2017 23:32:21 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 148. Error MessageValue cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Cherries.TFI.BusinessLogic.GMath.StaticMethods.cOptimalStaticCalcs.runOptimizationProcess(List`1& colRisks, List`1& colReturns, Double[,]& matWeights, Double[,] dCovarMatrix, Double[] dRatesVector, Double[] arrUpperBound, Double[] arrLowerBound, List`1 colEqualitySecs, Double[] arrEqualityVals, Int32 iEqualityNum, List`1 colInequalitySecs, Double[] arrInequalityVals, Int32 iEps, Int32 iLoopsMax) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cOptimalStaticCalcs.cs:line 47
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 148
+
+
+29/10/2017 23:38:23 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs. Line Number 85. Error MessageIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurity.get_PriceTable() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurity.cs:line 191
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cRateData.setUpdatedRateData(cDateRange drPeriod) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs:line 85
+
+
+29/10/2017 23:38:25 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule()
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isWithConsts, Boolean isClearDisabled)
+   at Cherries.Services.OptimizationService.GetPortfolioOptimazation(User user, OptimazationQuery query)
+   at Cherries.Services.PortfolioService.CreatePortfolio(User user, CreatePortfolioCommand cmd)
+   at Cherries.WebApi.Hubs.TakinHub.CreatePortfolio(String cmdString)
+   at Microsoft.AspNet.SignalR.Hubs.HubMethodDispatcher.<>c__DisplayClass10_0.<WrapVoidAction>b__0(IHub hub, Object[] parameters)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.Incoming(IHubIncomingInvokerContext context)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass0_0.<<BuildIncoming>b__0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNet.SignalR.Hubs.HubPipelineModule.<>c__DisplayClass0_0.<BuildIncoming>b__0(IHubIncomingInvokerContext context)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.InvokeHubPipeline(IHub hub, IJsonValue[] parameterValues, MethodDescriptor methodDescriptor, HubRequest hubRequest, StateChangeTracker tracker)
+   at Microsoft.AspNet.SignalR.Hubs.HubDispatcher.OnReceived(IRequest request, String connectionId, String data)
+   at Microsoft.AspNet.SignalR.PersistentConnection.<>c__DisplayClass64_1.<ProcessRequestPostGroupRead>b__5()
+   at Microsoft.AspNet.SignalR.TaskAsyncHelper.FromMethod(Func`1 func)
+   at Microsoft.AspNet.SignalR.Transports.WebSocketTransport.OnMessage(String message)
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__25.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.Run()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c__DisplayClass4_0.<OutputAsyncCausalityEvents>b__0()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c__DisplayClass11_0.<OutputWaitEtwEvents>b__0()
+   at System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation.<>c__DisplayClass6_0.<GetActionLogDelegate>b__0()
+   at System.Web.Util.SynchronizationHelper.SafeWrapCallback(Action action)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+
+29/10/2017 23:43:31 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs. Line Number 85. Error MessageIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurity.get_PriceTable() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurity.cs:line 191
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cRateData.setUpdatedRateData(cDateRange drPeriod) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs:line 85
+
+
+29/10/2017 23:43:38 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 148. Error MessageValue cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Cherries.TFI.BusinessLogic.GMath.StaticMethods.cOptimalStaticCalcs.runOptimizationProcess(List`1& colRisks, List`1& colReturns, Double[,]& matWeights, Double[,] dCovarMatrix, Double[] dRatesVector, Double[] arrUpperBound, Double[] arrLowerBound, List`1 colEqualitySecs, Double[] arrEqualityVals, Int32 iEqualityNum, List`1 colInequalitySecs, Double[] arrInequalityVals, Int32 iEps, Int32 iLoopsMax) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cOptimalStaticCalcs.cs:line 47
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 148
+
+
+29/10/2017 23:44:44 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 148. Error MessageValue cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Cherries.TFI.BusinessLogic.GMath.StaticMethods.cOptimalStaticCalcs.runOptimizationProcess(List`1& colRisks, List`1& colReturns, Double[,]& matWeights, Double[,] dCovarMatrix, Double[] dRatesVector, Double[] arrUpperBound, Double[] arrLowerBound, List`1 colEqualitySecs, Double[] arrEqualityVals, Int32 iEqualityNum, List`1 colInequalitySecs, Double[] arrInequalityVals, Int32 iEps, Int32 iLoopsMax) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cOptimalStaticCalcs.cs:line 47
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 148
+
+
+29/10/2017 23:46:07 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 148. Error MessageValue cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Cherries.TFI.BusinessLogic.GMath.StaticMethods.cOptimalStaticCalcs.runOptimizationProcess(List`1& colRisks, List`1& colReturns, Double[,]& matWeights, Double[,] dCovarMatrix, Double[] dRatesVector, Double[] arrUpperBound, Double[] arrLowerBound, List`1 colEqualitySecs, Double[] arrEqualityVals, Int32 iEqualityNum, List`1 colInequalitySecs, Double[] arrInequalityVals, Int32 iEps, Int32 iLoopsMax) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cOptimalStaticCalcs.cs:line 47
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 148
+
+
+29/10/2017 23:52:31 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs. Line Number 85. Error MessageIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurity.get_PriceTable() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurity.cs:line 191
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cRateData.setUpdatedRateData(cDateRange drPeriod) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs:line 85
+
+
+30/10/2017 00:03:31 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs. Line Number 85. Error MessageIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurity.get_PriceTable() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurity.cs:line 191
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cRateData.setUpdatedRateData(cDateRange drPeriod) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs:line 85
+
+
+30/10/2017 00:12:17 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+30/10/2017 21:38:05 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:315010
+[SQL: select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+30/10/2017 21:42:38 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:373019
+[SQL: select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+30/10/2017 22:26:59 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:310011
+[SQL: select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+31/10/2017 08:58:02 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+31/10/2017 08:58:58 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs. Line Number 85. Error MessageIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurity.get_PriceTable() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurity.cs:line 191
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cRateData.setUpdatedRateData(cDateRange drPeriod) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cRateData.cs:line 85
+
+
+31/10/2017 09:05:36 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+

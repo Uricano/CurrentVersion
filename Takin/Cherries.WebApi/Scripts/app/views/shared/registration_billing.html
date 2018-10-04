@@ -1,0 +1,75 @@
+﻿
+<header>
+    <div class="blueLogo-container diableBgColor">
+        <div class="col-md-12">
+            <img src="Content/themes/images/logo white clear background.png" alt="Takin" class="systemLogo">
+        </div>
+    </div>
+</header>
+
+<main>
+    <form name="registrationForm" class="registrationForm" action="" novalidate>
+        <div class="registerArea-container">
+
+            <div class="col-md-12 col-sm-12">
+                <div class="billingPlan-container">
+                    <div class="registerForm-divInner">
+
+                        <div class="registerForm-header">
+                            <h1>STEP 2: CHOOSE BILLING PLAN</h1>
+                        </div>
+
+                        <div class="registerForm-main">
+                            <fieldset class="registerFormItems">
+
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="formItem">
+                                        <div class="TrialCode">
+                                            <input type="text" placeholder="Enter Free Trial Code" ng-model="model.Cupon" required>
+                                            <button type="button" ng-click="saveTrailUser()" class="NextButton buttonStyle1">Next</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="col-md-6 col-sm-12">
+                                        <h3 style="margin-top: 14px;">Select Stock Exchanges</h3>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div ng-dropdown-multiselect="" options="stockMarket"
+                                             selected-model="model.User.Licence.Stocks" extra-settings="stockMarketSettings"
+                                             style="height:15px;margin-top: 8px;" class="lg-input"></div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </div>
+
+                        <div class="col-sm-12" style="padding-left:20px;padding-right:20px">
+                            <div class="billingPackages">
+                                <div ng-repeat="service in Services | filter:{'IsTrial' : false}" ng-class="{'packageBox-selected' : servicePack.Idlicservice == service.Idlicservice}" class="packageBox" ng-click="calculateLicense(service)">
+                                    <h2 class="boxHeader">{{service.StrServiceType}}</h2>
+                                    <h3 class="billingPrice">${{service.Dstartprice}}</h3>
+                                    <h4 class="boxHeader">{{service.Strservicename}}</h4>
+                                    <ul class="packegeBenefits">
+                                        <li>Save up to {{service.Iportfolios}} portfolios</li>
+                                        <li>${{service.Dnewexchangeprice}} for each additional Stock Exchange</li>
+                                    </ul>
+                                    <ul class="packegeExtras">
+                                        <li>{{service.Ibaseexchanges}} Stock Exchanges included</li>
+                                        <li>1 user per subscription</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div style="text-align:center" ng-show="enablePaypal == true"><h4 ng-show="calcValue > 0">Total: ${{calcValue}}</h4><paypal-payment disable="enablePaypal" total="calcValue" currency="'USD'"></paypal-payment></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</main>

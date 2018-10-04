@@ -1,0 +1,50 @@
+﻿
+<header>
+    <div class="blueLogo-container diableBgColor">
+        <div class="col-md-12">
+            <a href="/">
+                <img src="Content/themes/images/logo white clear background.png" alt="Takin" class="systemLogo">
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <form name="registrationForm" class="registrationForm" action="" novalidate>
+        <div class="registerArea-container">
+
+            <div class="col-md-12 col-sm-12">
+                <div class="registerForm-container">
+                    <div class="registerForm-divInner">
+                        <div class="registerForm-header">
+                            <h1>STEP 2: FREE TRIAL CODE</h1>
+                        </div>
+                        <div class="registerForm-main">
+                            <fieldset class="registerFormItems">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="formItem">
+                                        <div class="TrialCode">
+                                            <input type="text" placeholder="Enter Free Trial Code" ng-model="model.Cupon" required>
+                                            <div class="l-margin-top-lg l-margin-left-xs">
+                                                <md-checkbox ng-model="termCondPolicy">
+                                                    <span class="l-font-sm">
+                                                        <span>I agree to Cherries' </span>
+                                                        <a href="https://www.gocherries.com/terms-conditions" target="_blank">Terms & Conditions</a>
+                                                        <span> and </span>
+                                                        <a href="https://www.gocherries.com/privacy-policy" target="_blank">Privacy Policy</a>.
+                                                    </span>
+                                                </md-checkbox>
+                                            </div>
+                                            <button type="button" ng-disabled="!formReady" ng-click="saveTrialUser()" 
+                                                    class="NextButton buttonStyle1">FINISH</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</main>

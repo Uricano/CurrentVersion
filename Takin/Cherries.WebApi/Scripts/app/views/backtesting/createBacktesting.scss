@@ -1,0 +1,19 @@
+﻿.portfolio-create-backtesting {
+    .input-control-wide {
+        width: 100%;
+
+        @media (min-width: 1200px) {
+            margin-right: 15px;
+        }
+    }
+
+    .go-btn {
+        @media (max-width: $layout-breakpoint-sm - 1) {
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 28px !important;
+            line-height: 28px;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+﻿<div class="portfolios">
+
+    <div class="l-title-panel">
+        <label class="l-title-1">Portfolio Universe</label>
+    </div>
+    <div style="direction:ltr;padding-right:10px;padding-left:10px;">
+        <!--<div class="hidden-lg hidden-md col-sm-12 col-xs-12 no-padding" style="margin:3px;">
+            <button class="darkgray-btn sub-title" style="width:98%;height:45px;" ng-click="createNewPortfolio = true" >Build New Portfolio</button>
+        </div>-->
+        <!--??,'hidden-sm':createNewPortfolio != true,'hidden-xs':createNewPortfolio != true} -->
+        <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding" style="text-align:center;padding-top:15px;">
+            <div class="col-lg-12 col-md-12" style="height:100px;background-color:gray;font-size:48px;" ng-class="{'col-sm-12':createNewPortfolio == true,'col-xs-12':createNewPortfolio == true}">
+                <span style="color:white;">weekly updates, etc...</span>
+            </div>
+        </div>-->
+
+        <div>
+            <div class="portfolios__list-panel l-margin-top-xl">
+                <div class="portfolios__list-panel__title">
+                    <div class="no-padding l-title-2">My Portfolio Library</div>
+                    <div class="portfolios__list-panel__subtitle">updated for {{currentDate | date: 'MM.dd.yy' }}</div>
+                </div>
+                <div class="portfolios__list-panel__sort">
+                    sort by: <select ng-change="sortPortfolio()" ng-model="orderByPortField">
+                        <option value="" selected="selected">Choose</option>
+                        <option value="DateCreated">Date</option>
+                        <option value="LastProfit">Return Rate</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding" style="margin-top: 10px">
+
+                <div ng-if="noPortfolios"
+                     class="empty-pane">
+                    <div class="empty-pane__message">Your optimal stock portfolios will appear here.</div>
+                    <a href="https://support.gocherries.com/en/article/building-your-cherries-portfolio"
+                       target="_blank"
+                       class="empty-pane__link">Learn how to build your first portfolio!</a>
+                </div>
+
+                <table ng-table="tableParams" class="table-apartments col-md-12 col-sm-12" wt-responsive-table style="width: 100%;">
+
+                    <tr ng-repeat="portfolio in $data">
+                        <td>
+                            <portfolio model="portfolio" refresh-all="refreshPortfolios(port)"></portfolio>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <div class="l-float-clear">
+            <div class="portfolios__list-panel l-margin-top-xl">
+                <div class="portfolios__list-panel__title">
+                    <div class="no-padding l-title-2">My Backtesting Portfolios</div>
+                    <div class="portfolios__list-panel__subtitle">updated for {{currentDate | date: 'MM.dd.yy' }}</div>
+                </div>
+                <div class="portfolios__list-panel__sort">
+                    sort by: <select ng-change="sortBacktesting()" ng-model="orderByBackField">
+                        <option value="" selected="selected">Choose</option>
+                        <option value="StartDate">Date</option>
+                        <option value="LastProfit">Return Rate</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding" style="margin-top: 10px">
+
+                <div ng-if="noBacktesting"
+                     class="empty-pane">
+                    <div class="empty-pane__message">Your backtesting portfolios will appear here.</div>
+                    <a href="https://support.gocherries.com/en/article/building-your-backtesting-portfolio"
+                       target="_blank"
+                       class="empty-pane__link">Learn how to build your first backtesting portfolio!</a>
+                </div>
+
+                <table ng-table="tableParams1" class="table-apartments col-md-12 col-sm-12" wt-responsive-table style="width: 100%">
+
+                    <tr ng-repeat="backtesting in $data">
+                        <td>
+                            <backtesting model="backtesting" refresh-all="refreshBacktesting(backtest)"></backtesting>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

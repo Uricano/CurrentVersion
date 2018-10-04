@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="en" md-no-ink data-ng-app="takinApp" ng-controller="takinMngrCtrl">
+<head>
+    <title>Cherries Portfolio Builder</title>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0" />-->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE6" />
+    <meta name="description" content='Cherries in an innovative online platform for the construction of personally optimized stock portfolios.'>
+    <meta name="keywords" content="">
+    <meta name="author" content="Ness A.T.">
+    <link rel="icon" type="image/png" href="Content/themes/images/favicon.png" />
+    <!--<meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />-->
+    <!--<link rel="icon" ng-href="content/themes/images/smallogo.png" />-->
+    <base href="/" />
+    <!-- Bootstrap core CSS -->
+    <!--
+    <link href="Content/themes/base/bootstrap-theme.min.css" rel="stylesheet" />-->
+    <!--<link href="Content/themes/base/bootstrap.css" rel="stylesheet" />
+    <link ng-if="language == 'he'" href="Content/themes/base/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="Content/themes/base/checkbox-color.css" rel="stylesheet" />
+    <link href="Content/themes/base/checkbox.css" rel="stylesheet" />
+    <link href="Content/themes/jqury.ui/jquery.ui.core.min.css" rel="stylesheet" />
+    <link href="Content/themes/jqury.ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="bower_components/select2/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="Content/themes/ngTable/ngTable.css" rel="stylesheet" />
+    <link href="Content/themes/semantic.min.css" rel="stylesheet" />
+    <link href="Content/themes/smoothness/jquery-ui.min.css" rel="stylesheet" />
+    <link href="Content/themes/base/bootstrap-multiselect.css" rel="stylesheet" />
+    <link href="Content/themes/main.css" rel="stylesheet" />-->
+    <!--<link href="Content/bundle.min.css" rel="stylesheet" />-->
+    <!--<script async src="https://cdn.smooch.io/smooch.min.js"></script>-->
+    <!--<script src="Scripts/libs/jquery/jquery-1.11.2.min.js"></script>-->
+    <noscript id="deferred-styles">
+        <link rel="stylesheet" type="text/css" href="Content/bundle.min.css" />
+        <link rel="stylesheet" type="text/css" href="Content/styles.css" />
+    </noscript>
+    <script>
+        var loadDeferredStyles = function ()
+        {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
+
+
+</head>
+<body ng-class="{'login-body':isLoginPage==true}">
+    <script async src="//fast.appcues.com/26600.js"></script>
+    <div ng-click="pageClick($event)"
+         layout="column" layout-align="space-between stretch"
+         style="min-height: 100%;">
+        <div layout="column"
+             layout-align="start stretch">
+            <div class="col-md-12 no-padding" cst-header></div>
+
+            <section id="main" class="main-content">
+                <a name="maincontent"></a>
+                <div id="divView" data-ng-view class="slide main-view">
+                </div>
+            </section>
+            <div cst-loading-overlay class="hide"></div>
+        </div>
+
+        <tfi-footer class="l-float-clear" style="margin-top:45px;"></tfi-footer>
+        <!--<div style="position:absolute; bottom:0">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+    </div>
+
+
+    <!--<script src="Scripts/libs/jquery/jquery-1.11.2.min.js"></script>
+
+    <script src="Scripts/jquery.signalR-2.2.2.min.js"></script>-->
+
+    <script async src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script src="Scripts/bundle.min.js"></script>
+
+    <!-- TODO: create bundle -->
+    <script src="Scripts/libs/material/material.js"></script>
+    <script src="Scripts/libs/material/module.js"></script>
+    <script src="Scripts/app/module.js"></script>
+    <script src="Scripts/app/services/common/truncate.filter.js"></script>
+    <script src="Scripts/app/services/common/directiveApi.service.js"></script>
+    <script src="Scripts/app/services/common/underscore.service.js"></script>
+    <script src="Scripts/app/services/common/riskLevel.constant.js"></script>
+    <script src="Scripts/app/services/common/mediaConstant.constant.js"></script>
+    <script src="Scripts/app/services/common/media.service.js"></script>
+    <script src="Scripts/app/services/common/resizableContainer.directive.js"></script>
+    <script src="Scripts/app/services/common/visibilitySpy.class.js"></script>
+    <script src="Scripts/app/services/common/visibilityHelper.service.js"></script>
+    <script src="Scripts/app/services/common/keyCode.constant.js"></script>
+    <!--<script src="Scripts/app/services/common/domUtils.service.js"></script>-->
+    <script src="Scripts/app/overrides/angularDropdownMultiselect.directive.js"></script>
+    <script src="Scripts/app/overrides/tablePaginator/tablePaginator.directive.js"></script>
+    <script src="Scripts/app/directives/popover/popover.directive.js"></script>
+    <script src="Scripts/app/directives/riskSelector/riskSelector.component.js"></script>
+    <script src="Scripts/app/directives/securityFilter/securityFilterForm.component.js"></script>
+    <script src="Scripts/app/directives/securityFilter/securityFilter.component.js"></script>
+    <script src="Scripts/app/directives/staticPanel/staticPanel.directive.js"></script>
+    <script src="Scripts/app/directives/footer/footer.directive.js"></script>
+    <script src="Scripts/app/directives/link/link.directive.js"></script>
+    <script src="Scripts/app/directives/input/inputContainer.directive.js"></script>
+
+    <script src="Scripts/bundleapp.min.js"></script>
+    <!--<script src="Scripts/app/controllers/shared/takinMngrCtrl.js"></script>-->
+    <script src="Scripts/app/controllers/backtesting/backtestingCtrl.js"></script>
+    <script src="Scripts/app/directives/chartBar.js"></script>
+    <!--<script src="Scripts/app/controllers/backtesting/createBacktestingCtrl.js"></script>-->
+    <!--<script src="Scripts/app/controllers/portfolios/customPortfolioCtrl.js"></script>-->
+    <!--<script src="Scripts/app/controllers/portfolios/optimizedPortfolioCtrl.js"></script>-->
+    <!--<script src="Scripts/app/controllers/portfolios/portfolioDetailsCtrl.js"></script>-->
+    <!--<script src="Scripts/app/directives/lineScattertest.js"></script>-->
+    <!--<script src="Scripts/app/directives/resize.js"></script>-->
+    <!--<script src="Scripts/app/directives/numbersOnly.js"></script>-->
+    <!--<script src="Scripts/app/directives/security.js"></script>-->
+    <script src="signalr/hubs"></script>
+
+    <script>
+        function whenAvailable(name, callback)
+        {
+            var interval = 10;
+
+            window.setTimeout(function ()
+            {
+                if (window[name])
+                {
+                    callback(window[name]);
+                } else
+                {
+                    window.setTimeout(arguments.callee, interval);
+                }
+            }, interval);
+        }
+
+
+        $(window).on('load', function ()
+        {
+            whenAvailable('Smooch', function ()
+            {
+                var language = navigator.language || navigator.userLanguage;
+
+                Smooch.destroy();
+
+                Smooch.init({
+                    appToken: '7zj2a4qxs42m46o7jsppvmzy6',
+                    properties: {
+                        lang: language
+                    }
+                });
+
+                Smooch.on('ready', function ()
+                {
+                    if (language === 'he')
+                    {
+                        $('#sk-conversation .sk-messages').css('direction', 'rtl');
+                    }
+                });
+            });
+        });
+
+    </script>
+    <!--<script src="bower_components/select2/dist/js/select2.full.min.js"></script>
+    <script src="Scripts/libs/jquery/jquery-ui-1.10.3.min.js"></script>
+    <script src="bower_components/select2/dist/js/i18n/he.js"></script>
+    <script src="bower_components/select2/dist/js/i18n/en.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="bower_components/angular-ismobile/dist/angular-ismobile.min.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="scripts/libs/angular-ui/select2.js"></script>
+    <script src="scripts/libs/bootstrap/ui-bootstrap-tpls-0.13.4.min.js"></script>
+    <script src="scripts/libs/multi-select/lodash.js"></script>
+    <script src="scripts/libs/angular-ui/angular-prompt.js"></script>
+    <script src="Scripts/libs/ngTable/ng-table.js"></script>
+    <script src="scripts/libs/linqjs/linq.js"></script>
+
+    <script src="Scripts/libs/bootstrap/bootstrap-multiselect.js"></script>
+    <script src="Scripts/libs/multi-select/angularjs-dropdown-multiselect.js"></script>
+
+    <script src="Scripts/libs/chartjs/Chart.js"></script>
+    <script src="Scripts/libs/chartjs/Chart.Scatter.js"></script>
+    <script src="Scripts/libs/jsPdf/html2canvas.js"></script>
+    <script src="Scripts/libs/jsPdf/jsPdf.js"></script>
+
+
+
+    <script src="Scripts/app/models/shared/translations.js"></script>
+    <script src="Scripts/app/app.js"></script>
+
+    <script src="Scripts/app/controllers/shared/takinMngrCtrl.js"></script>
+    <script src="Scripts/app/controllers/portfolios/portfolioCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/newPasswordCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/forgetPasswordCtrl.js"></script>
+    <script src="Scripts/app/controllers/portfolios/customPortfolioCtrl.js"></script>
+    <script src="Scripts/app/controllers/portfolios/optimizedPortfolioCtrl.js"></script>
+    <script src="Scripts/app/controllers/portfolios/portfolioDetailsCtrl.js"></script>
+    <script src="Scripts/app/controllers/backtesting/backtestingCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/registrationCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/registrationTrialCodeCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/changeAccountDetailsCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/changeBillingDetailsCtrl.js"></script>
+    <script src="Scripts/app/controllers/shared/registrationBillingCtrl.js"></script>
+    <script src="Scripts/app/controllers/backtesting/createBacktestingCtrl.js"></script>
+    <script src="Scripts/app/directives/login.js"></script>
+    <script src="Scripts/app/directives/portfolio.js"></script>
+    <script src="Scripts/app/directives/backtesting.js"></script>
+    <script src="Scripts/app/directives/header.js"></script>
+    <script src="Scripts/app/directives/header.component.js"></script>
+    <script src="Scripts/app/directives/loginHeader.js"></script>
+    <script src="Scripts/app/directives/loadingoverlay.js"></script>
+    <script src="Scripts/app/directives/numbersOnly.js"></script>
+    <script src="Scripts/app/directives/security.js"></script>
+    <script src="Scripts/app/directives/chartBar.js"></script>
+    <script src="Scripts/app/directives/chartLine.js"></script>
+    <script src="Scripts/app/directives/chartLineScroll.js"></script>
+    <script src="Scripts/app/directives/chartPie.js"></script>
+    <script src="Scripts/app/directives/lineScattertest.js"></script>
+    <script src="Scripts/app/directives/resize.js"></script>
+    <script src="Scripts/app/directives/paypalPayment.js"></script>
+    <script src="Scripts/app/directives/formInputTypes.js"></script>
+    <script src="Scripts/app/directives/validations.js"></script>
+    <script src="Scripts/app/directives/focusMe.js"></script>
+    <script src="Scripts/app/directives/sortableHeader.js"></script>
+    <script src="Scripts/app/directives/datepicker.js"></script>
+    <script src="Scripts/app/services/shared/commonConstants.constant.js"></script>
+    <script src="Scripts/app/services/shared/session.service.js"></script>
+    <script src="Scripts/app/services/shared/helperService.js"></script>
+    <script src="Scripts/app/services/login/loginService.js"></script>
+    <script src="Scripts/app/services/shared/utilitiesService.js"></script>
+    <script src="Scripts/app/services/portfolio/portfolioService.js"></script>
+    <script src="Scripts/app/helpers/errorHandler.js"></script>
+    <script src="Scripts/app/services/securities/securitiesService.js"></script>
+    <script src="Scripts/app/services/shared/lookupService.js"></script>
+    <script src="Scripts/app/services/shared/generalService.js"></script>
+    <script src="Scripts/app/services/prices/priceService.js"></script>
+    <script src="Scripts/app/services/backtesting/backtestingService.js"></script>
+    <script src="Scripts/app/services/shared/exportDataService.js"></script>
+    <script src="Scripts/app/services/login/userService.js"></script>
+    <script src="Scripts/app/services/License/licenseService.js"></script>
+
+
+    <script src="Scripts/app/models/shared/enums.js"></script>
+    <script src="Scripts/app/models/shared/messages.js"></script>
+    <script src="Scripts/app/helpers/errorHandler.js"></script>-->
+
+</body>
+</html>

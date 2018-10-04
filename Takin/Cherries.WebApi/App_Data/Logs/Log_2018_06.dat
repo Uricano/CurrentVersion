@@ -1,0 +1,1017 @@
+21.06.2018 11:30:16 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 11:51:07 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at Cherries.Services.OptimizationService.GetPortfolioOptimazation(User user, OptimazationQuery query)
+   at Cherries.Services.PortfolioService.CreatePortfolio(User user, CreatePortfolioCommand cmd)
+   at Cherries.WebApi.Controllers.PortfoliosController.GetAsyncResponse(User user, CreatePortfolioCommand cmd, HttpContext context)
+   at Cherries.WebApi.Controllers.PortfoliosController.<>c__DisplayClass4_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 12:46:11 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 13:06:34 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 13:13:02 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 13:32:23 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 13:45:10 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+21.06.2018 13:49:17 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+22.06.2018 13:43:49 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1089. Error MessageObject reference not set to an instance of an object.
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1089
+
+
+22.06.2018 14:26:52 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 14:32:21 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 14:33:15 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 14:42:43 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 15:06:56 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 15:33:57 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 16:02:33 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 16:19:17 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+22.06.2018 16:29:33 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1178. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 204
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 198
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 220
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1219
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1178
+
+
+25.06.2018 14:54:51 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+26.06.2018 13:34:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 152. Error Messagecould not execute query
+[ exec getPriceReturnsInDateRange @p0,@p1,@p2,@p3 ]
+  Name:security_id_list - Value:1.10001,1.10001,1.10002,1.10002,1.10004,1.10004,1.10013,1.10013,1.10017,1.10017,1.10024,1.10024,1.10029,1.10029,1.10047,1.10047,1.10051,1.10051,1.10084,1.10084,1.10106,1.10106,1.10113,1.10113,1.10124,1.10124,1.10131,1.10131,1.10144,1.10144,1.10154,1.10154,1.10155,1.10155,1.10162,1.10162,1.10177,1.10177,1.10193,1.10193,1.10241,1.10241,1.10264,1.10264,1.10271,1.10271,1.10306,1.10306,1.10321,1.10321,1.10323,1.10323,1.10327,1.10327,1.10358,1.10358,1.10361,1.10361,1.10365,1.10365,1.10367,1.10367,1.10377,1.10377,1.10379,1.10379,1.10393,1.10393,1.10396,1.10396,1.10406,1.10406,1.10415,1.10415,1.10422,1.10422,1.10441,1.10441,1.10476,1.10476,1.10496,1.10496,1.10508,1.10508,1.10529,1.10529,1.10563,1.10563,1.10597,1.10597,1.10623,1.10623,1.10657,1.10657,1.10664,1.10664,1.10683,1.10683,1.10689,1.10689,1.10692,1.10692,1.10694,1.10694,1.10716,1.10716,1.10735,1.10735,1.10739,1.10739,1.10783,1.10783,1.10823,1.10823,1.10851,1.10851,1.10874,1.10874,1.10882,1.10882,1.10887,1.10887,1.10919,1.10919,1.10976,1.10976,1.10978,1.10978,1.10995,1.10995,1.11044,1.11044,1.11055,1.11055,1.11065,1.11065,1.11106,1.11106,1.11107,1.11107,1.11147,1.11147,1.11162,1.11162,1.11167,1.11167,1.11193,1.11193,1.11208,1.11208,1.11221,1.11221,1.11254,1.11254,1.11259,1.11259,1.11265,1.11265,1.11331,1.11341,1.11341,1.11343,1.11343,1.11372,1.11372,1.11378,1.11378,1.11386,1.11386,1.11456,1.11456,1.11464,1.11464,1.11472,1.11472,1.11482,1.11482,1.11499,1.11499,1.11514,1.11514,1.11533,1.11533,1.11561,1.11561,1.11565,1.11565,1.11568,1.11568,1.11577,1.11577,1.11583,1.11583,1.11591,1.11591,1.11624,1.11624,1.11656,1.11656,1.11667,1.11667,1.11678,1.11678,1.11699,1.11699,1.11702,1.11702,1.11704,1.11704,1.11731,1.11731,1.11732,1.11732,1.11758,1.11758,1.11763,1.11763,1.11812,1.11812,1.11837,1.11837,1.11874,1.11874,1.11905,1.11905,1.11928,1.11928,1.11932,1.11932,1.11944,1.11944,1.11947,1.11947,1.11949,1.11949,1.11966,1.11966,1.11981,1.11981,1.11995,1.11995,1.12019,1.12019,1.12023,1.12023,1.12032,1.12032,1.12077,1.12077,1.12084,1.12084,1.12107,1.12107,1.12116,1.12116,1.12159,1.12159,1.12212,1.12212,1.12249,1.12249,1.12265,1.12265,1.12271,1.12271,1.12272,1.12272,1.12285,1.12285,1.12309,1.12309,1.12368,1.12368,1.12375,1.12375,1.12408,1.12408,1.12409,1.12409,1.12415,1.12415,1.12416,1.12416,1.12419,1.12419,1.12427,1.12427,1.12448,1.12448,1.12453,1.12453,1.12477,1.12477,1.12501,1.12511,1.12511,1.12538,1.12538,1.12559,1.12559,1.12564,1.12564,1.12565,1.12565,1.12566,1.12566,1.12568,1.12575,1.12575,1.12592,1.12592,1.12598,1.12598,1.12638,1.12638,1.12713,1.12713,1.12714,1.12714,1.12717,1.12717,1.12788,1.12788,1.12789,1.12789,1.12797,1.12797,1.12891,1.12891,1.12893,1.12893,1.12935,1.12935,1.12936,1.12936,1.12937,1.12937,1.12947,1.12947,1.12954,1.12967,1.12967,1.12975,1.12975,1.12979,1.12979,1.13034,1.13034,1.13035,1.13035,1.13042,1.13042,1.13061,1.13061,1.13074,1.13074,1.13091,1.13091,1.13092,1.13092,1.13099,1.13099,1.13116,1.13116,1.13155,1.13155,1.13156,1.13156,1.13162,1.13162,1.13201,1.13201,1.13215,1.13215,1.13223,1.13223,1.13231,1.13231,1.13233,1.13233,1.13275,1.13275,1.13276,1.13276,1.13303,1.13303,1.13304,1.13304,1.13307,1.13307,1.13316,1.13316,1.13331,1.13331,1.13345,1.13345,1.13358,1.13358,1.13396,1.13396,1.13397,1.13397,1.13408,1.13408,1.13432,1.13432,1.13436,1.13436,1.13459,1.13459,1.13465,1.13465,1.13494,1.13494,1.13511,1.13511,1.13513,1.13513,1.13529,1.13529,1.13542,1.13542,1.13565,1.13565,1.13592,1.13592,1.13605,1.13605,1.13623,1.13623,1.13635,1.13635,1.13642,1.13642,1.13651,1.13651,1.13709,1.13709,1.13742,1.13742,1.13744,1.13744,1.13769,1.13769,1.13779,1.13779,1.13797,1.13797,1.13877,1.13877,1.13898,1.13898,1.13906,1.13906,1.13908,1.13908,1.13927,1.13927,1.13929,1.13929,1.13941,1.13941,1.13955,1.13955,1.13981,1.13981,1.13989,1.13989,1.13993,1.13993,1.13994,1.13994,1.14002,1.14002,1.14016,1.14016,1.14026,1.14026,1.14032,1.14032,1.14048,1.14048,1.14051,1.14051,1.14057,1.14057,1.14058,1.14058,1.14067,1.14067,1.14076,1.14076,1.14092,1.14092,1.14094,1.14094,1.14096,1.14096,1.14134,1.14134,1.14138,1.14138,1.14143,1.14143,1.14165,1.14165,1.14178,1.14178,1.14198,1.14198,1.14203,1.14245,1.14245,1.14274,1.14274,1.14292,1.14292,1.14297,1.14297,1.14299,1.14311,1.14311,1.14314,1.14314,1.14337,1.14337,1.14357,1.14357,1.14358,1.14358,1.14373,1.14373,1.14383,1.14383,1.14395,1.14395,1.14399,1.14399,1.14404,1.14404,1.14406,1.14406,1.14408,1.14408,1.14414,1.14414,1.14415,1.14415,1.14418,1.14418,1.14423,1.14423,1.14437,1.14437,1.14439,1.14439,1.14441,1.14441,1.14454,1.14454,1.14475,1.14475,1.14495,1.14495,1.14543,1.14543,1.14567,1.14567,1.14579,1.14579,1.14605,1.14605,1.14614,1.14614,1.14645,1.14645,1.14648,1.14648,1.14675,1.14675,1.14689,1.14689,1.14691,1.14691,1.14706,1.14706,1.14715,1.14715,1.14734,1.14734,1.14738,1.14738,1.14747,1.14747,1.14754,1.14754,1.14771,1.14771,1.14782,1.14782,1.14811,1.14811,1.14862,1.14862,1.14891,1.14891,1.14893,1.14893,1.14897,1.14897,1.14919,1.14919,1.14959,1.14959,1.14972,1.14972,1.15015,1.15015,1.15038,1.15038,1.15051,1.15051,1.15052,1.15052,1.15058,1.15058,1.15118,1.15118,1.15125,1.15125,1.15128,1.15128,1.15139,1.15139,1.15145,1.15145,1.15155,1.15155,1.15169,1.15169,1.15174,1.15174,1.15182,1.15182,1.15218,1.15218,1.15221,1.15221,1.15265,1.15265,1.15284,1.15284,1.15288,1.15288,1.15314,1.15314,1.15379,1.15379,1.15385,1.15385,1.15388,1.15388,1.15416,1.15416,1.15422,1.15422,1.15436,1.15436,1.15437,1.15437,1.15443,1.15443,1.15461,1.15472,1.15472,1.15501,1.15501,1.15593,1.15593,1.15607,1.15607,1.15625,1.15625,1.15636,1.15636,1.15666,1.15666,1.15685,1.15685,1.15687,1.15687,1.15692,1.15692,1.15695,1.15695,1.15699,1.15699,1.15717,1.15717,1.15733,1.15733,1.15778,1.15778,1.15795,1.15807,1.15807,1.15843,1.15843,1.15877,1.15877,1.15903,1.15905,1.15905,1.15922,1.15922,1.15928,1.15928,1.15961,1.15961,1.15984,1.15984,1.15987,1.15987,1.15989,1.15992,1.15992,1.16086,1.16086,1.16132,1.16132,1.16137,1.16137,1.16148,1.16148,1.16158,1.16158,1.16181,1.16181,1.16201,1.16201,1.16233,1.16233,1.16238,1.16238,1.16242,1.16242,1.16244,1.16244,1.16271,1.16271,1.16275,1.16275,1.16277,1.16277,1.16278,1.16278,1.16291,1.16291,1.16316,1.16316,1.16333,1.16333,1.16354,1.16354,1.16364,1.16364,1.16391,1.16391,1.16408,1.16408,1.16416,1.16416,1.16428,1.16428,1.16434,1.16434,1.16448,1.16448,1.16461,1.16461,1.16487,1.16487,1.16505,1.16505,1.16535,1.16535,1.16542,1.16542,1.16602,1.16602,1.16606,1.16606,1.16626,1.16626,1.16639,1.16639,1.16658,1.16658,1.16661,1.16661,1.16662,1.16662,1.16669,1.16669,1.16676,1.16676,1.16691,1.16691,1.16713,1.16713,1.16717,1.16717,1.16719,1.16719,1.16721,1.16721,1.16726,1.16726,1.16727,1.16727,1.16728,1.16728,1.16743,1.16743,1.16797,1.16797,1.16804,1.16804,1.16808,1.16808,1.16826,1.16826,1.16829,1.16829,1.16838,1.16838,1.16842,1.16842,1.16861,1.16861,1.16867,1.16867,1.16872,1.16872,1.16899,1.16899,1.16907,1.16907,1.16945,1.16945,1.16948,1.16948,1.16963,1.16963,1.16992,1.16992,1.16995,1.16995,1.16996,1.16996,1.17003,1.17003,1.17021,1.17021,1.17047,1.17047,1.17048,1.17048,1.17084,1.17084,1.17086,1.17086,1.17092,1.17092,1.17093,1.17093,1.17109,1.17109,1.17134,1.17134,1.17151,1.17151,1.17154,1.17154,1.17155,1.17155,1.17164,1.17164,1.17174,1.17174,1.17183,1.17183,1.17213,1.17213,1.17222,1.17222,1.17234,1.17234,1.17243,1.17243,1.17245,1.17245,1.17266,1.17266,1.17267,1.17267,1.17285,1.17285,1.17304,1.17304,1.17317,1.17317,1.17331,1.17331,1.17335,1.17335,1.17337,1.17337,1.17345,1.17345,1.17348,1.17348,1.17357,1.17357,1.17375,1.17375,1.17384,1.17384,1.17407,1.17407,1.17472,1.17472,1.17517,1.17517,1.17546,1.17546,1.17588,1.17588,1.17623,1.17623,1.17653,1.17653,1.17654,1.17654,1.17662,1.17662,1.17669,1.17669,1.17681,1.17681,1.17748,1.17748,1.17787,1.17856,1.17856,1.17933,1.17933,1.17966,1.18214,1.18214,1.18227,1.18227,1.18267,1.18267,1.18501,1.18501,1.18526,1.18526,1.18698,1.18698,1.19409,1.19409,1.19921,1.19921,1.20175,103010,103010,1080324,1080324,1080456,1080456,1080753,1080753,1080837,1080837,1080985,1080985,1081009,1081009,1081082,1081082,1081165,1081165,1081439,1081439,1081561,1081561,1081603,1081603,1081843,1081843,1082007,1082007,1082353,1082353,1083419,1083419,1083682,1083682,1083955,1083955,1084003,1084482,1084482,1084698,1084698,1084953,1084953,1086230,1086230,1087824,1087824,1090315,1090315,1090943,1090943,1091354,1091354,1091685,1091685,1091933,1091933,1093202,1093202,1093558,1093558,1094044,1094044,1094283,1094283,1094986,1094986,1095405,1095405,1095835,1095835,1095892,1095892,1096676,1096676,1097229,1097948,1097948,1098565,1098565,1098920,1098920,1100718,1100718,1101021,1101021,1102128,1102128,1102219,1102219,1102532,1102532,1103571,1103571,1104058,1104249,1104249,1104488,1104488,1104868,1104868,1105022,1105097,1105097,1106376,1106376,1109644,1109644,1118470,1118470,1119080,1119080,1119478,1119478,1120161,1120161,1121607,1121607,1122415,1122415,1122654,1122654,1123355,1123355,1124478,1126788,1126788,1129444,1129444,1129451,1129451,1129501,1129501,1131523,1131523,1131556,1131556,1132315,1132315,1132356,1132356,1133875,1133875,1138379,1138379,130013,134015,134015,136010,142018,150011,150011,156018,156018,168013,168013,169011,180018,180018,1820083,1820083,200014,200014,226019,226019,235010,235010,238014,238014,251017,251017,253013,253013,258012,258012,2590248,2590248,265017,271015,271015,288019,288019,310011,310011,312017,312017,313015,313015,314013,314013,315010,315010,318014,323014,323014,328013,328013,351015,351015,354019,354019,371013,371013,373019,373019,384016,386011,386011,387019,387019,390013,390013,393017,400010,400010,413013,413013,416016,416016,422014,422014,425017,425017,434019,434019,442012,462010,462010,473017,473017,474015,474015,505016,505016,507012,507012,522011,522011,528018,528018,530014,532010,532010,539015,543017,543017,566018,566018,573014,573014,576017,576017,578013,578013,583013,583013,587014,587014,589010,589010,593038,593038,604611,604611,612010,612010,613034,613034,621011,621011,625012,625012,632018,632018,639013,639013,642017,642017,643015,643015,644013,644013,654012,654012,660019,662577,662577,669010,669010,675017,691212,691212,694034,694034,695437,695437,699017,699017,7.10072,7.10072,7.10079,7.10079,7.10095,7.10095,7.10104,7.10108,7.10108,7.10284,7.10284,7.10394,7.10394,7.10414,7.10414,7.10477,7.10477,7.10496,7.10496,7.10511,7.10511,7.10523,7.10523,711010,711010,715011,715011,720011,720011,722314,722314,730010,730010,731018,731018,739037,739037,753012,755017,755017,759019,759019,763011,763011,769026,769026,777037,777037,797035,797035,813014,813014,822015,822015  Name:date_start - Value:25.06.2015 0:00:00  Name:date_end - Value:25.06.2018 0:00:00  Name:calc_currency - Value:9001
+[SQL: exec getPriceReturnsInDateRange @p0,@p1,@p2,@p3]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 114
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 152
+
+
+26.06.2018 15:47:14 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 11:17:31 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 11:42:36 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 11:48:27 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 11:56:07 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 11:59:33 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:03:53 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:15:31 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:40:27 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:43:09 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:46:18 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:49:40 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 12:52:41 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 13:02:48 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 13:09:50 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 13:11:35 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 13:30:38 Missing data
+   at Cherries.TFI.BusinessLogic.General.cErrorHandler.LogInfo(String sMessage)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.runEfficientFrontierModule(ISecurities cSecsCol)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs)
+   at Cherries.Services.BackTestingService.calculateBacktesting(User user, CreatePortfolioCommand cmd, DateTime dtStartDate, DateTime dtEndDate, List`1 becnhMarkIDs)
+   at Cherries.WebApi.Controllers.BacktestingController.GetAsyncResponse(User user, BackTestingQuery query, HttpContext context)
+   at Cherries.WebApi.Controllers.BacktestingController.<>c__DisplayClass2_0.<Post>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+
+27.06.2018 14:15:42 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1109. Error Message
+
+Mapping types:
+cOptimizationResults -> Double
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults -> System.Double
+
+Destination path:
+OptimalPortoliosViewModel.TangencyPortRisk
+
+Source value:
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, Object mappedObject, PropertyMap propertyMap)
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context)
+   at AutoMapper.MappingEngine.Map(ResolutionContext context)
+   at AutoMapper.Mapper.MapCore(Object source, Type sourceType, Type destinationType, MappingOperationOptions options)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 120
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1109
+
+
+27.06.2018 14:35:16 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1109. Error Message
+
+Mapping types:
+cOptimizationResults -> Double
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults -> System.Double
+
+Destination path:
+OptimalPortoliosViewModel.TangencyPortRisk
+
+Source value:
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, Object mappedObject, PropertyMap propertyMap)
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context)
+   at AutoMapper.MappingEngine.Map(ResolutionContext context)
+   at AutoMapper.Mapper.MapCore(Object source, Type sourceType, Type destinationType, MappingOperationOptions options)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 120
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1109
+
+
+27.06.2018 14:41:39 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1109. Error Message
+
+Mapping types:
+cOptimizationResults -> Double
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults -> System.Double
+
+Destination path:
+OptimalPortoliosViewModel.TangencyPortRisk
+
+Source value:
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, Object mappedObject, PropertyMap propertyMap)
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context)
+   at AutoMapper.MappingEngine.Map(ResolutionContext context)
+   at AutoMapper.Mapper.MapCore(Object source, Type sourceType, Type destinationType, MappingOperationOptions options)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 120
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1109
+
+
+27.06.2018 14:49:51 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1109. Error Message
+
+Mapping types:
+cOptimizationResults -> Double
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults -> System.Double
+
+Destination path:
+OptimalPortoliosViewModel.TangencyPortRisk
+
+Source value:
+Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, Object mappedObject, PropertyMap propertyMap)
+   at AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context)
+   at AutoMapper.MappingEngine.Map(ResolutionContext context)
+   at AutoMapper.Mapper.MapCore(Object source, Type sourceType, Type destinationType, MappingOperationOptions options)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source, Action`1 opts)
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.calculateNewEfficientFrontier(ISecurities cSecsCol, ISecurities cBenchmarksCol, cDateRange drCalcRange, Boolean isClearDisabled, Boolean isBacktest) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 120
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1109
+
+
+27.06.2018 16:34:15 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1200. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 212
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 206
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 228
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1241
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1200
+
+
+28.06.2018 10:26:03 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1200. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 212
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 206
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 228
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1241
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1200
+
+
+28.06.2018 11:08:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 123. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.StaticMethods.cBasicStaticCalcs.getAvgValue(List`1 dtMain) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cBasicStaticCalcs.cs:line 332
+   at Cherries.TFI.BusinessLogic.DataManagement.DataTypes.cCovarCorrelData.calcRiskLevels() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\DataManagement\DataTypes\cCovarCorrelData.cs:line 65
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.calcRiskAndCovariance(cDateRange drPeriod, ISecurities& cSecsCol, Boolean isMatrix, Boolean isBacktest) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 123
+
+
+28.06.2018 11:10:01 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 11:13:07 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 11:35:34 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 12:04:17 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 12:26:03 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 12:49:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 13:04:46 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 13:31:00 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 13:41:12 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1200. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 212
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 206
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 228
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1241
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1200
+
+
+28.06.2018 13:44:21 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 15:01:50 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1200. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 212
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 206
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 228
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1241
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1200
+
+
+28.06.2018 15:03:32 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 15:54:30 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 16:06:23 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 17:24:24 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 428. Error Messagecould not execute query
+[ exec getFullPrices @p0,@p1 ]
+  Name:start_date - Value:28.06.2017 0:00:00  Name:end_date - Value:27.06.2018 0:00:00
+[SQL: exec getFullPrices @p0,@p1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getFullPrices() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 351
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.SetSecurites() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 240
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.fillCollectionsFromStaticData() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 428
+
+
+28.06.2018 17:24:44 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+28.06.2018 17:27:52 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+28.06.2018 18:02:07 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+28.06.2018 18:10:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+29.06.2018 13:20:02 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+29.06.2018 13:22:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+29.06.2018 13:25:52 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+29.06.2018 13:38:18 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+29.06.2018 13:49:32 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+29.06.2018 16:06:57 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+29.06.2018 16:10:18 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+

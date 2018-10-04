@@ -1,0 +1,11 @@
+﻿.static-panel
+{
+    display: block;
+}
+
+.static-panel__content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(45, 62, 88, 0.8);
+}

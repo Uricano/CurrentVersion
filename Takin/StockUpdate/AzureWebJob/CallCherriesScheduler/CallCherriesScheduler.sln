@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCherriesScheduler", "CallCherriesScheduler.csproj", "{A36D7AFA-88EE-4257-82D9-800C11F7A012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherriesBatchProcess", "..\..\CherriesBatchProcess\CherriesBatchProcess\CherriesBatchProcess.csproj", "{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Debug|x86.Build.0 = Debug|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Release|x86.ActiveCfg = Release|Any CPU
+		{A36D7AFA-88EE-4257-82D9-800C11F7A012}.Release|x86.Build.0 = Release|Any CPU
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Debug|Any CPU.Build.0 = Debug|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Debug|x86.ActiveCfg = Debug|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Debug|x86.Build.0 = Debug|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Release|Any CPU.ActiveCfg = Release|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Release|Any CPU.Build.0 = Release|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Release|x86.ActiveCfg = Release|x86
+		{4F66C5BA-771B-4DB4-A8DD-2390FCA39821}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F5F614-441B-4A8D-A77F-228459B7F03F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://emptlcloud.cloudapp.net:8085/tfs/clal
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CallCherriesScheduler.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\..\\CherriesBatchProcess\\CherriesBatchProcess\\CherriesBatchProcess.csproj
+		SccProjectName2 = ../../CherriesBatchProcess/CherriesBatchProcess
+		SccLocalPath2 = ..\\..\\CherriesBatchProcess\\CherriesBatchProcess
+	EndGlobalSection
+EndGlobal

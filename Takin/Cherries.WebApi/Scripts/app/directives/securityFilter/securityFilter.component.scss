@@ -1,0 +1,18 @@
+﻿//
+// Styles for security filter component
+//
+
+.security-filter {
+    display: block;
+    &:not(.is-disabled){
+        cursor: pointer;
+    }
+}
+
+.security-filter__icon{
+    width: 36px;
+    height: 38px;
+    background-image: url(../../../../Content/themes/images/filter-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

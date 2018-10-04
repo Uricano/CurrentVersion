@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1DF133D-5C07-4779-A82C-EDC2FB0B8760}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TFI.BusinessLogic</RootNamespace>
+    <AssemblyName>TFI.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs27BD.tmp\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs27BD.tmp\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LogicNP.CryptoLicensing, Version=11.0.0.0, Culture=neutral, PublicKeyToken=4a3c0a4c668b48b4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LogicNP.CryptoLicensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Categories\cCategoriesHandler.cs" />
+    <Compile Include="Classes\Categories\cCategoryCollection.cs" />
+    <Compile Include="Classes\Categories\cCategoryItem.cs" />
+    <Compile Include="Classes\Categories\cCatItems.cs" />
+    <Compile Include="Classes\Constraints\cConstHandler.cs" />
+    <Compile Include="Classes\Constraints\cConstraint.cs" />
+    <Compile Include="Classes\Constraints\cConstRecord.cs" />
+    <Compile Include="Classes\DataManagement\DataTypes\cCovarCorrelData.cs" />
+    <Compile Include="Classes\DataManagement\DataTypes\cDataTable.cs" />
+    <Compile Include="Classes\DataManagement\DataTypes\cDateRange.cs" />
+    <Compile Include="Classes\DataManagement\DataTypes\cRateData.cs" />
+    <Compile Include="Classes\DataManagement\ImportPorts\cExternalPortSec.cs" />
+    <Compile Include="Classes\DataManagement\ImportPorts\cImportedPort.cs" />
+    <Compile Include="Classes\DataManagement\Prices\cPriceData.cs" />
+    <Compile Include="Classes\DataManagement\Prices\cPriceReturnsHandler.cs" />
+    <Compile Include="Classes\DataManagement\Prices\cPricesHandler.cs" />
+    <Compile Include="Classes\General\cArrayHandler.cs" />
+    <Compile Include="Classes\General\cErrorHandler.cs" />
+    <Compile Include="Classes\General\cGeneralFunctions.cs" />
+    <Compile Include="Classes\General\cProperties.cs" />
+    <Compile Include="Classes\General\LookupBL.cs" />
+    <Compile Include="Classes\GMath\cCovarCorrelHandler.cs" />
+    <Compile Include="Classes\GMath\cMath.cs" />
+    <Compile Include="Classes\GMath\cRateHandler.cs" />
+    <Compile Include="Classes\Optimization\Backtesting\cBacktestingHandler.cs" />
+    <Compile Include="Classes\Optimization\Backtesting\cBacktestingSecurities.cs" />
+    <Compile Include="Classes\Optimization\Backtesting\cBacktestingSecurity.cs" />
+    <Compile Include="Classes\Optimization\Backtesting\cManageBacktestingPortfolios.cs" />
+    <Compile Include="Classes\Optimization\cOptimalPort.cs" />
+    <Compile Include="Classes\Optimization\cOptimizationReport.cs" />
+    <Compile Include="Classes\Optimization\cOptimizationResults.cs" />
+    <Compile Include="Classes\Optimization\cOptPortSecurity.cs" />
+    <Compile Include="Classes\Optimization\cQLDService.cs" />
+    <Compile Include="Classes\Optimization\Engine\cEngineDlls.cs" />
+    <Compile Include="Classes\Optimization\Engine\cScilabWrapper.cs" />
+    <Compile Include="Classes\Optimization\Engine\Scilab_cs_dll.cs" />
+    <Compile Include="Classes\Optimization\Engine\Scilab_executer.cs" />
+    <Compile Include="Classes\Portfolio\cClient.cs" />
+    <Compile Include="Classes\Portfolio\cManagePortfolios.cs" />
+    <Compile Include="Classes\Portfolio\cPortfolio.cs" />
+    <Compile Include="Classes\Portfolio\cPortfolioClasses.cs" />
+    <Compile Include="Classes\Protection\cAesSecurity.cs" />
+    <Compile Include="Classes\Protection\LicenseManagement\cShoppingParams.cs" />
+    <Compile Include="Classes\Securities\cCollectionsHandler.cs" />
+    <Compile Include="Classes\Securities\cSecAnalytics.cs" />
+    <Compile Include="Classes\Securities\cSecProperties.cs" />
+    <Compile Include="Classes\Securities\cSecurities.cs" />
+    <Compile Include="Classes\Securities\cSecurity.cs" />
+    <Compile Include="Classes\Securities\RiskFree\cRiskFreeRates.cs" />
+    <Compile Include="Classes\StaticMethods\cBasicStaticCalcs.cs" />
+    <Compile Include="Classes\StaticMethods\cClientStaticMethods.cs" />
+    <Compile Include="Classes\StaticMethods\cOptimalStaticCalcs.cs" />
+    <Compile Include="Classes\StaticMethods\cPortfolioRiskGrid.cs" />
+    <Compile Include="Classes\StaticMethods\cQaMethods.cs" />
+    <Compile Include="Classes\Tools\cSettingsHandler.cs" />
+    <Compile Include="Classes\Users\cUser.cs" />
+    <Compile Include="Classes\Users\LicenseBL.cs" />
+    <Compile Include="Classes\Users\UserValidation.cs" />
+    <Compile Include="Interfaces\IBacktestingCalculation.cs" />
+    <Compile Include="Interfaces\IBacktestingHandler.cs" />
+    <Compile Include="Interfaces\IBacktestingSecurities.cs" />
+    <Compile Include="Interfaces\IBacktestingSecurity.cs" />
+    <Compile Include="Interfaces\ICategoriesHandler.cs" />
+    <Compile Include="Interfaces\ICategoryCollection.cs" />
+    <Compile Include="Interfaces\ICategoryItem.cs" />
+    <Compile Include="Interfaces\ICatItem.cs" />
+    <Compile Include="Interfaces\ICollectionsHandler.cs" />
+    <Compile Include="Interfaces\IConstraints.cs" />
+    <Compile Include="Interfaces\ICovarCorrelData.cs" />
+    <Compile Include="Interfaces\ICovarCorrelHandler.cs" />
+    <Compile Include="Interfaces\ILicenseBL.cs" />
+    <Compile Include="Interfaces\ILookupBL.cs" />
+    <Compile Include="Interfaces\IManageBacktestingPortfolios.cs" />
+    <Compile Include="Interfaces\IManagePortfolios.cs" />
+    <Compile Include="Interfaces\IOptimizationReport.cs" />
+    <Compile Include="Interfaces\IOptimizationResults.cs" />
+    <Compile Include="Interfaces\IPortfolioBL.cs" />
+    <Compile Include="Interfaces\IRateData.cs" />
+    <Compile Include="Interfaces\IRateHandler.cs" />
+    <Compile Include="Interfaces\ISecurities.cs" />
+    <Compile Include="Interfaces\ISecurity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cherries.Models\Cherries.Models.csproj">
+      <Project>{4ab2d795-52f7-4e85-ae3e-f81090a83376}</Project>
+      <Name>Cherries.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ness.Utils\Ness.Utils.csproj">
+      <Project>{792f0fad-1f42-4963-ac6b-408fd77e149c}</Project>
+      <Name>Ness.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TFI.BusinessLogic.Bootstraper\TFI.BusinessLogic.Bootstrapper.csproj">
+      <Project>{af660534-5fb8-4eb0-beee-b816a9c3f654}</Project>
+      <Name>TFI.BusinessLogic.Bootstrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TFI.BusinessLogic.Interfaces\TFI.BusinessLogic.Interfaces.csproj">
+      <Project>{fe776ed0-3483-49fd-a66d-d8a2d43fee55}</Project>
+      <Name>TFI.BusinessLogic.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TFI_Consts\TFI.Consts.csproj">
+      <Project>{03e389fd-a72a-428e-a6bf-7aed89964908}</Project>
+      <Name>TFI.Consts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ness.Infrastructure\DataAccess_Fluent\Ness.DataAccess.Fluent.csproj">
+      <Project>{DD002290-D84E-4FD1-9F45-9A23EEAC2C33}</Project>
+      <Name>Ness.DataAccess.Fluent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ness.Infrastructure\DataAccessRepository\Ness.DataAccess.Repository.csproj">
+      <Project>{fb5b801d-3270-4483-9f4a-0e221f490454}</Project>
+      <Name>Ness.DataAccess.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TFI_Entities\TFI.Entities.csproj">
+      <Project>{86b59818-0b03-46ed-b6a3-f10dea1dc3e9}</Project>
+      <Name>TFI.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

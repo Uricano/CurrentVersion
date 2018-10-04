@@ -1,0 +1,39 @@
+﻿.table-paginator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+
+.table-paginator__link {
+    margin-left: 3px;
+    margin-right: 3px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.table-paginator__icon {
+    width: 40px;
+}
+
+//
+// Overrides for ngTable
+//
+
+.ng-table {
+    @media (max-width: 991px) {
+        &+[ng-table-pagination]{
+            display: none;
+        }
+    }
+}

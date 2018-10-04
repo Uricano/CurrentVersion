@@ -1,0 +1,2153 @@
+Symbol	Name	Sector	Industry	PE	EPS	DivYield	Shares	DPS	PEG	PtS	PtB
+AADR	Advisorshares Dorsey Wright ADR			0	0	0	0	0	0	0	0
+AAMC	Altisource Asset			0	-3.78	0	1572026	0	0	6.98	0
+AAU	Almaden Minerals	Basic Industries	Precious Metals	0	-0.037	0	100009900	0	0	0	1.9849
+ABE	Aberdeen EM Smaller Company Fund			0	1.25	0	0	0	0	0	0
+ACIM	ACWI IMI MSCI ETF SPDR			0	0	0	0	0	0	0	0
+ACSI	American Customer Satisfaction Core Alpha ETF			0	0	0	0	0	0	0	0
+ACU	Acme United Corp	Capital Goods	Industrial Machinery/Components	15.293	1.51	1.97	3371152	0.44	1.51	0.603	1.527
+ACWF	Ishares Global Multifactor ETF			0	0	0	0	0	0	0	0
+ACWV	All Country World Min Vol MSCI Ishares			0	0	0	0	0	0	0	0
+ACY	Aerocentury Corp	Technology	Diversified Commercial Services	12.84	0.97	0	1416064	0	0	0.6	0.44
+ADZ	DB Agriculture -1X ETN Powershares			0	0	0	0	0	0	0	0
+AE	Adams Resources & Energy	Energy	Oil Refining/Marketing	0	-0.82	2.13	4217062	0.88	0	0.15	1.17
+AFK	Africa Index ETF Vaneck			0	0	0	0	0	0	0	0
+AFTY	CSOP FTSE China A50 ETF			0	0	0	0	0	0	0	0
+AGA	DB Agriculture -2X ETN Powershares			0	0	0	0	0	0	0	0
+AGF	DB Agriculture ETN Powershares			0	0	0	0	0	0	0	0
+AGG	Aggregate Bond Ishares	Finance	Closed-End Fund - Equity	0	0.97	0	0	0	0	0	0
+AGGE	IQ Enhanced Core Bond U.S. ETF			0	0	0	0	0	0	0	0
+AGGP	IQ Enhanced Core Plus Bond U.S.			0	0	0	0	0	0	0	0
+AGGY	Wisdomtree Yield Enhcd US Agg Bond Fund			0	0	0	0	0	0	0	0
+AGQ	Ultra Silver Proshares			0	0	0	0	0	0	0	0
+AGT	Argentina Index MSCI Ishares	Basic Materials	Gold	0	-0.1	0	0	0	0	0	0
+AGZ	Agency Bond Ishares			0	0	0	0	0	0	0	0
+AIEQ	Ai Powered Equity ETF			0	0	0	0	0	0	0	0
+AINC	Ashford Inc			0	-5.69	0	2021037	0	0	1.97	4.16
+AIRI	Air Industries Group Inc			0	-2.34	0	14251800	0	0	0.29	0.42
+AKG	Asanko Gold Inc			18.1491	0.053	0	203451500	0	0	0.7531	0.4511
+ALD	Asia Local Debt ETF Wisdomtree			0	-2.91	0	0	0	0	0	0
+ALFA	Alphaclone Alternative Alpha ETF			0	0	0	0	0	0	0	0
+ALFI	Alphaclone International ETF			0	0	0	0	0	0	0	0
+ALN	American Lorain Corp	Consumer Non-Durables	Packaged Foods	0	0	0	38281250	0	0	0.06	0.06
+ALO	Alio Gold Corp			3.09	1.32	0	43674880	0	0	1.39	0.9
+ALTS	Mstar Alternative Solutions Proshares			0	0	0	0	0	0	0	0
+AMJ	Alerian MLP Index ETN JP Morgan			0	0	0	0	0	0	0	0
+AMJL	X-Links Mthy Pay 2X Leveraged Alerian MLP			0	0	0	0	0	0	0	0
+AMLP	Alps Alerian MLP ETF			0	0	0	0	0	0	0	0
+AMLX	Oil Hedged MLP Income ETF			0	0	0	0	0	0	0	0
+AMPE	Ampio Pharmaceutical			0	-0.21	0	68233650	0	0	0	19.82
+AMS	American Shared Hospital Services	Health Care	Medical Specialities	14.42	0.21	0	5710000	0	0	0.89	0.8
+AMU	Etracs Alerian MLP Index ETN			0	0	0	0	0	0	0	0
+AMUB	Etracs Alerian MLP ETN Series B			0	0	0	0	0	0	0	0
+AMZA	Infracap MLP ETF			0	0	0	0	0	0	0	0
+ANGL	Fallen Angel HY Bond ETF Vaneck			0	-0.04	0	0	0	0	0	0
+AOA	S&P Aggressive Allocation Ishares			0	0	0	0	0	0	0	0
+AOK	S&P Conservative Allocation Ishares			0	0	0	0	0	0	0	0
+AOM	S&P Moderate Allocation Ishares			0	0	0	0	0	0	0	0
+AOR	S&P Growth Allocation Ishares			0	0	0	0	0	0	0	0
+APHB	Ampliphi Biosciences Corp			0	-10.05	0	8747748	0	0	91.54	0.98
+APT	Alpha Pro Tech	Health Care	Industrial Specialties	20.15	0.21	0	15106020	0	0	1.42	1.88
+ARCM	Arrow Reserve Capital Management ETF			0	0	0	0	0	0	0	0
+ARGT	G-X FTSE Argentina 20 ETF			0	0	0	0	0	0	0	0
+ARKG	Ark Genomic Revolution Multi-Sector ETF			0	0	0	0	0	0	0	0
+ARKK	Ark Innovation ETF			0	0	0	0	0	0	0	0
+ARKQ	Ark Industrial Innovation ETF			0	0	0	0	0	0	0	0
+ARKW	Ark Web X.0 ETF			0	0	0	0	0	0	0	0
+ARN.P	Arconic Inc Pf 3.75			0	0	0	0	0	0	0	0
+ASB.W	Associated Banc-Corp WT			0	0	0	0	0	0	0	0
+ASEA	G-X FTSE Asean 40 ETF			0	0	0	0	0	0	0	0
+ASHR	Db-Xt Harvest CSI 300 China A			0	0	0	0	0	0	0	0
+ASHS	Db-Xt Harvest CSI 500 China A			0	0	0	0	0	0	0	0
+ASHX	Db-Xt CSI 300 China A Hgd Eq			0	0	0	0	0	0	0	0
+ASM	Avino Silver & Gold			17.6	0.08	0	52454540	0	0	1.92	1.05
+AST	Asterias Biotherapeutics Inc			0	-0.75	0	49976470	0	0	20.3	3.37
+ATMP	Barclays Plus Select MLP ETN			0	-0.5	0	0	0	0	0	0
+ATNM	Actinium Pharmaceuticals Inc			0	-0.52	0	80014930	0	0	0	4.3
+AUG	Auryn Resources Inc			0	-0.039	0	77027700	0	0	0	0
+AUMN	Golden Minerals Co	Basic Industries	Precious Metals	0	-0.019	0	91831330	0	0	5.348	4.483
+AUSE	Australia Dividend Wisdomtree			0	0	0	0	0	0	0	0
+AWX	Avalon Holdings Corp	Public Utilities	Environmental Services	0	-0.1	0	3805128	0	0	0.12	0.2
+AXJL	Asia Pacific Ex-Japan Wisdomtree			0	0	0	0	0	0	0	0
+AXJV	Asia Ex Japan Mini Ishares ETF			0	0	0	0	0	0	0	0
+AXU	Alexco Resource Corp	Basic Industries	Precious Metals	0	-0.05	0	101163800	0	0	13.43	1.37
+AYT	GEMS Asia 8 ETN Ipath			0	0	0	0	0	0	0	0
+BAB	Build America Bond Powershares			0	2.07	0	0	0	0	0	0
+BAL	DJ-UBS Cotton TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+BAR	Graniteshares Gold Trust Shares of Beneficial In			0	0	0	39975	0	0	0	0
+BBC	Bioshares Biotech Clinical Trial			0	0	0	0	0	0	0	0
+BBP	Bioshares Biotech Products			0	0	0	0	0	0	0	0
+BBRC	Columbia Beyond Brics ETF			0	0	0	0	0	0	0	0
+BCD	All Commodity Longer Dated Strategy ETF			0	0	0	0	0	0	0	0
+BCI	All Commodity Strategy K-1 Free ETF			0	0	0	0	0	0	0	0
+BCM	Broad Commodity Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+BCV	Bancroft Convertible Fund	Finance	Closed-End Fund - Debt	0	0.88	4.6	0	1	0	0	0
+BCV-A	Bancroft Fund Ltd			0	0	0	0	0	0	0	0
+BDCL	Wells Fargo 2X Bus Dv Cm ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+BDCS	Wells Fargo Bus Dev Comp ETN			0	0	0	0	0	0	0	0
+BDCZ	Etracs Wells Fargo Business Dev ETN			0	0	0	0	0	0	0	0
+BDD	DB Base Metals 2X ETN Powershares			0	0	0	0	0	0	0	0
+BDL	Flanigan's Enterprises	Consumer Services	Restaurants	13.52	1.59	0.91	1857809	0.2	0	0.39	1.29
+BDR	Blonder Tongue Laboratories	Technology	Radio And Television Broadcasting And Communications Equipment	0	-0.18	0	8121951	0	0	0.14	0.49
+BEF	Energy Commodity Longer Dated Strategy ETF			0	0	0	0	0	0	0	0
+BEMO	Aptus Behavioral Momentum ETF			0	0	0	0	0	0	0	0
+BERN	Bernstein U.S. Research Fund			0	0	0	0	0	0	0	0
+BFOR	Barron's 400			0	0	0	0	0	0	0	0
+BFY	Blackrock New York Muni Trust II	Finance	Closed-End Fund - Debt	0	0.04	4.96	0	0.73	0	0	0
+BGI	Birks Group Inc			7.81	0.27	0	17962090	0	0	0.12	2.78
+BGSF	Bg Staffing			19.47	0.92	5.56	8758755	1	0.88	0.61	3.83
+BHB	Bar Harbor Bankshares	Finance	Major Banks	22.67	1.4	2.36	15420090	0.75	0	5.8	1.4
+BHV	Blackrock Virginia Muni Trust	Finance	Closed-End Fund - Debt	0	0.194	4.12	0	0.76	0	0	0
+BIBL	Inspire 100 ETF			0	0	0	0	0	0	0	0
+BIL	1-3 Month T-Bill Barclays Capital SPDR			0	0	0	0	0	0	0	0
+BIV	Interm Term Bond ETF Vanguard			0	0	0	0	0	0	0	0
+BIZD	Bdc Income Vaneck ETF			0	0	0	0	0	0	0	0
+BJJN	Nickel Subindex Total Return ETN			0	0	0	0	0	0	0	0
+BJK	Gaming ETF Vaneck			0	0	0	0	0	0	0	0
+BJO	Coffee Subindex TR ETF Ipatha Series B Bloomberg			0	0	0	0	0	0	0	0
+BKF	BRIC Index MSCI Ishares			0	0	0	0	0	0	0	0
+BKJ	Bancorp of New Jersey Inc	Finance	Major Banks	29.54	0.61	0	6707263	0	0	5.04	1.5
+BKLN	Senior Loan Portfolio Powershares			0	0	0	0	0	0	0	0
+BLE	Blackrock Muni Income Trust II	Finance	Closed-End Fund - Debt	0	0.22	5.78	0	0.88	0	0	0
+BLES	Inspire Global Hope Large Cap ETF			0	0	0	0	0	0	0	0
+BLHY	Virtus Dynamic Credit ETF			0	0	0	0	0	0	0	0
+BLJ	Blackrock New Jersey Muni Trust	Finance	Closed-End Fund - Debt	0	-0.06	4.93	0	0.74	0	0	0
+BLNG	Precious Metals Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+BLOK	Amplify Transformational Data Sharing ETF			0	0	0	0	0	0	0	0
+BLV	Long Term Bond Index ETF Vanguard			0	0	0	0	0	0	0	0
+BND	Total Bond Market ETF Vanguard			0	0	0	0	0	0	0	0
+BNDC	Flexshares Core Select Bond Fund			0	0	0	0	0	0	0	0
+BNO	US Brent Oil			0	0	0	0	0	0	0	0
+BOIL	Ultra DJ-UBS Natural Gas Proshares			0	0	0	0	0	0	0	0
+BOM	DB Base Metals -2X ETN Powershares			0	0	0	0	0	0	0	0
+BOND	Total Return ETF Pimco			0	0	0	0	0	0	0	0
+BOS	DB Base Metals -1X ETN Powershares			0	0	0	0	0	0	0	0
+BOSS	G-X Founder-Run Companies ETF			0	0	0	0	0	0	0	0
+BPMX	Biopharmx Corporatio			0	-0.315	0	79668460	0	0	185.9914	0
+BRF	Brazil Smallcap ETF Vaneck			0	0	0	0	0	0	0	0
+BRG	Bluerock Residential Growth Rei			99.91	0.12	10.13	24192340	1.16	-3.18	2.59	1.18
+BRG-A	Bluerock Residential Growth Rei			0	0	0	0	0	0	0	0
+BRG-C	Bluerock Residential Growth REIT Inc			0	0	0	0	0	0	0	0
+BRG-D	Bluerock Residential Growth REIT Inc			0	0	0	0	0	0	0	0
+BRGL	Bernstein Global Research Fund			0	0	0	0	0	0	0	0
+BRN	Barnwell Industries	Energy	Oil & Gas Production	0	-0.11	0	8275000	0	0	1.65	1.18
+BRZU	Direxion Brazil Bull 3X			0	0	0	0	0	0	0	0
+BSCI	2018 Corp Bond Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCJ	2019 Corp Bond Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCK	2020 Corp Bond Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCL	2021 Corp Bond ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCM	2022 Corp Bond ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCN	2023 Corp Bond ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCO	2024 Corp Bond ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCP	2025 Corp Bond ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCQ	2026 Corporate Bond ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSCR	Guggenheim Bulletshares 2027 Corporate Bond ETF			0	0	0	0	0	0	0	0
+BSJI	2018 HY C Bd ETF Bulletshares Guggenheim			0	0	0	0	0	0	0	0
+BSJJ	2019 High Yld Corp Bond ETF Bulletshares Guggenh			0	0	0	0	0	0	0	0
+BSJK	2020 High Yld Corp Bond ETF Bulletshares Guggenh			0	0	0	0	0	0	0	0
+BSJL	2021 High Yld Corp Bond ETF Bulletshares Guggenh			0	0	0	0	0	0	0	0
+BSJM	2022 High Yld Corp Bond ETF Bulletshares Guggenh			0	0	0	0	0	0	0	0
+BSJN	2023 High Yld Corp Bond ETF Bulletshares Guggenh			0	0	0	0	0	0	0	0
+BSJO	2024 High Yld Corp Bd ETF Bulletshares Guggenhei			0	0	0	0	0	0	0	0
+BSJP	Claymore Exchange-Traded Fund Trust ETF			0	0	0	0	0	0	0	0
+BSV	Short-Term Bond ETF Vanguard			0	0	0	0	0	0	0	0
+BSWN	Velocity VIX Tail Risk			0	0	0	0	0	0	0	0
+BTAL	US Anti-Beta Fund Mkt Neutral Quantshares			0	0	0	0	0	0	0	0
+BTG	B2Gold Corp			42.37	0.06	0	979999900	0	3.53	3.5	1.6
+BTN	Ballantyne Strong Inc	Miscellaneous	Industrial Machinery/Components	0	-0.16	0	14415750	0	0	1.2	2.03
+BTX	Biotime Inc	Health Care	Biotechnology: Biological Products (No Diagnostic Substances)	4	0.6	0	115802500	0	0	81.83	1.49
+BTX.W	Biotime Inc Warrants			0	0	0	0	0	0	0	0
+BUY	Uscf Summerhaven Shpei Index Fund			0	0	0	0	0	0	0	0
+BUYN	Uscf Summerhaven Shpen Index Fund			0	0	0	0	0	0	0	0
+BUZ	Sprott Buzz Social Media Insights ETF			0	0	0	0	0	0	0	0
+BVAL	Brand Value ETF			0	0	0	0	0	0	0	0
+BVX	Bovie Medical Corp	Health Care	Medical/Dental Instruments	0	-0.16	0	30859260	0	-2.41	3.25	5.2
+BWL.A	Bowl Amer Inc Cl A	Consumer Services	Services-Misc. Amusement & Recreation	0	0	0	0	0	0	0	0
+BWV	CBOE S&P 500 Buywrite Index ETN Ipath			0	0	0	0	0	0	0	0
+BWX	Intl Treasury Bond ETF SPDR			0	0	0	0	0	0	0	0
+BWZ	Short-Term Intl Treasury Bond ETF SPDR			0	0	0	0	0	0	0	0
+BYLD	Yield Optimized Bond Ishares			0	0	0	0	0	0	0	0
+BZF	Wisdomtree Brazilian Real Fund			0	0	0	0	0	0	0	0
+BZM	Blackrock Maryland Muni Trust	Finance	Closed-End Fund - Debt	0	0.21	3.82	0	0.57	0	0	0
+BZQ	Ultrashort MSCI Brazil Proshares			0	0	0	0	0	0	0	0
+CAFE	Coffee Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+CALF	Pacer US Small Cap Cash Cows 100 ETF			0	0	0	0	0	0	0	0
+CANE	Teucrium Sugar			0	0	0	0	0	0	0	0
+CANF	Can-Fite Biopharma Ltd			0	-0.51	0	17360250	0	0	132.22	7.13
+CAPE	Barclays Schiller Cape ETN			0	0	0	0	0	0	0	0
+CAW	CCA Industries	Consumer Non-Durables	Package Goods/Cosmetics	14.3565	0.209	0	7005499	0	0	1.0715	2.2984
+CBND	Issuer Scd Corp Bond SPDR			0	0	0	0	0	0	0	0
+CBON	Chinaamc China Vaneck ETF			0	0	0	0	0	0	0	0
+CCA	MFS California Insured Muni Trust	Finance	Closed-End Fund - Equity	0	0	4.74	0	0.55	0	0	0
+CCF	Chase Corp	Consumer Durables	Building Products	27.42	4.4	0.59	9286899	0.7	0	4.52	5.6
+CCOR	Cambria Core Equity ETF			0	0	0	0	0	0	0	0
+CDOR	Condor Hospitality T			0	-0.98	7.94	11630410	0.78	0.58	2.36	1.12
+CEF	Central Fund of Canada	Finance	Closed-End Fund - Equity	0	-0.31	0.08	0	0.01	0	0	0
+CEFL	Etracs Mt Pay 2X Closed-End Fund ETN			0	0	0	0	0	0	0	0
+CEFS	Exchange Listed Funds Trust ETF			0	0	0	0	0	0	0	0
+CEI	Camber Energy Inc			0	-6.936	0	34175440	0	0	0.9526	0
+CEMB	Emrg Mkts Corporate Bond Fund Ishares			0	0	0	0	0	0	0	0
+CET	Central Securities Corp	Finance	Closed-End Fund - Equity	4.074	6.574	3.69	24810160	0.98	0	58.054	0.889
+CEV	Eaton Vance California Muni Income Trust	Finance	Closed-End Fund - Debt	0	0.18	3.95	0	0.5	0	0	0
+CEW	Wisdomtree Emerging Currency Fund			0	0	0	0	0	0	0	0
+CGW	S&P Global Water Guggenheim			0	0	0	0	0	0	0	0
+CH	Aberdeen Chile Fund	Finance	Closed-End Fund - Foreign	0	1.17	7.73	0	0.56	0	0	0
+CHAD	Direxion CSI 300 China A 1X			0	0	0	0	0	0	0	0
+CHAU	Direxion CSI 300 China A 2X			0	0	0	0	0	0	0	0
+CHEP	US Value Fund Mkt Neutral ETF Quantshares			0	0	0	0	0	0	0	0
+CHGX	Diversified Impact U.S. Large Cap Fossil Fuel F			0	0	0	0	0	0	0	0
+CHIE	G-X China Energy ETF			0	0	0	0	0	0	0	0
+CHII	G-X China Industrials ETF			0	0	0	0	0	0	0	0
+CHIM	G-X China Materials ETF			0	0	0	0	0	0	0	0
+CHIQ	G-X China Consumer ETF			0	0	0	0	0	0	0	0
+CHIX	G-X China Financials ETF			0	0	0	0	0	0	0	0
+CHOC	Cocoa Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+CIK	Credit Suisse Asset Management	Finance	Closed-End Fund - Debt	0	0.53	7.93	0	0.26	0	0	0
+CIS.W	Cision Ltd Warrants			0	0	0	0	0	0	0	0
+CIX	Compx International Inc	Capital Goods	Industrial Machinery/Components	14.71	0.99	1.38	12426210	0.2	0	1.55	1.36
+CJNK	Bofa Crossover Corp Bond ETF SPDR			0	0	0	0	0	0	0	0
+CKX	Ckx Lands	Energy	Oil & Gas Production	63.69	0.17	0	1942056	0	0	19.68	1.44
+CLIX	Proshares Long Online/Short Stores ETF			0	0	0	0	0	0	0	0
+CLM	Cornerstone Strategic Value Fund	Finance	Closed-End Fund - Equity	0	1.1	17.93	0	2.79	0	0	0
+CLTL	Treasury Collateral Portfolio PS			0	0	0	0	0	0	0	0
+CLY	10+ Year Credit Bond Ishares			0	0	0	0	0	0	0	0
+CLYH	Ishares Int-Rate Hedged 10 Year Bond			0	0	0	0	0	0	0	0
+CMBS	CMBS Bond Ishares			0	0	0	0	0	0	0	0
+CMCL	Caledonia Mining Cp			9.783	0.679	5.21	10533790	0.28	0	0	0
+CMDT	DOW Jones-UBS Roll Select Ishares			0	0	0	0	0	0	0	0
+CMF	S&P CA Municipal Bond Ishares			0	0	0	0	0	0	0	0
+CMT	Core Molding Technologies Inc	Consumer Non-Durables	Plastic Products	26.34	0.9	0.86	7857986	0.2	0	1.05	1.78
+CN	Db-Xt MSCI All China Eq	Technology	Telecom Services - Foreign	0	0	0	0	0	0	0	0
+CNDA	IQ Canada Smallcap ETF			0	0	0	0	0	0	0	0
+CNDF	Ishares Consumer Disc Multifactor			0	0	0	0	0	0	0	0
+CNHX	CSOP MSCI China A International			0	0	0	0	0	0	0	0
+CNSF	Ishares Consumer Staple Multifactor			0	0	0	0	0	0	0	0
+CNXT	Chinaamc Sme-Chn Vaneck ETF			0	-0.34	0	0	0	0	0	0
+CNY	RMB/USD ETN Vaneck	Finance	Savings & Loans	0	-0.356	0	0	0	0	0	0
+CNYA	Ishares China A ETF			0	0	0	0	0	0	0	0
+COHN	Cohen & Co Inc	Finance	Investment Bankers/Brokers/Service	5.2106	1.85	8.08	1266654	0.8	0	0	0
+COM	Direxion Auspice Broad Commodity Strategy ETF			0	0	0	0	0	0	0	0
+COMB	Commodity Broad Strategy No K-1 ETF			0	0	0	0	0	0	0	0
+COMG	GSCI Commodity Broad Strategy No K-1 ETF			0	0	0	0	0	0	0	0
+COPX	G-X Copper Miners ETF			0	0	0	0	0	0	0	0
+CORN	Teucrium Corn			0	0	0	0	0	0	0	0
+CORP	Invest Grade Corp Bd Index ETF Pimco			0	0	0	0	0	0	0	0
+COW	DJ-UBS Livestock TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+COWB	Livestock Subindex TR ETN Ipatha Series B Bloomb			0	0	0	0	0	0	0	0
+COWZ	Pacer US Cash Cows 100 ETF			0	0	0	0	0	0	0	0
+CPER	US Copper			0	0	0	0	0	0	0	0
+CPHI	China Pharma Holdings	Consumer Durables	Major Pharmaceuticals	0	-0.193	0	43580680	0	0	0.4958	0.1266
+CPI	IQ Real Return ETF	Finance	Property Management	0	0	0	0	0	0	0	0
+CQH	Cheniere Energy Partners LP Holdings Llc			325.19	0.08	0.32	231629400	0.08	0.14	282.19	0
+CQP	Cheniere Energy Partners LP	Public Utilities	Oil/Gas Transmission	99.86	0.28	6.15	483837000	1.7	0	4.84	19.71
+CQQQ	China Technology ETF Guggenheim			0	0	0	0	0	0	0	0
+CRAK	Oil Refiners Vaneck ETF			0	0	0	0	0	0	0	0
+CRBN	Ishares ACWI Low Carbon Target ETF			0	-0.11	0	0	0	0	0	0
+CRF	Cornerstone Strategic Return Fund	Finance	Closed-End Fund - Debt	0	0.77	17.88	0	2.75	0	0	0
+CRHM	CRH Medical Corp			0	0.1	0	0	0	0	0	0
+CRMD	Cormedix Inc	Consumer Durables	Major Pharmaceuticals	0	-0.655	0	59221450	0	0	98.055	2.185
+CROC	Ultrashort Australian Proshares			0	-0.01	0	0	0	0	0	0
+CROP	IQ Global Agribusiness Smallcap ETF			0	0	0	0	0	0	0	0
+CRVP	Crystal Rock Holdings	Consumer Non-Durables	Food Distributors	44.37	0.02	0	21352110	0	0	0.26	2.97
+CSD	Guggenheim S&P Spin-Off ETF			0	0	0	0	0	0	0	0
+CSM	Largecap Core Proshares Lus			0	0	0	0	0	0	0	0
+CTEK	Cynergis Tek Inc			5.29	0.5	0	9503378	0	0	0	0
+CTNN	Cotton Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+CTO	Consolidated-Tomoka Land Co	Finance	Real Estate	11.1	5.27	0.34	5628054	0.2	0	3.23	2.05
+CUMB	Virtus Cumberland Municipal Bond ETF			0	0	0	0	0	0	0	0
+CUO	Continental Materials Corp	Capital Goods	Building Materials	16.68	1.18	0	1682025	0	0	0.22	0.63
+CUPM	Copper Pure Beta ETN Ipath			0	0.008	0	0	0	0	0	0
+CURE	Healthcare Bull 3X Direxion ETF			0	0	0	0	0	0	0	0
+CUT	Guggenheim MSCI Global Timber ETF			0	0	0	0	0	0	0	0
+CVM	Cel-Sci Corp	Health Care	Biotechnology: Biological Products (No Diagnostic Substances)	0	-1.54	0	9333333	0	0	102.4	0
+CVM.W	Cel-Sci Corp			0	0	0	0	0	0	0	0
+CVR	Chicago Rivet & Machine Co	Technology	Industrial Machinery/Components	15.8138	1.954	2.56	966016	0.8	0	0.8278	1.0746
+CVRS	Corindus Vascular Robotics Inc			0	-0.26	0	187300000	0	0	46.59	6.2
+CVU	CPI Aerostructures	Capital Goods	Military/Government/Technical	13.86	0.66	0	8846070	0	1.01	0.96	1.14
+CVY	Multi Asset Income Guggenheim			0	0	0	0	0	0	0	0
+CWAI	Cwa Income ETF			0	0	0	0	0	0	0	0
+CWB	Convertible Secs Barclays Capital SPDR			0	2.47	0	0	0	0	0	0
+CWEB	Direxion CSI China Internet Idx Bull 2X			0	0	0	0	0	0	0	0
+CWI	ACWI [Ex-Us] MSCI ETF SPDR			0	3.06	0	0	0	0	0	0
+CWS	Advisorshares Focused Equity ETF			0	0.46	0	0	0	0	0	0
+CYB	Wisdomtree Chinese Yuan Fund	Consumer Services	Sporting Goods	0	0	0	0	0	0	0	0
+CYM	Guggenheim Multi-Asset Income ETF			0	0	0	0	0	0	0	0
+CZA	Midcap Core Guggenheim			0	0	0	0	0	0	0	0
+DAG	DB Agriculture 2X ETN Powershares			0	0	0	0	0	0	0	0
+DALT	Anfield Capital Diversified Alternatives ETF			0	-160.09	0	0	0	0	0	0
+DAUD	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+DBA	DB Agriculture Fund PS			0	-0.69	0	0	0	0	0	0
+DBAP	Db-Xt MSCI Asia Pacific Ex-Japan Hgd Eq			0	0	0	0	0	0	0	0
+DBAW	Db-Xt MSCI All World Ex-US Hgd Eq			0	0	0	0	0	0	0	0
+DBB	DB Base Metals ETN Powershares			0	1.88	0	0	0	0	0	0
+DBBR	Db-Xt MSCI Brazil Hgd Eq			0	0	0	0	0	0	0	0
+DBC	DB Commodity Index Powershares	Finance	Closed-End Fund - Equity	0	2.48	0	0	0	0	0	0
+DBE	DB Energy Powershares			0	2.65	0	0	0	0	0	0
+DBEF	Db-Xt MSCI EAFE Hgd Eq			0	0	0	0	0	0	0	0
+DBEM	Db-Xt MSCI EM Mkts Hgd Eq			0	0	0	0	0	0	0	0
+DBES	Db-Xt MSCI EAFE Smcp Hgd Eq			0	0	0	0	0	0	0	0
+DBEU	Db-Xt MSCI Europe Hgd Eq			0	0	0	0	0	0	0	0
+DBEZ	Db-Xt MSCI Eurozone Hdg Eq			0	0	0	0	0	0	0	0
+DBGR	Db-Xt MSCI Germany Hgd Eq			0	0	0	0	0	0	0	0
+DBJP	Db-Xt MSCI Japan Hgd Eq			0	0	0	0	0	0	0	0
+DBKO	Db-Xt MSCI South Korea Hgd Eq			0	0	0	0	0	0	0	0
+DBMX	Db-Xt MSCI Mexico Hgd Eq			0	0.03	0	0	0	0	0	0
+DBO	DB Oil Powershares			0	1.02	0	0	0	0	0	0
+DBP	DB Precious Metals Powershares			0	-3.164	0	0	0	0	0	0
+DBRT	Credit Suisse Axelatrader 3X Inverse Brent Crude			0	4.55	0	0	0	0	0	0
+DBS	DB Silver Powershares			0	-9.833	0	0	0	0	0	0
+DBUK	DB Xt MSCI UK Hedged Equity			0	0	0	0	0	0	0	0
+DBV	DB G10 Currency Harvest Powershares			0	0	0	0	0	0	0	0
+DCHF	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+DCNG	Seasonal Natural Gas ETN Ipath			0	0	0	0	0	0	0	0
+DDEZ	Wisdomtree Europe Eqty Dynamic Currency Hedged			0	0	0	0	0	0	0	0
+DDG	Oil & Gas Short Proshares			0	0	0	0	0	0	0	0
+DDJP	Wisdomtree Japan Eqty Dynamic Currency Hedged			0	0	0	0	0	0	0	0
+DDLS	Wisdomtree Intl Smallcap Dynamic Currency Hedged			0	0	0	0	0	0	0	0
+DDM	Ultra DOW 30 Proshares			0	0	0	0	0	0	0	0
+DDP	DB Commodity -1X ETN Powershares			0	0	0	0	0	0	0	0
+DDWM	Wisdomtree Intl Eqty Dynamic Currency Hedged			0	0	0	0	0	0	0	0
+DEE	DB Commodity Double Short ETN			0	0	0	0	0	0	0	0
+DEEF	Db-Xt FTSE Dvlpd Ex US Comp Factor ETF			0	0	0	0	0	0	0	0
+DEF	Defensive Equity Guggenheim			0	0	0	0	0	0	0	0
+DEFA	Ishares EAFE Adaptive Currency Hedge			0	0	0	0	0	0	0	0
+DEM	Emrg Mkts Equity Inc Wisdomtree			0	0	0	0	0	0	0	0
+DEMG	Db-Xt FTSE Emerging Comp Factor ETF			0	0	0	0	0	0	0	0
+DEMS	Democratic Policies Fund			0	0	0	0	0	0	0	0
+DES	Smallcap Dividend Wisdomtree			0	0.07	0	0	0	0	0	0
+DESC	Db-Xt Russell 2000 Comp Factor ETF			0	0	0	0	0	0	0	0
+DEUR	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+DEUS	Db-Xt Russell 1000 Comp Factor ETF			0	0	0	0	0	0	0	0
+DEW	Global Equity Income Wisdomtree			0	0	0	0	0	0	0	0
+DEWJ	Ishares Japan Adaptive Currency Hedge			0	0	0	0	0	0	0	0
+DEZU	Ishares Eurozone Adaptive Currency Hedge			0	0	0	0	0	0	0	0
+DFE	Europe Smallcap Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DFEN	Direxion Daily Aerospace Defense Bull 3X Shares			0	0	0	0	0	0	0	0
+DFJ	Japan Smallcap Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DFND	Reality Divcon Dividend Defender ETF			0	0	0	0	0	0	0	0
+DGAZ	Natural Gas -3X Inverse ETN Velocityshares			0	0	0	0	0	0	0	0
+DGBP	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+DGL	DB Gold Powershares			0	-77.78	0	0	0	0	0	0
+DGP	DB Gold 2X ETN Powershares			0	0	0	0	0	0	0	0
+DGRO	Dividend Growth Ishares			0	0	0	0	0	0	0	0
+DGS	Emrg Mkts Smallcap Div Wisdomtree			0	0	0	0	0	0	0	0
+DGSE	Dgse Companies Inc	Consumer Services	Consumer Specialties	0	-0.112	0	26924800	0	0	0.493	4.075
+DGT	Global DOW ETF SPDR	Finance	Closed-End Fund - Equity	0	7.52	0	0	0	0	0	0
+DGZ	DB Gold -1X ETN Powershares			0	0	0	0	0	0	0	0
+DHDG	Wisdomtree Intl Dividend Dynamic Currency Hedged			0	0	0	0	0	0	0	0
+DHS	Equity Income Wisdomtree			0	0	0	0	0	0	0	0
+DHVW	Diamond Hill Valuation-Weighted			0	0	0	0	0	0	0	0
+DHY	Credit Suisse High Yield Bond Fund	Finance	Closed-End Fund - Debt	0	0.28	9.2	0	0.26	0	0	0
+DIA	DOW Industrials SPDR	Finance	Closed-End Fund - Equity	0	9.11	0	0	0	0	0	0
+DIAL	Columbia Diversified Fixed Income Allocation ETF			0	-2.573	0	0	0	0	0	0
+DIG	Ultra Oil & Gas Proshares			0	0	0	0	0	0	0	0
+DIM	Intl Midcap Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DIRT	Agriculture Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+DIT	Amcon Distributing Company	Consumer Non-Durables	Food Distributors	17.76	5.11	0.79	677974	0.72	0	0.07	0.92
+DIV	G-X Super Dividend ETF			0	0	0	0	0	0	0	0
+DIVA	Quantshares Hedged Dividend Income ETF			0	0	0	0	0	0	0	0
+DIVB	Ishares U.S. Dividend and Buyback ETF			0	0	0	0	0	0	0	0
+DIVC	Citigroup Inc C-Tracks ETN			0	3.04	0	0	0	0	0	0
+DIVO	Amplify Yieldshares Cwp Dividend Option Inc ETF			0	0	0	0	0	0	0	0
+DIVY	Reality Shares Divs ETF			0	0	0	0	0	0	0	0
+DJCI	DJ-UBS Commodity Idx TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+DJD	Guggenheim DOW Jones Indu ETF			0	0	0	0	0	0	0	0
+DJP	DJ-UBS Commodity Idx TR ETN Ipath			0	0	0	0	0	0	0	0
+DJPY	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+DLA	Delta Apparel	Consumer Non-Durables	Apparel	15.98	1.35	0	7487941	0	1.14	0.39	1.02
+DLBR	Velocityshares Short Libor			0	0	0	0	0	0	0	0
+DLN	Largecap Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DLS	Intl Smallcap Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DMF	Dreyfus Muni Income	Finance	Closed-End Fund - Debt	0	0.023	5.48	0	0.49	0	0	0
+DMRI	Deltashares S&P Intl Managed Risk ETF			0	0	0	0	0	0	0	0
+DMRL	Deltashares S&P 500 Managed Risk ETF			0	0	0	0	0	0	0	0
+DMRM	Deltashares S&P 400 Managed Risk ETF			0	0	0	0	0	0	0	0
+DMRS	Deltashares S&P 600 Managed Risk ETF			0	0	0	0	0	0	0	0
+DNL	Global Ex-US Growth Wisdomtree			0	0	0	0	0	0	0	0
+DNN	Denison Mines Corp	Basic Industries	Precious Metals	0	-0.02	0	559096600	0	0	18.4583	1.2094
+DNO	US Short Oil			0	0	0	0	0	0	0	0
+DOD	DJ High Yield Select 10 ETN Elements			0	0	0	0	0	0	0	0
+DOG	DOW 30 Short Proshares			0	0	0	0	0	0	0	0
+DOGS	Arrow Dogs of The World ETF			0	0	0	0	0	0	0	0
+DOL	Intl Largecap Dividend Wisdomtree			0	-0.07	0	0	0	0	0	0
+DON	Midcap Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DOO	Intl Div Ex-Financials Wisdomtree			0	0	0	0	0	0	0	0
+DPK	Dev Mkts Bear 3X Direxion ETF			0	0	0	0	0	0	0	0
+DPST	Direxion Regional Banks Bull 3X			0	1.51	0	0	0	0	0	0
+DPW	Digital Power Corp	Capital Goods	Industrial Machinery/Components	0	-0.492	0	13467180	0	0	1.1414	1.1514
+DRIP	Direxion S&P Oil & Gas Expl Bear 3X			0	0	0	0	0	0	0	0
+DRN	Real Estate Bull 3X Direxion			0	0	0	0	0	0	0	0
+DRR	Euro -2X ETN Vaneck			0	0	0	0	0	0	0	0
+DRV	Real Estate Bear 3X Direxion	Consumer Services	Business Services	0	0	0	0	0	0	0	0
+DRW	Global Ex-US Real Estate Wisdomtree			0	0	0	0	0	0	0	0
+DSI	KLD 400 Social Index Ishares	Notes		0	0	0	0	0	0	0	0
+DSS	Document Security Systems			0	-0.03	0	49507040	0	0	1.89	3.3
+DSUM	Chinese Yuan Dim Sum Bond Powershares			0	0	0	0	0	0	0	0
+DTD	Total Dividend Wisdomtree			0	0	0	0	0	0	0	0
+DTEC	Alps Disruptive Technologies ETF			0	0	0	0	0	0	0	0
+DTH	DEFA Equity Income Wisdomtree			0	0	0	0	0	0	0	0
+DTN	Dividend Ex-Financials Wisdomtree			0	0	0	0	0	0	0	0
+DTO	DB Crude Oil -2X ETN Powershares			0	0	0	0	0	0	0	0
+DUG	Ultrashort Oil & Gas Proshares			0	0	0	0	0	0	0	0
+DUSL	Direxion Daily Industrials Bull 3X Shares			0	0	0	0	0	0	0	0
+DUST	Gold Miners Bear 3X Direxion ETF			0	0	0	0	0	0	0	0
+DVEM	Wisdomtree EM Dividends Fund			0	0	0	0	0	0	0	0
+DVHL	Etracs Mt Pay 2X Dvrsfd High Income ETN			0	0	0	0	0	0	0	0
+DVP	Deep Value ETF			0	0	0	0	0	0	0	0
+DVYA	Asia Pacific Dividend 30 Ishares			0	0	0	0	0	0	0	0
+DVYE	Emrg Mkts Dividend Ishares			0	0	0	0	0	0	0	0
+DVYL	DJ 2X Select Dividend ETN			0	0	0	0	0	0	0	0
+DWM	DEFA Wisdomtree			0	0	0	0	0	0	0	0
+DWT	Velocity 3X Inverse Crude Oil			0	0	0	0	0	0	0	0
+DWX	S&P Dividend Intl SPDR			0	0	0	0	0	0	0	0
+DXD	Ultrashort DOW 30 Proshares			0	0	0	0	0	0	0	0
+DXJ	Japan Hedged Equity Wisdomtree			0	0	0	0	0	0	0	0
+DXJC	Wisdomtree Japan Capital Goods Hedged Fund			0	0	0	0	0	0	0	0
+DXJF	Wisdomtree Japan Financials Hedged Fund			0	0	0	0	0	0	0	0
+DXJH	Wisdomtree Japan Healthcare Hedged Fund			0	0	0	0	0	0	0	0
+DXJR	Wisdomtree Japan Real Estate Hedged Fund			0	0	0	0	0	0	0	0
+DXR	Daxor Corp	Health Care	Medical/Dental Instruments	0	-0.21	0.7	3790646	0.03	0	30.32	1.11
+DXUS	Wisdomtree Global Ex-US Hedged Divd Fund			0	0	0	0	0	0	0	0
+DYB	Wisdomtree Bearish U.S. Equity Fund			0	0	0	0	0	0	0	0
+DYLS	Wisdomtree L/S US Eqty Dynamic			0	0	0	0	0	0	0	0
+DYY	DB Commodity 2X ETN Powershares			0	0	0	0	0	0	0	0
+DZK	Dev Mkts Bull 3X Direxion ETF			0	0	0	0	0	0	0	0
+DZZ	DB Gold -2X ETN Powershares			0	0	0	0	0	0	0	0
+EAD	Wells Fargo Advantage	Finance	Closed-End Fund - Debt	0	0.96	8.41	0	0.72	0	0	0
+EBND	EM Local Bond ETF Barclays Capital SPDR			0	0	0	0	0	0	0	0
+ECF	Ellsworth Convertible Growth and Income	Finance	Closed-End Fund - Debt	0	1.43	4.85	0	0.44	0	0	0
+ECF-A	Ellsworth Fund Ltd			0	0	0	0	0	0	0	0
+ECH	Chile Index MSCI Ishares			0	0	0	0	0	0	0	0
+ECNS	China Smallcap MSCI Ishares			0	0	0	0	0	0	0	0
+ECON	Emrg Mkts Consumer Egshares			0	0	0	0	0	0	0	0
+EDC	Emrg Mkts Bull 3X Direxion			0	0	0	0	0	0	0	0
+EDEN	Denmark Index MSCI Ishares			0	0	0	0	0	0	0	0
+EDIV	S&P Emrg Mkts Dividend SPDR			0	0	0	0	0	0	0	0
+EDOG	Alps Emerging Sector Dividend			0	0	0	0	0	0	0	0
+EDOM	Wisdomtree Europe Domestic Ecomony Fund			0	0	0	0	0	0	0	0
+EDOW	First Trust DOW 30 Equal Weight ETF			0	0	0	0	0	0	0	0
+EDV	Extended Dur Trs Idx ETF Vanguard			0	0	0	0	0	0	0	0
+EDZ	Emrg Mkts Bear 3X Direxion			0	0	0	0	0	0	0	0
+EEB	BRIC Guggenheim			0	0	0	0	0	0	0	0
+EED	Claymore BNY BRIC ETF Indicitive Index			0	0	0	0	0	0	0	0
+EEH	Spectrum Lg Cap U.S. Sector ETN Elements			0	0	0	0	0	0	0	0
+EELV	S&P EM Low Vol Powershares			0	0	0	0	0	0	0	0
+EEM	Emrg Mkts ETF MSCI Ishares			0	7.54	0	0	0	0	0	0
+EEMD	Aam S&P Emerging Markets High Dividend Value ETF			0	0	0	0	0	0	0	0
+EEMO	S&P EM Momentum Portfolio PS			0	0	0	0	0	0	0	0
+EEMS	Emrg Mkts Smallcap MSCI Ishares			0	0	0	0	0	0	0	0
+EEMV	Emrg Mkts Min Vol Idx MSCI Ishares			0	0	0	0	0	0	0	0
+EEMX	EM Fossil Fuel Reserves MSCI ETF SPDR			0	0	0	0	0	0	0	0
+EES	Smallcap Earnings Wisdomtree			0	0	0	0	0	0	0	0
+EET	Ultra MSCI Emrg Mkts Proshares			0	0	0	0	0	0	0	0
+EEV	Ultrashort MSCI Emrg Mkts Proshares			0	0	0	0	0	0	0	0
+EFA	EAFE Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	6.36	0	0	0	0	0	0
+EFAD	EAFE Dividend Growth Proshares			0	0	0	0	0	0	0	0
+EFAV	EAFE Min Volatility MSCI Ishares			0	0	0	0	0	0	0	0
+EFAX	EAFE Fossil Fuel Reserves Free MSCI ETF SPDR			0	0	0	0	0	0	0	0
+EFFE	G-X JPM Efficiente Index ETF			0	0	0	0	0	0	0	0
+EFG	EAFE Growth Index MSCI Ishares			0	0	0	0	0	0	0	0
+EFNL	Finland Index MSCI Ishares			0	0	0	0	0	0	0	0
+EFO	Ultra MSCI EAFE Proshares			0	0	0	0	0	0	0	0
+EFU	Ultrashort MSCI EAFE Proshares			0	0	0	0	0	0	0	0
+EFV	EAFE Value Index MSCI Ishares			0	0	0	0	0	0	0	0
+EFZ	EAFE MSCI Short Proshares			0	0	0	0	0	0	0	0
+EGI	Entree Resources Ltd	Basic Industries	Precious Metals	0	-0.024	0	173182900	0	0	0	0
+EGPT	Egypt Index ETF Vaneck			0	0	0	0	0	0	0	0
+EIA	Eaton Vance California Muni Bond II	Finance	Closed-End Fund - Debt	0	-0.13	4.51	0	0.53	0	0	0
+EIDO	Indonesia Index MSCI Ishares			0	0	0	0	0	0	0	0
+EIM	Eaton Vance Muni Bond Fund	Finance	Closed-End Fund - Debt	0	-0.08	4.92	0	0.63	0	0	0
+EIO	Eaton Vance Ohio Muni Bond Fund	Finance	Closed-End Fund - Debt	0	-0.12	4.27	0	0.56	0	0	0
+EIP	Eaton Vance Pennsylvania Muni Bond	Finance	Closed-End Fund - Debt	0	0.03	5.03	0	0.65	0	0	0
+EIRL	Ireland Index MSCI Ishares			0	0	0	0	0	0	0	0
+EIS	Israel Index MSCI Ishares			0	0	0	0	0	0	0	0
+EIV	Eaton Vance Muni Bond Fund II	Finance	Closed-End Fund - Debt	0	-0.12	4.55	0	0.58	0	0	0
+EKAR	Innovation Shares Nextgen Vehicles & Technology			0	0	0	0	0	0	0	0
+ELD	Emrg Mkts Local Debt Wisdomtree			0	0	0	0	0	0	0	0
+ELLO	Ellomay Capital Ltd Ordinary Sh			0	-0.38	0	10753170	0	0	6.1	0.91
+ELMD	Electromed Inc			28.65	0.26	0	8260403	0	0	2.4	3.24
+EMAG	EM Aggregate Bond Vaneck ETF			0	0	0	0	0	0	0	0
+EMAN	Emagin Corp	Technology	Semiconductors	0	-0.32	0	34973330	0	-0.77	3.81	3.43
+EMBH	Ishares Int-Rate Hedged EM Bond			0	0	0	0	0	0	0	0
+EMBU	Direxion Emerging Markets Bond Bull 3X Shares			0	0	0	0	0	0	0	0
+EMDV	Emerging Markets Proshares			0	0	0	0	0	0	0	0
+EMEM	Virtus Glovista Emerging Markets ETF			0	0	0	0	0	0	0	0
+EMFM	G-X Next Emerging & Frontier ETF			0	0	0	0	0	0	0	0
+EMGF	Ishares MSCI Multifactor EM ETF			0	0	0	0	0	0	0	0
+EMHY	Emrg Mkts High Yield Bond Fund Ishares			0	0	0	0	0	0	0	0
+EMI	Eaton Vance Michigan Muni Income Trust	Finance	Closed-End Fund - Debt	0	0.388	3.57	0	0.47	0	0	0
+EMIH	Db-Xt EM Bond Int Rate Hdged ETF			0	0	0	0	0	0	0	0
+EMJ	Eaton Vance New Jersey Muni Bond	Finance	Closed-End Fund - Debt	0	-0.29	4.81	0	0.64	0	0	0
+EMLC	Emrg Mkts Local Curr Bond ETF Vaneck			0	0	0	0	0	0	0	0
+EMLP	North American Energy Infr Fund FT			0	0	0	0	0	0	0	0
+EMQQ	Emrg Mkts Internet and Ecommerce Etc			0	0	0	0	0	0	0	0
+EMSD	Wisdomtree Strong Dollar EM Eqty Fund			0	0	0	0	0	0	0	0
+EMSH	Short-Term USD EM Bond Proshares			0	15.293	0	0	0	0	0	0
+EMTL	EM Fixed Income ETF SPDR			0	0	0	0	0	0	0	0
+EMTY	Proshares Decline of The Retail Store ETF			0	0	0	0	0	0	0	0
+EMX	Emx Royalty Group			0	-0.02	0	79477610	0	0	26.87	1.53
+ENFR	Alerian Energy Infrastructure E			0	0	0	0	0	0	0	0
+ENOR	Norway Index MSCI Ishares			0	0	0	0	0	0	0	0
+ENRJ	Enerjex Resources Inc			1.41	0.19	0	10333330	0	0	1.31	0
+ENSV	Enservco Corpporation			0	-0.169	0	51065840	0	-0.22	0.6692	1.7819
+ENTR	Entrepreneur 30 Fund			0	0	0	0	0	0	0	0
+ENX	Eaton Vance New York Muni Bond Fund	Finance	Closed-End Fund - Debt	0	-0.17	4.95	0	0.62	0	0	0
+ENY	Canadian Energy Income Guggenheim	Basic Materials	Oil & Gas Drilling & Exploration	0	0	0	0	0	0	0	0
+EPHE	Philippines Index MSCI Ishares			0	0	0	0	0	0	0	0
+EPI	India Earnings Wisdomtree			0	0	0	0	0	0	0	0
+EPM	Evolution Petroleum Corp	Energy	Oil & Gas Production	34.47	0.21	4.29	32694370	0.3	0	6.64	3.34
+EPOL	Poland Index MSCI Ishares			0	0	0	0	0	0	0	0
+EPP	Pacific Ex-Japan MSCI Ishares	Finance	Closed-End Fund - Equity	0	3.89	0	0	0	0	0	0
+EPRF	Elkhorn S&P High Quality Preferred			0	0	0	0	0	0	0	0
+EPS	Earnings 500 Wisdomtree			0	0	0	0	0	0	0	0
+EPU	Peru Index MSCI Ishares			0	0	0	0	0	0	0	0
+EPV	Ultrashort FTSE Europe Proshares			0	0	0	0	0	0	0	0
+EQAL	Russell 1000 EW ETF PS			0	0	0	0	0	0	0	0
+EQL	Alps Equal Sector Weight ETF			0	0	0	0	0	0	0	0
+EQLT	Workplace Equality Portfolio ETF			0	0	0	0	0	0	0	0
+EQWL	Russell Top 200 EW ETF PS			0	0	0	0	0	0	0	0
+EQWM	Russell Midcap EW ETF PS			0	0	0	0	0	0	0	0
+EQWS	Russell 2000 EW ETF PS			0	0	0	0	0	0	0	0
+ERC	Wells Fargo Advantage Multi-Sector	Finance	Closed-End Fund - Debt	0	1.43	9.49	0	1.28	0	0	0
+ERGF	Ishares Energy Multifactor			0	0	0	0	0	0	0	0
+ERH	Wells Fargo Advantage Utilities and High	Finance	Closed-End Fund - Debt	0	1.41	6.89	0	0.9	0	0	0
+ERM	Equitycompass Risk Manager ETF			0	0	0	0	0	0	0	0
+ERN	Erin Energy Corp			0	-1	0	213258200	0	0	6.36	0
+ERO	EUR/USD Exchange Rate ETN Ipath			0	0	0	0	0	0	0	0
+ERUS	Russia Index MSCI Ishares			0	0	0	0	0	0	0	0
+ERX	Energy Bull 3X Direxion			0	0	0	0	0	0	0	0
+ERY	Energy Bear 3X Direxion			0	0	0	0	0	0	0	0
+ESBA	Empire State Realty Op LP			50.3	0.39	0	34490060	0	0	0	0
+ESGF	Global ESG Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+ESGL	ESG Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+ESGN	Columbia Sustainable Internatio			0	0	0	0	0	0	0	0
+ESGS	Columbia Sustainable U.S. Equit			0	0	0	0	0	0	0	0
+ESGW	Columbia Sustainable Global Equ			0	0	0	0	0	0	0	0
+ESNC	Ensync Inc			0	-0.09	0	55608700	0	-0.08	2.02	1.49
+ESP	Espey Mfg. & Electronics	Capital Goods	Industrial Machinery/Components	46.22	0.49	4.4	2325828	1	0	2.38	1.68
+ETHO	Etho Climate Leadership U.S. ETF			0	0	0	0	0	0	0	0
+EUDG	Wisdomtree Europe Dividend Growth Fund			0	0	0	0	0	0	0	0
+EUDV	Europe Dividend Proshares			0	0	0	0	0	0	0	0
+EUFL	Direxion European Financials Bull 2X			0	0	0	0	0	0	0	0
+EUFX	Euro Short Proshares			0	0	0	0	0	0	0	0
+EUM	Emrg Mkts MSCI Short Proshares			0	0	0	0	0	0	0	0
+EUMV	Europe Minimum Vol Ishares ETF			0	0	0	0	0	0	0	0
+EUO	Ultrashort Euro Proshares			0	0	0	0	0	0	0	0
+EURL	Direxion FTSE Europe Bull 3X			0	0	0	0	0	0	0	0
+EURZ	Db-Xt MSCI Southern Europe Hedged Eqty ETF			0	0	0	0	0	0	0	0
+EUSA	US Index MSCI Ishares			0	0	0	0	0	0	0	0
+EUSC	Wisdomtree Europe Hedged Smallcap Eqty ETF			0	0	0	0	0	0	0	0
+EUXL	Direxion Daily Euro Stoxx 50 Bull 3X Shares			0	0	0	0	0	0	0	0
+EVBN	Evans Bancorp	Finance	Major Banks	19.69	2.25	1.87	4764068	0.8	0	4.23	1.76
+EVI	Envirostar Inc.	Consumer Services	Other Consumer Services	86.73	0.31	0	10467160	0	0	2.88	8.41
+EVIX	Velocityshares 1X Long Vstoxx Futures ETN			0	0	0	0	0	0	0	0
+EVJ	Eaton Vance New Jersey Muni Income Trust	Finance	Closed-End Fund - Debt	0	0.27	4.48	0	0.55	0	0	0
+EVM	Eaton Vance California Muni Bond Fund	Finance	Closed-End Fund - Debt	0	-0.07	5.01	0	0.58	0	0	0
+EVO	Eaton Vance Ohio Muni Income Trust	Finance	Closed-End Fund - Debt	0	0.34	4.38	0	0.61	0	0	0
+EVP	Eaton Vance Pennsylvania Muni Income Trust	Finance	Closed-End Fund - Debt	0	0.43	4.16	0	0.51	0	0	0
+EVV	Eaton Vance Limited Duration	Finance	Closed-End Fund - Debt	0	1.72	7.01	0	0.97	0	0	0
+EVX	Environmental Svcs ETF Vaneck			0	0	0	0	0	0	0	0
+EVY	Eaton Vance New York Muni Income Trust	Finance	Closed-End Fund - Debt	0	0.24	4.59	0	0.6	0	0	0
+EWA	Australia Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	2.16	0	0	0	0	0	0
+EWC	Canada Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	1.84	0	0	0	0	0	0
+EWD	Sweden Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	4.16	0	0	0	0	0	0
+EWEM	Emrg Mkts Eq WT MSCI Guggenheim			0	0	0	0	0	0	0	0
+EWG	Germany Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	5.42	0	0	0	0	0	0
+EWGS	Germany Smallcap MSCI Ishares			0	0	0	0	0	0	0	0
+EWH	Hong Kong Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	4.36	0	0	0	0	0	0
+EWI	Italy Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-12.14	0	0	0	0	0	0
+EWJ	Japan Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	8.98	0	0	0	0	0	0
+EWK	Belgium Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	0.47	0	0	0	0	0	0
+EWL	Switzerland Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-0.9	0	0	0	0	0	0
+EWM	Malaysia Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	1.82	0	0	0	0	0	0
+EWMC	Guggenheim S&P Midcap 400 EW ETF			0	0	0	0	0	0	0	0
+EWN	Netherlands Invstbl Mkt Idx Ishares ETF	Finance	Closed-End Fund - Equity	0	0.93	0	0	0	0	0	0
+EWO	Austria Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-1.96	0	0	0	0	0	0
+EWP	Spain Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-9.74	0	0	0	0	0	0
+EWQ	France Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-0.46	0	0	0	0	0	0
+EWRE	Guggenheim S&P 500 EW ETF			0	0	0	0	0	0	0	0
+EWS	Singapore Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	3.51	0	0	0	0	0	0
+EWSC	Guggenheim S&P Smallcap 600 EW ETF			0	0	0	0	0	0	0	0
+EWT	Taiwan Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	2.99	0	0	0	0	0	0
+EWU	UK Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-2.39	0	0	0	0	0	0
+EWUS	UK Smallcap MSCI Ishares			0	0	0	0	0	0	0	0
+EWV	Ultrashort MSCI Japan Proshares			0	0	0	0	0	0	0	0
+EWW	Mexico Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-2.65	0	0	0	0	0	0
+EWX	S&P Emrg Mkts Smallcap SPDR			0	0	0	0	0	0	0	0
+EWY	South Korea Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	14.46	0	0	0	0	0	0
+EWZ	Brazil Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	8.9	0	0	0	0	0	0
+EXI	S&P Global Industrials Ishares			0	0	0	0	0	0	0	0
+EXIV	Velocityshares 1X Daily Inverse Vstoxx Futures E			0	0	0	0	0	0	0	0
+EXT	Total Earnings Wisdomtree			0	0	0	0	0	0	0	0
+EYLD	Cambria Emerging Shareholder Yield ETF			0	0	0	0	0	0	0	0
+EZA	South Africa Index MSCI Ishares	Finance	Closed-End Fund - Equity	0	-4.74	0	0	0	0	0	0
+EZJ	Ultra MSCI Japan Proshares			0	0	0	0	0	0	0	0
+EZM	Midcap Earnings Wisdomtree			0	0	0	0	0	0	0	0
+EZU	Eurozone ETF MSCI Ishares	Finance	Closed-End Fund - Equity	0	-2.63	0	0	0	0	0	0
+FAN	Global Wind Energy First Trust			0	0	0	0	0	0	0	0
+FANZ	Prosports Sponsors ETF			0	0	0	0	0	0	0	0
+FAS	Financial Bull 3X Direxion			0	0	0	0	0	0	0	0
+FAUS	Australia Alphadex First Trust			0	0	0	0	0	0	0	0
+FAX	Aberdeen Asia-Pacific	Finance	Closed-End Fund - Foreign	0	0.53	8.35	0	0.42	0	0	0
+FAZ	Financial Bear 3X Direxion			0	0	0	0	0	0	0	0
+FBGX	FI Enhanced Large Cap Growth ETN			0	0	0	0	0	0	0	0
+FBND	Fidelity Total Bond ETF			0	0	0	0	0	0	0	0
+FBT	Biotechnology Index NYSE ETF			0	-93.86	0	0	0	0	0	0
+FCG	Natural Gas ETF FT			0	0	0	0	0	0	0	0
+FCO	Aberdeen Global	Finance	Closed-End Fund - Foreign	0	0.662	9.53	0	0.84	0	0	0
+FCOM	Fidelity Telecommunication MSCI ETF			0	0	0	0	0	0	0	0
+FCOR	Fidelity Corporate Bond ETF			0	0	0	0	0	0	0	0
+FDD	Stoxx Euro Select Div First Trust			0	0	0	0	0	0	0	0
+FDIS	Fidelity Consumer Disc MSCI ETF			0	0	0	0	0	0	0	0
+FDL	Mstar Dividend Leaders			0	0	0	0	0	0	0	0
+FDLO	Fidelity Low Volatility Factor ETF			0	0	0	0	0	0	0	0
+FDM	DJ Select Microcap First Trust			0	0	0	0	0	0	0	0
+FDMO	Fidelity Momentum Factor ETF			0	0	0	0	0	0	0	0
+FDN	DJ Internet Index First Trust			0	0	0	0	0	0	0	0
+FDRR	Fidelity Dividend ETF For Rising Rates			0	0	0	0	0	0	0	0
+FDVV	Fidelity Core Dividend ETF			0	0	0	0	0	0	0	0
+FEEU	Barclays FI Enhanced Europe 50 ETN			0	0	0	0	0	0	0	0
+FEN	Energy Income and Growth Fund	Finance	Closed-End Fund - Equity	0	2.18	9.14	0	2.32	0	0	0
+FENY	Fidelity Energy MSCI ETF			0	0	0	0	0	0	0	0
+FEU	Stoxx Europe 50 SPDR			0	0	0	0	0	0	0	0
+FEZ	Euro Stoxx 50 ETF SPDR			0	-0.22	0	0	0	0	0	0
+FFHG	Formula Folios Hedged Growth ETF			0	0	0	0	0	0	0	0
+FFIU	Fieldstone Uva Unconstrained Medium-Term Fixed I			0	0	0	0	0	0	0	0
+FFR	FTSE En Dev Mkts Rel Est First Trust			0	0	0	0	0	0	0	0
+FFSG	Formulafolios Smart Growth ETF			0	0	0	0	0	0	0	0
+FFTG	Formulafolios Tactical Growth ETF			0	0	0	0	0	0	0	0
+FFTI	Formula Folios Income ETF			0	0	0	0	0	0	0	0
+FFTY	Innovator Ibd 50 Fund ETF			0	0	0	0	0	0	0	0
+FGD	DJ Global Select Dividend First Trust			0	0	0	0	0	0	0	0
+FHLC	Fidelity Health Care MSCI ETF			0	0	0	0	0	0	0	0
+FIBR	Ishares US Fixed Income			0	0	0	0	0	0	0	0
+FIDI	Fidelity International High Dividend ETF			0	0	0	0	0	0	0	0
+FIDU	Fidelity Industrials MSCI ETF			0	0	0	0	0	0	0	0
+FIEE	FI Enhanced 2X Europe 50 ETN			0	0	0	0	0	0	0	0
+FIEG	FI Enhanced Global High Yield			0	0	0	0	0	0	0	0
+FIEU	FI Enhanced Europe 50 ETN			0	0	0	0	0	0	0	0
+FIGY	Barclays FI Enhanced Global Hi Yld			0	0	0	0	0	0	0	0
+FIHD	FI Enhanced Global High Yield ETN			0	0	0	0	0	0	0	0
+FILL	Global Energy Producers MSCI Ishares			0	0	0	0	0	0	0	0
+FINU	Ultrapro Financials Proshares			0	0	0	0	0	0	0	0
+FINZ	Ultrapro Short Financials Proshares			0	0	0	0	0	0	0	0
+FISK	Empire State Realty Op LP Se			59.26	0.39	0	4544913	0	0	0.14	3.13
+FIVA	Fidelity International Value Factor ETF			0	0	0	0	0	0	0	0
+FIW	Water ETF FT			0	0	0	0	0	0	0	0
+FLAU	Australia Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLAX	Franklin Asia Ex Japan ETF			0	0	0	0	0	0	0	0
+FLBR	Brazil Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLCA	Canada Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLCH	China Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLCO	Liberty Investment Grade Corp ETF			0	0	0	0	0	0	0	0
+FLEE	Europe Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLEH	Europe Hedged Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLEU	FI Enhanced Europe 50 ETN Series B			0	0	0	0	0	0	0	0
+FLFR	France Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLGB	United Kingdom Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLGE	CS FI Large Cap Growth Enhanced ETN			0	0	0	0	0	0	0	0
+FLGR	Germany Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLHK	Hong Kong Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLIN	Franklin India ETF			0	0	0	0	0	0	0	0
+FLIO	Franklin Intl Opportunities ETF			0	0	0	0	0	0	0	0
+FLIY	Italy Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLJH	Japan Hedged Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLJP	Japan Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLKR	South Korea Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLLV	Liberty US Low Volatility ETF			0	0	0	0	0	0	0	0
+FLM	Global Engineering and Construction ETF FT			0	0	0	0	0	0	0	0
+FLMB	Franklin Liberty Municipal Bond ETF			0	0	0	0	0	0	0	0
+FLMI	Franklin Liberty Intermediate Munic			0	0	0	0	0	0	0	0
+FLMX	Mexico Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FLOT	Floating Rate Note Ishares			0	0	0	0	0	0	0	0
+FLQD	Liberty Global Dividend			0	0	0	0	0	0	0	0
+FLQE	Liberty Emerging Marketfs ETF			0	0	0	0	0	0	0	0
+FLQG	Liberty Global Equity ETF			0	0	0	0	0	0	0	0
+FLQH	Liberty Intl Equity Hedged ETF			0	0	0	0	0	0	0	0
+FLQL	Franklin Libertyq U.S. Equity ETF			0	0	0	0	0	0	0	0
+FLQM	Franklin Libertyq U.S. Mid Cap Equity ETF			0	0	0	0	0	0	0	0
+FLQS	Franklin Libertyq U.S. Small Cap Equity ETF			0	0	0	0	0	0	0	0
+FLRN	Inv Growth Floating Rate ETF SPDR			0	0	0	0	0	0	0	0
+FLRT	Advisorshares Pacific Asset Enh			0	0	0	0	0	0	0	0
+FLRU	Franklin Russia ETF			0	0	0	0	0	0	0	0
+FLSW	Franklin Switzerland ETF			0	0	0	0	0	0	0	0
+FLTB	Fidelity Limited Term Bond ETF			0	1.58	0	0	0	0	0	0
+FLTR	Investment Grade Floating Rate Vaneck ETF			0	0	0	0	0	0	0	0
+FLTW	Taiwan Franklin FTSE ETF			0	0	0	0	0	0	0	0
+FM	Frontier 100 Ishares ETF			0	0	0	0	0	0	0	0
+FMAT	Fidelity Materials MSCI ETF			0	0	0	0	0	0	0	0
+FMDG	Fieldstone Merlin Dynamic Large Cap Growth ETF			0	0.07	0	0	0	0	0	0
+FMF	Mstar Managed Futures Strategy Fund FT			0	0	0	0	0	0	0	0
+FNCF	Ishares Financials Multifactor			0	0	0	0	0	0	0	0
+FNCL	Fidelity Financials MSCI ETF			0	0	0	0	0	0	0	0
+FNDA	Schwab Fundamental US Smallcap			0	0	0	0	0	0	0	0
+FNDB	Schwab Fundamental US Broad Market			0	0	0	0	0	0	0	0
+FNDC	Schwab Fundamental Intl Smallcap			0	0	0	0	0	0	0	0
+FNDE	Schwab Fundamental EM Large Company			0	0	0	0	0	0	0	0
+FNDF	Schwab Fundamental Intl Large Company			0	0	0	0	0	0	0	0
+FNDX	Schwab Fundamental US Largecap			0	0	0	0	0	0	0	0
+FNG	Advisorshares New Tech and Media ETF			0	0	0	0	0	0	0	0
+FNGD	BMO Rex Microsectors Fang  Index -3X Inverse Lev			0	0	0	0	0	0	0	0
+FNGU	BMO Rex Microsectors Fang  Index 3X Leveraged Ex			0	0	0	0	0	0	0	0
+FNI	Chindia ETF FT			0	0	0	0	0	0	0	0
+FOIL	Aluminum Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+FPE	Preferred Securities and Income ETF FT			0	0	0	0	0	0	0	0
+FPEI	FT Institutional Preferred Securities and Income			0	0	0	0	0	0	0	0
+FPX	US IPO Index First Trust			0	0	0	0	0	0	0	0
+FQAL	Fidelity Quality Factor ETF			0	0	0	0	0	0	0	0
+FRAK	Unconventional Oil & Gas Vaneck ETF			0	0	0	0	0	0	0	0
+FRD	Friedman Industries Inc	Capital Goods	Steel/Iron Ore	0	-0.16	0.67	7009777	0.04	0	0.537	0.6751
+FREL	Fidelity Real Estate MSCI ETF			0	0	0	0	0	0	0	0
+FRI	S&P REIT Index			0	0	0	0	0	0	0	0
+FRN	Frontier Markets Guggenheim ETF	Consumer Services	Restaurants	0	0	0	0	0	0	0	0
+FSI	Flexible Solutions International Inc	Basic Industries	Major Chemicals	5.49	0.35	0	11494790	0	0	1.33	1.35
+FSP	Franklin Street Properties	Consumer Services	Real Estate Investment Trusts	0	-0.08	7.65	107645900	0.76	0	4	1.17
+FSTA	Fidelity Consumer Staples MSCI ETF			0	0	0	0	0	0	0	0
+FTEC	Fidelity Info Tech MSCI ETF			0	-0.06	0	0	0	0	0	0
+FTF	Franklin Templeton Limited Duration	Finance	Closed-End Fund - Debt	0	1.67	10.83	0	1.29	0	0	0
+FTLS	Long/Short Equity ETF FT			0	0	0	0	0	0	0	0
+FTNW	Fte Networks Inc			0	0	0	0	0	0	0	0
+FTSD	Franklin Short Dur US Government ETF			0	0	0	0	0	0	0	0
+FTVA	Aptus Fortified Value ETF			0	0	0	0	0	0	0	0
+FUD	CMCI Food TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+FUE	MLCX Biofuels Index TR ETN Elements			0	0	0	0	0	0	0	0
+FUT	Managed Futures Strategy Proshares			0	0	0	0	0	0	0	0
+FUTY	Fidelity Utilities MSCI ETF			0	0	0	0	0	0	0	0
+FVAL	Fidelity Value Factor ETF			0	0	0	0	0	0	0	0
+FVD	Value Line Dividend Idx First Trust	Finance	Closed-End Fund - Debt	0	3.32	0	0	0	0	0	0
+FVL	Value Line 100 ETF First Trust	Finance	Closed-End Fund - Debt	0	1.86	0	0	0	0	0	0
+FWDB	Madrona Global Bond ETF			0	0	0	0	0	0	0	0
+FWDD	Madrona Domestic ETF			0	0	0	0	0	0	0	0
+FWDI	Madrona International ETF			0	0	0	0	0	0	0	0
+FXA	Australian Dollar Trust			0	0	0	0	0	0	0	0
+FXB	British Pound Sterling Trust			0	0	0	0	0	0	0	0
+FXC	Canadian Dollar Trust			0	0	0	0	0	0	0	0
+FXCH	Chinese Renminbi Trust			0	0	0	0	0	0	0	0
+FXD	Consumer Disc Alphadex First Trust			0	0	0	0	0	0	0	0
+FXE	Euro Trust			0	-0.86	0	0	0	0	0	0
+FXF	Swiss Franc Trust			0	0	0	0	0	0	0	0
+FXG	Consumer Staples Alphadex First Trust			0	0	0	0	0	0	0	0
+FXH	Healthcare Alphadex First Trust ETF			0	0	0	0	0	0	0	0
+FXI	FTSE China 25 Index Ishares	Finance	Closed-End Fund - Equity	0	8.93	0	0	0	0	0	0
+FXL	Technology Alphadex First Trust			0	0	0	0	0	0	0	0
+FXN	Energy Alphadex First Trust			0	0	0	0	0	0	0	0
+FXO	Financial Alphadex First Trust			0	0	0	0	0	0	0	0
+FXP	Ultrashort FTSE China 25 Proshares			0	0	0	0	0	0	0	0
+FXR	Indust/Producer Dur Alphadex First Trust			0	0	0	0	0	0	0	0
+FXS	Swedish Krona Trust			0	0	0	0	0	0	0	0
+FXSG	Singapore Dollar Currencyshares			0	0	0	0	0	0	0	0
+FXU	Utilities Alphadex First Trust			0	0	0	0	0	0	0	0
+FXY	Japanese Yen Trust			0	-0.41	0	0	0	0	0	0
+FXZ	Materials Alphadex First Trust			0	0	0	0	0	0	0	0
+FYLD	Cambria Foreign Shareholder Yie			0	0	0	0	0	0	0	0
+GAA	Cambria Global Asset Allocation			0	0	0	0	0	0	0	0
+GAL	SSGA Global Allocation ETF SPDR			0	0	0	0	0	0	0	0
+GAMR	Purefunds Video Game Tech ETF			0	-0.34	0	0	0	0	0	0
+GARD	Reality Divcon Dividend Guard ETF			0	0	0	0	0	0	0	0
+GASL	Natural Gas Bull 3X Direxion			0	0	0	0	0	0	0	0
+GASX	Direxion Natural Gas Bear 3X			0	0	0	0	0	0	0	0
+GAZB	Barclays Bank Plc Ipath Series B Bloomberg Natur			0	0	0	0	0	0	0	0
+GBB	GBP/USD Exchange Rate ETN Ipath			0	0	0	0	0	0	0	0
+GBF	Government/Credit Bond Ishares			0	0	0	0	0	0	0	0
+GBIL	GS Treasuryaccess 0-1 Year ETF			0	0	0	0	0	0	0	0
+GBR	New Concept Energy Inc	Energy	Oil & Gas Production	14.0415	0.094	0	1947117	0	0	2.8723	0.6822
+GCC	Continuous Commodity Index			0	0	0	0	0	0	0	0
+GCE	CEF GS Connect ETN Claymore			0	0	0	0	0	0	0	0
+GCOW	Pacer Global Cash Cows Dividend			0	0	0	0	0	0	0	0
+GDP	Goodrich Petroleum Corp			5.7	1.76	0	10538310	0	2.94	3.03	1.91
+GDVD	Principal Active Global Dividend Income ETF			0	0	0	0	0	0	0	0
+GDX	Gold Miners Vaneck ETF			0	0	0	0	0	0	0	0
+GDXJ	Junior Gold Miners ETF Vaneck			0	0	0	0	0	0	0	0
+GDXS	Ultrashort Gold Miner Proshares			0	0	0	0	0	0	0	0
+GDXX	Ultra Gold Miners Proshares			0	0	0	0	0	0	0	0
+GEM	GS Activebeta EM Equity ETF			0	0	0	0	0	0	0	0
+GEX	Global Alternatve Energy ETF Vaneck	Technology	Internet Service Providers	0	0	0	0	0	0	0	0
+GGN	Gamco Global Gold Natural Resources	Finance	Closed-End Fund - Equity	0	0.93	10.49	0	0.6	0	0	0
+GGN-B	Gamco Global Gold Natural Reou			0	0	0	0	0	0	0	0
+GGO	Gabelli Go Anywhere Trust			0	0	0	0	0	0	0	0
+GGO-A	The Gabelli Healthcare and Wellness Trust			0	0	0	0	0	0	0	0
+GHII	S&P High Inc Infrast Guggenheim ETF			0	4.4	0	0	0	0	0	0
+GHS	Rex Gold Hedged S&P 500 ETF			0	0	0	0	0	0	0	0
+GHYB	Access High Yield Corporate Bond ETF Goldman Sac			0	0	0	0	0	0	0	0
+GHYG	Global High Yield Corporate Bond Fund Ishares			0	0	0	0	0	0	0	0
+GIGB	Goldman Sachs Access Investment Grade Corp Bond			0	0	0	0	0	0	0	0
+GII	FTSE Global Infra 100 SPDR			0	0	0	0	0	0	0	0
+GLD	Gold SPDR	Finance	Closed-End Fund - Equity	0	-1.38	0	0	0	0	0	0
+GLDW	Long Dollar Gold Trust SPDR			0	0	0	0	0	0	0	0
+GLF	Gulfmark Offshore Inc			0	0	0	0	0	0	0	0
+GLF.W	Gulfmark Offshore Inc WT			0	0	0	0	0	0	0	0
+GLL	Ultrashort Gold Proshares			0	0	0	0	0	0	0	0
+GLO	Clough Global Opportunities Fund			0	-0.7	9.75	0	1.03	0	0	0
+GLOW	Glowpoint Inc			0	-0.096	0	36180180	0	0	0.5938	3.4821
+GLQ	Clough Global Equity Fund	Finance	Closed-End Fund - Equity	0	-1.07	9.22	0	1.19	0	0	0
+GLTR	Physical Precious Metals Basket			0	0	0	0	0	0	0	0
+GLU	Gabelli Global Utility			0	1.47	5.82	0	1.2	0	0	0
+GLU-A	The Gabelli Global Utility and			0	0	0	0	0	0	0	0
+GLV	Clough Global Allocation Fund	Finance	Closed-End Fund - Equity	0	-0.47	9.09	0	1.24	0	0	0
+GMF	S&P Emerging Asia Pacific SPDR			0	0	0	0	0	0	0	0
+GMFL	Guggenheim Multi-Factor Large Cap ETF			0	0	0	0	0	0	0	0
+GMI	Gold Miners Indicitive Index			0	0	0	0	0	0	0	0
+GMO	General Moly Inc	Basic Industries	Precious Metals	0	-0.071	0	111171400	0	0	0	0.3468
+GMOM	Cambria Global Momentum ETF			0	0	0	0	0	0	0	0
+GNR	S&P Global Natural Resources SPDR			0	0	0	0	0	0	0	0
+GOAU	US Global Go Gold and Precious Metal Miners ETF			0	0	0	0	0	0	0	0
+GOEX	G-X Gold Explorers ETF			0	0	0	0	0	0	0	0
+GOP	Republican Policies Fund			0	0	0	0	0	0	0	0
+GORO	Gold Resource Corp	Basic Industries	Precious Metals	66.36	0.05	0.54	56838360	0.02	0	2.44	1.84
+GOVT	Core US Treasury Bond ETF Ishares			0	0	0	0	0	0	0	0
+GPL	Great Panther Silver Ltd	Basic Industries	Precious Metals	68.89	0.02	0	167943600	0	0	3.67	2.49
+GQRE	Flexshares Global Quality Real Estate			0	0	0	0	0	0	0	0
+GREK	G-X FTSE Greece 20 ETF			0	0	0	0	0	0	0	0
+GRES	IQ Global Resources ETF			0	0	0	0	0	0	0	0
+GRF	Eagle Capital Growth Fund	Finance	Closed-End Fund - Equity	0	0.911	15.24	0	1.19	0	0	0
+GRI	Global Realty Majors Cohen & Steers ETF	Retail		0	0	0	0	0	0	0	0
+GRMY	Xtrackers Germany Equity ETF			0	0	0	0	0	0	0	0
+GRN	Global Carbon ETN Ipath	Consumer Services	Rubber & Plastics	0	0	0	0	0	0	0	0
+GRNB	Green Bond Vaneck ETF			0	-0.209	0	0	0	0	0	0
+GRU	MLCX Grains Index TR ETN Elements		Information & Delivery Services	0	0	0	0	0	0	0	0
+GRWN	Softs Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+GSAT	Globalstar			0	-0.22	0	1157576000	0	-0.78	18.4	20.63
+GSB	Globalscape	Technology	Computer Software: Prepackaged Software	21	0.19	1.54	21571430	0.06	0	2.45	2.73
+GSC	GS Connect S&P GSCI Enh Commodity TR ETN			0	0	0	0	0	0	0	0
+GSD	Wisdomtree Global Smallcap Divd Fund			0	0	0	0	0	0	0	0
+GSEU	GS Activebeta Europe Equity ETF			0	0	0	0	0	0	0	0
+GSEW	Equal Weight U.S. Large Cap Equity ETF Goldman S			0	0	0	0	0	0	0	0
+GSG	S&P GSCI Commodity-Indexed Ishares			0	1.43	0	0	0	0	0	0
+GSIE	GS Activebeta International ETF			0	0	0	0	0	0	0	0
+GSJY	GS Activebeta Japan Equity ETF			0	0	0	0	0	0	0	0
+GSLC	GS Activebeta US Largecap ETF			0	0	0	0	0	0	0	0
+GSP	S&P GSCI Total Return ETN Ipath			0	0	0	0	0	0	0	0
+GSS	Golden Star Resources Ltd	Basic Industries	Precious Metals	0	-0.028	0	376195500	0	0.93	1.1006	0
+GSSC	GS Activebeta U.S. Small Cap Equity ETF			0	0	0	0	0	0	0	0
+GST	Gastar Exploration	Energy	Oil & Gas Production	0	-0.263	0	199546600	0	-1.04	2.1906	0
+GST-A	Gastar Exploration 8.625% Serie			0	0	0	0	0	0	0	0
+GST-B	Gastar Exploration USA Inc Pfd			0	0	0	0	0	0	0	0
+GSV	Gold Standard Ventures Corp			0	-0.04	0	233378600	0	-17.34	0	2.15
+GSY	Guggenheim Enhanced Short Duration ETF			0	0	0	0	0	0	0	0
+GTE	Gran Tierra Energy Inc	Energy	Oil & Gas Production	0	-0.94	0	394772500	0	3.38	2.28	0.82
+GTO	Guggenheim Total Return Bond ETF			0	0	0	0	0	0	0	0
+GUDB	Sage ESG Intermediate Credit ETF			0	0	0	0	0	0	0	0
+GUNR	Mstar Global Upstream Natural Resources ETF			0	0	0	0	0	0	0	0
+GURU	G-X Guru Index ETF			0	0	0	0	0	0	0	0
+GUSH	Direxion S&P Oil & Gas Expl Bull 3X			0	0	0	0	0	0	0	0
+GV	Goldfield Corp	Public Utilities	Water Supply	14.14	0.4	0	25451790	0	0	1.17	2.67
+GVAL	Cambria Global Value ETF			0	0	0	0	0	0	0	0
+GVI	Interm Govt/Credit Bond Ishares			0	0	0	0	0	0	0	0
+GVIP	GS Hedge Industry Vip ETF			0	0	0	0	0	0	0	0
+GVP	GSE Systems	Technology	Computer Software: Prepackaged Software	38.04	0.09	0	19242860	0	0	1.09	2.98
+GWX	S&P Smallcap Intl SPDR			0	0	0	0	0	0	0	0
+GXC	S&P China SPDR			0	0	0	0	0	0	0	0
+GXF	G-X FTSE Nordic Region ETF			0	0	0	0	0	0	0	0
+GXG	G-X FTSE Colombia 20 ETF			0	0	0	0	0	0	0	0
+GYLD	Arrow DJ Global Yield ETF			0	0	0	0	0	0	0	0
+HACK	Etfmg Prime Cyber Security ETF			0	0	0	0	0	0	0	0
+HACV	Ishares Min Vol Global Currency ETF			0	0	0	0	0	0	0	0
+HACW	Ishares ACWI Currency Hedged			0	0	0	0	0	0	0	0
+HAHA	CSOP China CSI 300 A-H Dynamic			0	0	0	0	0	0	0	0
+HAO	China Smallcap Guggenheim			0	0	0	0	0	0	0	0
+HAP	Rve Hard Assets Producers Vaneck ETF			0	0	0	0	0	0	0	0
+HAUD	Ishares Australia Currency Hedged			0	0	0	0	0	0	0	0
+HAWX	Ishares ACWI Ex-US Currency Hedged			0	0	0	0	0	0	0	0
+HCA.U	Hennessy Capital Acquisition Corp III			0	0	0	0	0	0	0	0
+HCA.W	Hennessy Capital Acquisition Corp III Warrants			0	0	0	0	0	0	0	0
+HCAC	Hennessy Capital Acquisition Corp III			0	-1.46	0	7530612	0	0	0	14.79
+HCOR	Hartford Corporate Bond ETF			0	0	0	0	0	0	0	0
+HCRF	Ishares Healthcare Multifactor			0	0	0	0	0	0	0	0
+HDAW	Db-Xt MSCI All World Ex-US Div Yld Hgd Eq			0	0	0	0	0	0	0	0
+HDEF	Db-Xt MSCI EAFE High Div Yld Hgd Eq			0	0	0	0	0	0	0	0
+HDG	Hedge Replication Proshares			0	0	0	0	0	0	0	0
+HDGE	Active Bear ETF			0	0	0	0	0	0	0	0
+HDLV	Etracs Mt Pay 2X US Hi Div Low Vol ETN			0	0	0	0	0	0	0	0
+HDMV	Horizon Vol Dev Intl ETF FT			0	0	0	0	0	0	0	0
+HDRW	Wisdomtree Global Ex-US Hedged Real Estate Fund			0	0	0	0	0	0	0	0
+HDV	Core High Dividend ETF Ishares			0	0	0	0	0	0	0	0
+HEB	Hemispherx Biopharma	Health Care	Biotechnology: Biological Products (No Diagnostic Substances)	0	-0.367	0	29177220	0	0	27.863	0.896
+HECO	Ecological Strategy ETF			0	0	0	0	0	0	0	0
+HEDJ	Intl Hedged Equity Wisdomtree			0	0	0	0	0	0	0	0
+HEEM	Ishares EM Currency Hedged			0	0	0	0	0	0	0	0
+HEFA	MSCI EAFE Ishares Currency Hedged			0	0	0	0	0	0	0	0
+HEFV	Ishares Min Vol EAFE Currency Hedged			0	0	0	0	0	0	0	0
+HEMV	Ishares Min Vol EM Currency Hedged			0	0	0	0	0	0	0	0
+HEUS	Ishares Europe Smallcap Currency Hedged			0	0	0	0	0	0	0	0
+HEUV	Ishares Min Vol Europe Currency Hedged			0	0	0	0	0	0	0	0
+HEVY	Ipath Pure Beta Industrial Metals			0	0	0	0	0	0	0	0
+HEWC	Ishares Canada Currency Hedged			0	0	0	0	0	0	0	0
+HEWI	Ishares Italy Currency Hedged			0	0	0	0	0	0	0	0
+HEWJ	MSCI Japan Ishares Currency Hedged			0	0	0	0	0	0	0	0
+HEWL	Ishares Switzerland Currency Hedged			0	0	0	0	0	0	0	0
+HEWP	Ishares Spain Currency Hedged			0	0	0	0	0	0	0	0
+HEWU	Ishares UK Currency Hedged			0	0	0	0	0	0	0	0
+HEWW	Ishares Mexico Currency Hedged			0	0	0	0	0	0	0	0
+HEWY	Ishares South Korea Currency Hedged			0	0	0	0	0	0	0	0
+HEZU	Ishares Eurozone Currency Hedged			0	0	0	0	0	0	0	0
+HFXE	IQ 50% Hedged FTSE Europe			0	0	0	0	0	0	0	0
+HFXI	IQ 50% Hedged FTSE International			0	0	0	0	0	0	0	0
+HFXJ	IQ 50% Hedged FTSE Japan			0	0	0	0	0	0	0	0
+HGI	Intl Multi-Asset Inc Guggenheim			0	0	0	0	0	0	0	0
+HGSD	Wisdomtree Global Smallcap Hedged Fund			0	0	0	0	0	0	0	0
+HHYX	Ishares Intl High Yld Currency Hedged			0	0	0	0	0	0	0	0
+HILO	Low Vol EM Dividend ETF Egshares			0	0	0	0	0	0	0	0
+HIPS	Graniteshares US High Income ETF			0	0	0	0	0	0	0	0
+HJPX	Ishares Jpx-Nikkei 400 Currency Hedged			0	0	0	0	0	0	0	0
+HLM.P	Hillman Gr Cap 11.6			0	0	0	0	0	0	0	0
+HLTH	Nobilis Health Corp			19.01	0.07	0	77807410	0	0.46	0.31	0.7
+HMG	Hmg/Courtland Properties	Consumer Services	Real Estate Investment Trusts	0	-0.628	0	1001903	0	0	0	0.5656
+HMOP	Hartford Municipal Opportunities ETF			0	0	0	0	0	0	0	0
+HNW	Pioneer Diversified High Income Trust			0	1.75	8.36	0	1.38	0	0	0
+HOLD	Advisorshares Sage Core Reserve			0	0	0	0	0	0	0	0
+HOML	Etracs Mt Reset 2X ISE Exc Homebuilders ETN			0	0	0	0	0	0	0	0
+HONR	Insightshares Patriotic Employers ETF			0	0	0	0	0	0	0	0
+HQBD	Hartford Quality Bonds ETF			0	0	0	0	0	0	0	0
+HSCZ	Ishares EAFE Smallcap Currency Hedged			0	0	0	0	0	0	0	0
+HSPX	Horizons S&P 500 Covered Call			0	0	0	0	0	0	0	0
+HTM	U.S. Geothermal Inc	Public Utilities	Electric Utilities: Central	134.48	0.03	0	19238460	0	6.43	2.32	0.7
+HTRB	Hartford Total Return Bond ETF			0	0	0	0	0	0	0	0
+HTUS	Hull Tactical US ETF			0	0	0	0	0	0	0	0
+HUSA	Houston American Energy Corp	Energy	Oil & Gas Production	0	-0.054	0	54223020	0	0	113.7154	4.741
+HUSE	US Equity Rotation Strategy ETF			0	0	0	0	0	0	0	0
+HUSV	Horizon Vol Domestic ETF FT			0	0	0	0	0	0	0	0
+HVX	Environmental Services Indicitive Index			0	0	0	0	0	0	0	0
+HYD	High Yld Muni ETF Vaneck			0	0	0	0	0	0	0	0
+HYDB	Ishares Edge High Yield Defensive Bond ETF			0	0	0	0	0	0	0	0
+HYDD	Direxion High Yield Bear 2X			0	0	0	0	0	0	0	0
+HYDW	Xtrackers Low Beta High Yield Bond ETF			0	0	0	0	0	0	0	0
+HYEM	Emrg Mkts High Yield Bd ETF Vaneck			0	0	0	0	0	0	0	0
+HYG	Iboxx $ High Yield Corp Bond Ishares			0	0	0	0	0	0	0	0
+HYGH	Interest Rate Hedged Hi Yld Ishares			0	0	0	0	0	0	0	0
+HYHG	High Yld Interest Rate Proshares			0	0	0	0	0	0	0	0
+HYIH	Db-Xt HY Corp Bd Intr Rt Hdg			0	0	0	0	0	0	0	0
+HYLB	D-X USD Hi Yld Corp Bond ETF			0	0	0	0	0	0	0	0
+HYLD	Peritus High Yield ETF			0	0	0	0	0	0	0	0
+HYLV	Indexiq S&P High Yld Low Vol ETF			0	0	0	0	0	0	0	0
+HYMB	S&P Hi Yld Muni Bond SPDR			0	0	0	0	0	0	0	0
+HYS	0-5 Year Hi Yld Corp Bond Idx ETF Pimco			0	0	0	0	0	0	0	0
+HYUP	Xtrackers High Beta High Yield Bond ETF			0	0	0	0	0	0	0	0
+HYXU	Global Ex-US High Yield Corp Bond Fund Ishares			0	0	0	0	0	0	0	0
+IAF	Aberdeen Australia Equity Fund Inc	Finance	Closed-End Fund - Foreign	0	0.54	10.19	0	0.64	0	0	0
+IAGG	Ishares Intl Aggregate Bond Fund			0	0	0	0	0	0	0	0
+IAI	DJ US Broker-Dealers Ishares			0	0	0	0	0	0	0	0
+IAK	DJ US Insurance Ishares			0	0	0	0	0	0	0	0
+IAT	DJ US Regional Banks Ishares			0	0	0	0	0	0	0	0
+IAU	Gold Trust Ishares ETF	Finance	Closed-End Fund - Equity	0	-0.12	0	0	0	0	0	0
+IBCC	2018 Investment Grade Ishares			0	0	0	0	0	0	0	0
+IBCD	2020 Investment Grade Ishares			0	0	0	0	0	0	0	0
+IBCE	2023 Investment Grade Ishares			0	0	0	0	0	0	0	0
+IBD	Inspire Corporate Bond Impact ETF			0	0	0	0	0	0	0	0
+IBDB	Ishares Mar 2018 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDC	Ishares Mar 2020 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDD	Ishares Mar 2023 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDH	Ishares Dec 2018 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDK	Ishares Dec 2019 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDL	Ishares Dec 2020 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDM	Ishares Dec 2021 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDN	Ishares Dec 2022 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDO	Ishares Dec 2023 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDP	Ishares Dec 2024 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDQ	Ishares Dec 2025 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDR	Ishares Dec 2026 Term Corp ETF			0	0	0	0	0	0	0	0
+IBDS	Ishares Ibonds Dec 2027 Term Corporate ETF			0	0	0	0	0	0	0	0
+IBIO	Ibio Inc	Consumer Durables	Major Pharmaceuticals	0	-0.164	0	92812100	0	0	74.5608	3.165
+IBLN	Direxion Ibillionaire Index ETF			0	0	0	0	0	0	0	0
+IBMG	2018 S&P Amt-Free Municipal Ishares			0	0	0	0	0	0	0	0
+IBMH	2019 Amt-Free Muni Term Ishares			0	0	0	0	0	0	0	0
+IBMI	Ishares Sep 2020 Term Muni Bond ETF			0	0	0	0	0	0	0	0
+IBMJ	Ishares Dec 2021 Term Muni Bond ETF			0	0	0	0	0	0	0	0
+IBMK	Ishares Dec 2022 Term Muni Bond ETF			0	0	0	0	0	0	0	0
+IBML	Ishares Dec 2023 Term Muni Bond ETF			0	0	0	0	0	0	0	0
+IBND	Intl Corp Bond ETF SPDR			0	0	0	0	0	0	0	0
+IBO	Ibo Common Stock			0	0	0	0	0	0	0	0
+ICAN	Serenityshares Impact ETF			0	0	0	0	0	0	0	0
+ICF	Reality Majors Cohen & Steers Ishares	Finance	Closed-End Fund - Equity	0	4.09	0	0	0	0	0	0
+ICI	Optimized Currency Carry ETN Ipath			0	0	0	0	0	0	0	0
+ICOL	Colombia Capped Ishares ETF			0	0	0	0	0	0	0	0
+ICOW	Pacer Developed Markets International Cash Cows			0	0	0	0	0	0	0	0
+ICSH	Liquidity Income Ishares ETF			0	0	0	0	0	0	0	0
+ICVT	Ishares Convertible Bond ETF			0	0	0	0	0	0	0	0
+IDEV	Ishares Core MSCI Intl Devd Market ETF			0	0	0	0	0	0	0	0
+IDHD	S&P Intl Dev Hi Div Low Vol Port PS			0	0	0	0	0	0	0	0
+IDHQ	S&P Intl Dev High Qlty Powershares			0	0	0	0	0	0	0	0
+IDIV	U.S. Equity Cumulative Dividends Fund Series 202			0	0	0	0	0	0	0	0
+IDLV	S&P Intl Dev Low Volatility Powershares			0	0	0	0	0	0	0	0
+IDMO	S&P Intl Dev Momentum Portfolio PS			0	0	0	0	0	0	0	0
+IDN	Intellicheck Mobilisia	Technology	Computer Software: Prepackaged Software	0	-0.37	0	14982300	0	0	9.46	2.19
+IDOG	Alps International Sector Dividend			0	0	0	0	0	0	0	0
+IDU	DOW Utilities Ishares	Finance	Closed-End Fund - Equity	0	20.39	0	0	0	0	0	0
+IDV	DJ Intl Select Div Idx Ishares			0	0	0	0	0	0	0	0
+IDX	Indonesia Index ETF Vaneck			0	0	0	0	0	0	0	0
+IEC	IEC Electronics	Technology	Electrical Products	0	-0.05	0	10319290	0	0	0.46	3.3
+IEFA	Core MSCI EAFE Ishares			0	0	0	0	0	0	0	0
+IEMG	Core MSCI Emerging Mkts Ishares			0	0	0	0	0	0	0	0
+IEO	DJ US Oil & Gas Ex Index Ishares			0	0	0	0	0	0	0	0
+IEUR	Core Europe Ishares			0	0	0	0	0	0	0	0
+IEV	Europe 350 Ishares	Index	Closed-End Fund - Equity	0	0.91	0	0	0	0	0	0
+IEZ	DJ US Oil Equipment Index Ishares			0	0	0	0	0	0	0	0
+IF	Aberdeen Indonesia Fund	Finance	Closed-End Fund - Debt	0	0.96	2.42	0	0.18	0	0	0
+IFIX	DB-X Barclays Inter Corp Bh ETF			0	-0.57	0	0	0	0	0	0
+IFLY	Purefunds Drone Economy Strategy ETF			0	0	0	0	0	0	0	0
+IGC	India Globalization Capital Inc	Basic Industries	Military/Government/Technical	0	-0.073	0	27431860	0	0	32.717	1.8037
+IGE	S&P Natural Resources North Amer Ishares	Finance	Closed-End Fund - Equity	0	-13.07	0	0	0	0	0	0
+IGEB	Ishares Edge Investment Grade Enhanced Bond ETF			0	0	0	0	0	0	0	0
+IGEM	EM Inv Grade + Bb Rated USD Sb Vaneck ETF			0	0	0	0	0	0	0	0
+IGHG	Invest Grade Interest Rate Proshares			0	0	0	0	0	0	0	0
+IGIH	Db-Xt Invt Grd Bd Intr Rt Hdg			0	0	0	0	0	0	0	0
+IGM	S&P Technology North Amer Ishares	Index	Closed-End Fund - Equity	0	12.53	0	0	0	0	0	0
+IGN	S&P Tech-Multimedia Ntwk North Amer Ishares	Finance	Closed-End Fund - Equity	0	6.44	0	0	0	0	0	0
+IGRO	Ishares Intl Dividend Growth ETF			0	0	0	0	0	0	0	0
+IGV	S&P Tech-Software North Amer Ishares	Finance	Closed-End Fund - Equity	0	20.85	0	0	0	0	0	0
+IGVT	DB-X Barclays Inter Treas Bh ETF			0	0	0	0	0	0	0	0
+IGZ	Igz NYSE			0	0	0	0	0	0	0	0
+IHDG	Wisdomtree Intl Hedged Fund			0	0	0	0	0	0	0	0
+IHE	DJ US Pharmaceuticals Ishares			0	0	0	0	0	0	0	0
+IHF	DJ US Healthcare Provider Ishares			0	0	0	0	0	0	0	0
+IHI	DJ US Medical Devices Ishares			0	0	0	0	0	0	0	0
+IHT	Innsuites Hospitality Trust	Consumer Services	Real Estate Investment Trusts	2.131	0.763	1.1	9784748	0.02	0	1.274	1.949
+IHY	Intl High Yield Bond ETF Vaneck			0	0	0	0	0	0	0	0
+IJH	S&P Midcap 400 Ishares	Index	Closed-End Fund - Equity	0	19.07	0	0	0	0	0	0
+IJJ	S&P Midcap 400 Value Ishares	Index	Closed-End Fund - Equity	0	18.56	0	0	0	0	0	0
+IJK	S&P Midcap 400 Growth Ishares	Index	Closed-End Fund - Equity	0	18.33	0	0	0	0	0	0
+IJR	S&P Smallcap 600 Index Ishares	Index	Closed-End Fund - Equity	0	8.66	0	0	0	0	0	0
+IJS	S&P Smallcap 600 Value Ishares	Index	Closed-End Fund - Equity	0	19.7	0	0	0	0	0	0
+ILF	Latin America 40 Ishares	Finance	Closed-End Fund - Equity	0	4.46	0	0	0	0	0	0
+ILTB	10+ Year Government/Credit Bond Ishares			0	0	0	0	0	0	0	0
+IMH	Impac Mortgage Holdings	Consumer Services	Real Estate Investment Trusts	5.15	2.62	0	20894810	0	3.36	7.42	0.92
+IMLP	Ipath S&P MLP ETN			0	0	0	0	0	0	0	0
+IMO	Imperial Oil Ltd	Energy	Integrated oil Companies	12.19	2.62	1.66	844249500	0.51	0.92	1.23	1.27
+IMOM	Intl Quantitative Momentum ETF			0	0	0	0	0	0	0	0
+IMTB	Ishares Core 5 10 Year USD Bond ETF			0	0	0	0	0	0	0	0
+IMTM	Ishares Intl Momentum Factor ETF			0	0	0	0	0	0	0	0
+IMU.W	Immunocellular Therapeutics Warrant			0	0	0	0	0	0	0	0
+IMUC	Immunocellular Thera			0	-6.005	0	15848560	0	0	0	0
+INCO	India Consumer Egshares			0	0	0	0	0	0	0	0
+INDA	India Index MSCI Ishares			0	0	0	0	0	0	0	0
+INDF	Ishares Industrials Multifactor			0	0	0	0	0	0	0	0
+INDL	India Bull 3X Direxion			0	0	0	0	0	0	0	0
+INFU	Infusystems Holdings	Health Care	Medical/Dental Instruments	0	0.07	0	22756100	0	0	0.74	0.96
+INKM	SSGA Income Allocation ETF SPDR			0	0	0	0	0	0	0	0
+INP	India Index ETN MSCI Ipath			0	0	0	0	0	0	0	0
+INR	INR/USD ETN Vaneck			0	0	0	0	0	0	0	0
+INS	Intelligent Systems Corp	Capital Goods	Metal Fabrications	0	-0.03	0	8776923	0	0	3.42	1.81
+INTF	Ishares Intl Multifactor ETF			0	0	0	0	0	0	0	0
+INTT	Intest Corp			16.21	0.55	0	10283620	0	0	1.74	2.14
+INUV	Inuvo Inc	Consumer Services	Advertising	0	-0.139	0	28484140	0	-0.15	0.352	1.895
+INXX	India Infrastructure Egshares			0	0	0	0	0	0	0	0
+IOIL	IQ Global Oil Smallcap ETF			0	0	0	0	0	0	0	0
+IOO	S&P Global 100 Ishares			0	8.25	0	0	0	0	0	0
+IOR	Income Opportunity Realty Trust			17.53	0.53	0	4167923	0	0	0	0
+IPAC	Pacific Core Ishares			0	0	0	0	0	0	0	0
+IPAY	Purefunds ISE Mobile Payments ETF			0	0	0	0	0	0	0	0
+IPB	Merrill Lynch & Co	Finance	Finance: Consumer Services	0	0	0	0	0	0	0	0
+IPE	TIPS Barclays ETF SPDR			0	0	0	0	0	0	0	0
+IPFF	S&P Intl Preferred Stock Ishares			0	0	0	0	0	0	0	0
+IPO	Renaissance IPO ETF			0	0	0	0	0	0	0	0
+IPOS	Renaissance Capital Greenwich Fund			0	0	0	0	0	0	0	0
+IQDE	Flexshares Intl Quality Div Def Fund			0	0	0	0	0	0	0	0
+IQDF	Flexshares Intl Quality Div Fund			0	0	0	0	0	0	0	0
+IQDG	Wisdomtree Intl Quality Divd Growth Fund			0	0	0	0	0	0	0	0
+IQDY	Flexshares Intl Quality Div Dyn Fund			0	0	0	0	0	0	0	0
+IQLT	Ishares Intl Quality Factor ETF			0	0	0	0	0	0	0	0
+ISCF	Ishares Intl Smallcap Multifactor ETF			0	0	0	0	0	0	0	0
+ISDR	Issuer Direct Corp			32.5	0.52	1.19	2953846	0.2	0	4.15	4.25
+ISL	Aberdeen Israel Fund	Finance	Closed-End Fund - Foreign	0	-0.723	5.82	0	1.1	0	0	0
+ISMD	Inspire Small/Mid Cap Impact ETF			0	0	0	0	0	0	0	0
+ISR	Isoray Inc	Health Care	Medical/Dental Instruments	0	-0.112	0	55009900	0	0	5.778	2.591
+ISRA	Israel Vaneck ETF			0	0	0	0	0	0	0	0
+ISZE	Ishares Intl Size Factor ETF			0	0	0	0	0	0	0	0
+ITA	DJ US Aerospace & Defense Ishares			0	0	0	0	0	0	0	0
+ITB	DJ US Home Construction Ishares			0	1.06	0	0	0	0	0	0
+ITE	Interm-Term Treasury ETF SPDR			0	0	0	0	0	0	0	0
+ITEQ	Bluestar Ta-Bigtech Israel Technology ETF			0	0	0	0	0	0	0	0
+ITM	Interm Muni ETF Vaneck			0	0	0	0	0	0	0	0
+ITOT	S&P 1500 Ishares			0	5.24	0	0	0	0	0	0
+IVAL	Intl Quantitative Valueshares ETF			0	0	0	0	0	0	0	0
+IVE	S&P 500 Value Ishares	Index	Closed-End Fund - Equity	0	12.48	0	0	0	0	0	0
+IVLU	Ishares Intl Value Factor ETF			0	0	0	0	0	0	0	0
+IVOG	S&P Midcap 400 Growth ETF Vanguard			0	0	0	0	0	0	0	0
+IVOO	S&P Midcap 400 ETF Vanguard			0	0	0	0	0	0	0	0
+IVOP	S&P 500 VIX Inv S/T Fut ETN II Ipath			0	0	0	0	0	0	0	0
+IVOV	S&P Midcap 400 Value ETF Vanguard			0	0	0	0	0	0	0	0
+IVV	S&P 500 Ishares	Index	Closed-End Fund - Equity	0	27.12	0	0	0	0	0	0
+IVW	S&P 500 Growth Ishares	Finance	Closed-End Fund - Equity	0	14.86	0	0	0	0	0	0
+IWB	Russell 1000 Ishares	Finance	Closed-End Fund - Equity	0	13.26	0	0	0	0	0	0
+IWC	Russell Microcap Ishares			0	0	0	0	0	0	0	0
+IWD	Russell 1000 Value Ishares	Index	Closed-End Fund - Equity	0	12.86	0	0	0	0	0	0
+IWF	Russell 1000 Growth Ishares	Finance	Closed-End Fund - Equity	0	12.19	0	0	0	0	0	0
+IWL	Russell Top 200 Ishares			0	0	0	0	0	0	0	0
+IWM	Russell 2000 Ishares	Finance	Closed-End Fund - Equity	0	14.46	0	0	0	0	0	0
+IWN	Russell 2000 Value Ishares	Finance	Closed-End Fund - Equity	0	15.04	0	0	0	0	0	0
+IWO	Russell 2000 Growth Ishares	Finance	Closed-End Fund - Equity	0	14.72	0	0	0	0	0	0
+IWP	Russell Midcap Growth Ishares	Finance	Closed-End Fund - Equity	0	9.25	0	0	0	0	0	0
+IWR	Russell Midcap Ishares	Finance	Closed-End Fund - Equity	0	20.17	0	0	0	0	0	0
+IWS	Russell Midcap Value Ishares	Finance	Closed-End Fund - Equity	0	10.04	0	0	0	0	0	0
+IWV	Russell 3000 Ishares	Finance	Closed-End Fund - Equity	0	16.77	0	0	0	0	0	0
+IWX	Russell Top 200 Value Ishares			0	0	0	0	0	0	0	0
+IWY	Russell Top 200 Growth Ishares			0	0	0	0	0	0	0	0
+IXC	S&P Global Energy Ishares	Finance	Closed-End Fund - Equity	0	5.53	0	0	0	0	0	0
+IXG	S&P Global Financials Ishares	Finance	Closed-End Fund - Equity	0	0.54	0	0	0	0	0	0
+IXJ	S&P Global Healthcare Ishares	Finance	Closed-End Fund - Equity	0	6.04	0	0	0	0	0	0
+IXN	S&P Global Technology Ishares			0	20.66	0	0	0	0	0	0
+IXP	S&P Global Telecom Ishares	Finance	Closed-End Fund - Equity	0	7.99	0	0	0	0	0	0
+IYC	DJ US Consumer Services Ishares	Finance	Closed-End Fund - Equity	0	-4.47	0	0	0	0	0	0
+IYE	DJ US Energy Ishares	Finance	Closed-End Fund - Equity	0	0.18	0	0	0	0	0	0
+IYF	DJ US Financial Sector Ishares	Index	Closed-End Fund - Equity	0	-1.44	0	0	0	0	0	0
+IYG	DJ US Financial Services Ishares	Index	Closed-End Fund - Equity	0	-3.74	0	0	0	0	0	0
+IYH	DJ US Healthcare Ishares	Index	Closed-End Fund - Equity	0	-7.39	0	0	0	0	0	0
+IYJ	DJ US Industrial Ishares	Finance	Closed-End Fund - Equity	0	6.09	0	0	0	0	0	0
+IYK	DJ US Consumer Goods Ishares	Index	Closed-End Fund - Equity	0	8.26	0	0	0	0	0	0
+IYLD	Mstar Multi-Asset Income Index Ishares			0	0	0	0	0	0	0	0
+IYM	DJ US Basic Materials Ishares	Finance	Closed-End Fund - Equity	0	6.31	0	0	0	0	0	0
+IYR	DJ US Real Estate Ishares	Finance	Closed-End Fund - Equity	0	11.73	0	0	0	0	0	0
+IYT	DOW Transportations Ishares	Finance	Closed-End Fund - Equity	0	-6.59	0	0	0	0	0	0
+IYW	DJ US Technology Ishares	Index	Closed-End Fund - Equity	0	8.27	0	0	0	0	0	0
+IYY	DJ US Index Ishares	Finance	Closed-End Fund - Equity	0	3.019	0	0	0	0	0	0
+IYZ	DJ US Telecom Ishares	Index	Closed-End Fund - Equity	0	5.21	0	0	0	0	0	0
+IZRL	Ark Israel Innovative Technology ETF			0	0	0	0	0	0	0	0
+JBRI	James Biblically Responsible Investment ETF			0	0	0	0	0	0	0	0
+JDIV	Jpmorgan U.S. Dividend ETF			0	0	0	0	0	0	0	0
+JDST	Direxion Junior Gold Mine Bear 3X			0	0	0	0	0	0	0	0
+JEM	GEMS Index ETN Ipath			0	0	0	0	0	0	0	0
+JETS	US Global Jets ETF			0	0	0	0	0	0	0	0
+JHDG	Wisdomtree Japan Divd Hedged Fund			0	0	0	0	0	0	0	0
+JHMA	JH Materials Multifactor ETF			0	0	0	0	0	0	0	0
+JHMC	JH Consumer Disc Multifactor ETF			0	0	0	0	0	0	0	0
+JHMD	JH Developed Intl Multifactor ETF			0	0	0	0	0	0	0	0
+JHME	JH Energy Multifactor ETF			0	0	0	0	0	0	0	0
+JHMF	JH Financial Multifactor ETF			0	0	0	0	0	0	0	0
+JHMH	JH Healthcare Multifactor ETF			0	0	0	0	0	0	0	0
+JHMI	JH Industrials Multifactor ETF			0	0	0	0	0	0	0	0
+JHML	JH Largecap Multifactor ETF			0	0	0	0	0	0	0	0
+JHMM	JH Midcap Multifactor ETF			0	0	0	0	0	0	0	0
+JHMS	JH Consumer Staples Multifactor ETF			0	0	0	0	0	0	0	0
+JHMT	JH Technology Multifactor ETF			0	0	0	0	0	0	0	0
+JHMU	JH Utilities Multifactor ETF			0	0	0	0	0	0	0	0
+JHSC	John Hancock Multifactor Small Cap ETF			0	0	0	0	0	0	0	0
+JJA	DJ-UBS Agriculture TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJAB	Agriculture Subindex TR ETN    Ipatha Series B B			0	0	0	0	0	0	0	0
+JJC	DJ-UBS Copper TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJCB	Copper Subindex TR ETN         Ipatha Series B B			0	0	0	0	0	0	0	0
+JJE	DJ-UBS Energy TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJEB	Ipatha Series B Bloomberg Energy Subindex Total			0	0	0	0	0	0	0	0
+JJG	DJ-UBS Grains TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJGB	Grains Subindex TR ETN         Ipatha Series B B			0	0	0	0	0	0	0	0
+JJM	DJ-UBS Ind Metals TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJMB	Industrial Metals Subindex TR ETN   Ipatha Serie			0	0	0	0	0	0	0	0
+JJN	DJ-UBS Nickel TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJP	DJ-UBS Prec Metals TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJPB	Ipatha Series B Bloomberg Precious Metals Subind			0	0	0	0	0	0	0	0
+JJS	DJ-UBS Softs TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJSB	Ipatha Series B Bloomberg Softs Subindex Total R			0	0	0	0	0	0	0	0
+JJT	DJ-UBS Tin TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJU	DJ-UBS Aluminum TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JJUB	Ipatha Series B Bloomberg Aluminum Subindex Tota			0	0	0	0	0	0	0	0
+JKD	Mstar Large Core Index Ishares			0	8.29	0	0	0	0	0	0
+JKE	Mstar Large Growth Index Ishares			0	-3.79	0	0	0	0	0	0
+JKF	Mstar Large Value Index Ishares			0	6.27	0	0	0	0	0	0
+JKG	Mstar Mid Core Index Ishares			0	3.45	0	0	0	0	0	0
+JKH	Mstar Mid Growth Index Ishares			0	-1.332	0	0	0	0	0	0
+JKJ	Mstar Small Core Index Ishares			0	8.12	0	0	0	0	0	0
+JKK	Mstar Small Growth Index Ishares			0	0.268	0	0	0	0	0	0
+JKL	Mstar Small Value Index Ishares			0	9.14	0	0	0	0	0	0
+JMIN	Jpmorgan U.S. Minimum Volatility ETF			0	0	0	0	0	0	0	0
+JMOM	Jpmorgan U.S. Momentum Factor ETF			0	0	0	0	0	0	0	0
+JNK	High Yield Bond ETF SPDR			0	0	0	0	0	0	0	0
+JNUG	Direxion Junior Gold Mine Bull 3X			0	0	0	0	0	0	0	0
+JO	DJ-UBS Coffee TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+JOB	General Employment Enterprises	Technology	Diversified Commercial Services	0	-0.53	0	9876289	0	0	0.27	1.46
+JPED	Jpmorgan Event Driven ETF			0	0	0	0	0	0	0	0
+JPEH	JPM Dvsd Rtns Europe Currency Hedged			0	0	0	0	0	0	0	0
+JPEM	JPM Dvsd Rtns EM ETF			0	0	0	0	0	0	0	0
+JPEU	JPM Dvsd Rtns Europe Equity ETF			0	0	0	0	0	0	0	0
+JPGB	JPM Global Bond Opportunities ETF			0	0	0	0	0	0	0	0
+JPGE	JPM Dvsd Rtns Global Equity			0	0	0	0	0	0	0	0
+JPHF	JPM Dvsd Alternatives ETF			0	0	0	0	0	0	0	0
+JPHY	JPM Disp Hi Yld ETF			0	0	0	0	0	0	0	0
+JPIH	JPM Dvsd Rtns Intl Currency Hedged			0	0	0	0	0	0	0	0
+JPIN	JPM Dvsd Rtns Intl Equity ETF			0	0	0	0	0	0	0	0
+JPLS	Jpmorgan Long/Short ETF			0	0	0	0	0	0	0	0
+JPMB	Jpmorgan USD Emerging Markets Sovereign Bond ETF			0	0	0	0	0	0	0	0
+JPME	JPM Dvsd Rtns US Midcap ETF			0	0	0	0	0	0	0	0
+JPMF	Jpmorgan Managed Futures Strategy ETF			0	0	0	0	0	0	0	0
+JPMV	Japan Minimum Vola Ishares ETF			0	0	0	0	0	0	0	0
+JPN	Db-Xt Jpn Jpx Nikkei 400 Eq			0	0	0	0	0	0	0	0
+JPNL	Direxion Japan Bull 3X			0	0	0	0	0	0	0	0
+JPSE	JPM Dvsd Rtns US Smallcap Equity ETF			0	0	0	0	0	0	0	0
+JPST	J.P. Morgan Exchange-Traded Fund Trust			0	0.826	0	0	0	0	0	0
+JPUS	JPM Dvsd Rtns US Equity ETF			0	0	0	0	0	0	0	0
+JPXN	Ishares Jpx-Nikkei 400 ETF			0	10.811	0	0	0	0	0	0
+JQUA	Jpmorgan U.S. Quality Factor ETF			0	0	0	0	0	0	0	0
+JRJR	Cvsl Inc			0	-0.601	0	39370080	0	0	0.0608	0
+JVAL	Jpmorgan U.S. Value Factor ETF			0	0	0	0	0	0	0	0
+JXI	S&P Global Utilities Ishares			0	0	0	0	0	0	0	0
+JYN	JPY/USD Exchange Rate ETN Ipath			0	0	0	0	0	0	0	0
+KARS	Kraneshares Electric Vehicles and Future Mobilit			0	0	0	0	0	0	0	0
+KBA	Kranes Bosera MSCI China A			0	0	0	0	0	0	0	0
+KBE	S&P Bank ETF SPDR			0	0	0	0	0	0	0	0
+KCE	S&P Capital Markets ETF SPDR			0	1.77	0	0	0	0	0	0
+KCNY	Kranes E Fund China Comm Paper ETF			0	0	0	0	0	0	0	0
+KEMP	Kranes FTSE EM ETF			0	0	0	0	0	0	0	0
+KEMQ	Kraneshares Emerging Markets Consumer Technology			0	0	0	0	0	0	0	0
+KFYP	Kranes New China ETF			0	0	0	0	0	0	0	0
+KGRN	Kraneshares MSCI China Environment Index ETF			0	0	0	0	0	0	0	0
+KIE	S&P Insurance ETF SPDR			0	0	0	0	0	0	0	0
+KIQ	Kelso Technologies I			0	-0.057	0	46911730	0	0	2.7221	1.7484
+KLDW	Exchange Listed Funds Trust Gav			0	0	0	0	0	0	0	0
+KLDX	Klondex Mines Ltd			73.57	0.04	0	177579300	0	0	2.3	1.93
+KLX	Steel Indicitive Index			0	0	0	0	0	0	0	0
+KNOW	All Cap Insider Sentiment Direxion			0	0	0	0	0	0	0	0
+KOIN	Innovation Shares Nextgen Protocol ETF			0	0	0	0	0	0	0	0
+KOL	Coal ETF Vaneck			0	0	0	0	0	0	0	0
+KOLD	Ultrashort Natural Gas Proshares			0	0	0	0	0	0	0	0
+KOR	Advisorshares Kim Korea Equity ETF			0	-3.71	0	0	0	0	0	0
+KORP	American Century Dvfd Corp Bond ETF			0	0	0	0	0	0	0	0
+KORU	Direxion South Korea Bull 3X			0	0	0	0	0	0	0	0
+KRE	S&P Regional Banking ETF SPDR			0	0	0	0	0	0	0	0
+KROO	IQ Australia Smallcap ETF			0	0	0	0	0	0	0	0
+KSA	Ishares Saudi Arabia Capped ETF			0	0	0	0	0	0	0	0
+KURE	Kraneshares MSCI All China Health Care Index ETF			0	0	0	0	0	0	0	0
+KWEB	Kranes CSI China ETF			0	0	0	0	0	0	0	0
+KXI	S&P Global Cons Staples Ishares			0	0	0	0	0	0	0	0
+LABD	Direxion S&P Biotech Bear 3X			0	0	0	0	0	0	0	0
+LABU	Direxion S&P Biotech Bull 3X			0	0	0	0	0	0	0	0
+LAQ	Latin America Equity Fund	Finance	Closed-End Fund - Foreign	0	5.8	1.3	0	0.3	0	0	0
+LBDC	Etracs Mt Pay 2X Levd Wells Bdc ETN Series B			0	0	0	0	0	0	0	0
+LBJ	Latin America Bull 3X Direxion			0	0	0	0	0	0	0	0
+LBY	Libbey Inc	Capital Goods	Industrial Machinery/Components	0	-0.31	4.82	22013580	0.47	3.25	0.28	1.46
+LD	Ipath Lead Subindex TR ETN			0	0	0	0	0	0	0	0
+LDRS	Innovator Ibd ETF Leaders ETF			0	0	0	0	0	0	0	0
+LDUR	Pimco Low Duration ETF			0	0	0	0	0	0	0	0
+LEAD	Reality Divcon Leaders Dividend ETF			0	0	0	0	0	0	0	0
+LEDD	Lead Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+LEMB	Emrg Mkts Local Cur Bond Ishares			0	0	0	0	0	0	0	0
+LEU	Centrus Energy Corp			0	-7.4	0	9038889	0	0	0.16	0
+LEVB	Level Brands Inc			0	0	0	0	0	0	0	0
+LFEQ	Vaneck Vectors Ndr Cmg Long/Flat Allocation ETF			0	0	0	0	0	0	0	0
+LGL	LGL Group	Capital Goods	Industrial Machinery/Components	41.64	0.15	0	2674342	0	0	0.71	1.13
+LGLV	SSGA US Large Cap Low Vol Index SPDR			0	0	0	0	0	0	0	0
+LIQT	Liqtech International Inc			0	-0.399	0	44237290	0	-0.16	1.019	1.905
+LIT	G-X Lithium ETF			0	0	0	0	0	0	0	0
+LLEX	Lilis Energy Inc			0	-2.08	0	50818900	0	0	22.14	34.01
+LLQD	Ishares 10 Year Investment Grade Corporate Bond			0	0	0	0	0	0	0	0
+LLSC	Direxion Smallcap 1.25X			0	0	0	0	0	0	0	0
+LLSP	Direxion S&P 500 Bull 1.25X			0	0	0	0	0	0	0	0
+LMLP	Etracs Mt Pay 2X MLP Ex-Energy ETN			0	0.12	0	0	0	0	0	0
+LNG	Cheniere Energy	Energy	Oil & Gas Production	0	-0.96	0	232532800	0	109.04	3	0
+LODE	Comstock Mining Inc			0	-0.063	0	210000000	0	0	17.037	2.284
+LOGO	Global X Iconic U.S. Brands ETF			0	0	0	0	0	0	0	0
+LOV	Spark Networks Plc	Miscellaneous	Business Services	0	-0.27	0	32177570	0	-0.3	1.15	1.92
+LOWC	ACWI Low Carbon Target MSCI ETF SPDR			0	0	0	0	0	0	0	0
+LQD	Iboxx $ Invest Grade Corp Bond Ishares	Finance	Closed-End Fund - Equity	0	10.78	0	0	0	0	0	0
+LQDH	Ishares Int-Rate Hedged Corp Bond			0	0	0	0	0	0	0	0
+LRET	Etracs Mt Pay 2X MSCI US REIT Index ETN			0	0	0	0	0	0	0	0
+LRGF	Ishares US Multifactor ETF			0	0	0	0	0	0	0	0
+LSST	Natixis Loomis Sayles Short Duration Income ETF			0	0	0	0	0	0	0	0
+LSTK	Livestock Pure Beta Ipath ETN			0	0	0	0	0	0	0	0
+LSVX	Velocity VIX Variable Long Short			0	0	0	0	0	0	0	0
+LTL	Ultra Telecommunications Proshares			0	0	0	0	0	0	0	0
+LTPZ	15+ Year US TIPS Index ETF Pimco			0	0	0	0	0	0	0	0
+LTS	Ladenburg Thalmann Financial Inc	Finance	Investment Bankers/Brokers/Service	0	-0.22	1.35	196350200	0.04	-1.48	0.49	1.59
+LTS-A	Ladenburg Thalmann Financial Se			0	0	0	0	0	0	0	0
+LTSL	Ladenburg Thalmann Financial Services Inc 6.50%			0	0	0	0	0	0	0	0
+LVHB	Elkhorn Lunt Low Vol/High Beta Tactical ETF			0	0	0	0	0	0	0	0
+LVHE	Legg EM Low Vol Hi Div ETF			0	0	0	0	0	0	0	0
+LVHI	Legg Intl Low Vol High Div ETF			0	0	0	0	0	0	0	0
+LVIN	Multifactor Low Volatility International Equity			0	0	0	0	0	0	0	0
+LVL	S&P Global Divd Opps Guggenheim			0	0	0	0	0	0	0	0
+LVUS	Multifactor Low Volatility US Equity ETF			0	0	0	0	0	0	0	0
+MAB	Eaton Vance Massachusetts Muni Bond	Finance	Closed-End Fund - Debt	0	-0.25	3.73	0	0.52	0	0	0
+MAG	MAG Silver Corp			0	-0.67	0	80795900	0	0	0	4.86
+MAGA	Point Bridge Gop Stock Tracker ETF			0	0	0	0	0	0	0	0
+MATF	Ishares Materials Multifactor			0	0	0	0	0	0	0	0
+MATH	Meidell Tactical Advantage ETF			0	-0.19	0	0	0	0	0	0
+MBG	Mortgage Backed Bond ETF SPDR			0	0	0	0	0	0	0	0
+MCF	Contango Oil & Gas Company	Energy	Oil & Gas Production	0	-1.43	0	25608370	0	0	1.25	0.43
+MCRO	IQ Hedge Macro Tracker ETF			0	0	0	0	0	0	0	0
+MDY	S&P Midcap 400 SPDR	Finance	Closed-End Fund - Equity	0	35.15	0	0	0	0	0	0
+MDYG	S&P Midcap Growth ETF SPDR			0	0	0	0	0	0	0	0
+MDYV	S&P Midcap Value ETF SPDR			0	0	0	0	0	0	0	0
+MEAR	Ishares Short Maturity Municipal ETF			0	0	0	0	0	0	0	0
+MEXX	Direxion Daily MSCI Mexico Bull 3X Shares			0	0	0	0	0	0	0	0
+MFDX	Pimco RAFI Dynamic Multi-Factor Internation			0	0	0	0	0	0	0	0
+MFEM	Pimco RAFI Dynamic Multi-Factor Emerging Ma			0	0	0	0	0	0	0	0
+MFUS	Pimco RAFI Dynamic Multi-Factor U.S. Equity			0	0	0	0	0	0	0	0
+MGC	Megacap 300 Index ETF Vanguard			0	0	0	0	0	0	0	0
+MGK	Megacap 300 Growth Index ETF Vanguard			0	0	0	0	0	0	0	0
+MGV	Megacap 300 Value Index ETF Vanguard			0	0	0	0	0	0	0	0
+MHE	Massachusetts Health and Education Tax-Exempt TR	Finance	Closed-End Fund - Debt	0	0.084	4.54	0	0.64	0	0	0
+MHH	Mastech Holdings Inc	Consumer Services	Professional Services	22.59	0.55	0	5448304	0	0	0.51	2.83
+MICR	Micron Solutions Inc			0	-0.43	0	2819445	0	0	0.5	1.84
+MIDU	Direxion Mid Cap Bull 3X			0	0	0	0	0	0	0	0
+MIDZ	Midcap Bear 3X Direxion			0	0	0	0	0	0	0	0
+MINC	Advisorshares Newfleet Multi-Se			0	0	0	0	0	0	0	0
+MINT	Enhanced Short-Maturity Strgy ETF Pimco			0	0	0	0	0	0	0	0
+MIW	Eaton Vance Michigan Muni Bond Fund	Finance	Closed-End Fund - Debt	0	0.06	4.12	0	0.57	0	0	0
+MJ	Etfmg Alternative Harvest ETF			0	0	0	0	0	0	0	0
+MJCO	Majesco			0	-0.05	0	36526400	0	0	1.75	4.55
+MJX	Etfmg Alternative Harvest ETF			0	0	0	0	0	0	0	0
+MLN	Long Municipal Index ETF Vaneck			0	0	0	0	0	0	0	0
+MLPA	G-X MLP ETF			0	0	0	0	0	0	0	0
+MLPB	Etracs Alerian MLP Infrastruc ETN			0	0	0	0	0	0	0	0
+MLPC	C-Tracks MLP Miller/Howard Perf Fundamental			0	0	0	0	0	0	0	0
+MLPE	C-Tracks MLP Miller/Howard Fundamental Series B			0	0	0	0	0	0	0	0
+MLPG	Alerian Natural Gas MLP ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+MLPI	Alerian MLP Infrastrctr ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+MLPO	CS S&P MLP Index ETN			0	0	0	0	0	0	0	0
+MLPQ	Etracs Mt 2X Alerian MLP Infra ETN Series B			0	0	0	0	0	0	0	0
+MLPS	Alerian MLP Short Infr ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+MLPX	G-X MLP & Energy Infrasture ETF			0	0	0	0	0	0	0	0
+MLPY	Cushing MLP Hi Income ETN Morgan Stanley			0	0.684	0	0	0	0	0	0
+MLPZ	Etracs Mt 2X S&P MLP ETN Series B			0	0	0	0	0	0	0	0
+MLQD	Ishares 5-10 Year Investment Grade Corporate Bon			0	0	0	0	0	0	0	0
+MLSS	Milestone Scientific			0	-0.18	0	32991300	0	0	3.34	4.68
+MLTI	CS X-Links Multi-Asset High Income ETN			0	0	0	0	0	0	0	0
+MMIN	IQ Mackay Shields Municipal Insured ETF ETF			0	0	0	0	0	0	0	0
+MMIT	IQ Mackay Shields Municipal Intermediate ETF			0	0	0	0	0	0	0	0
+MMTM	S&P 1500 Momentum Tilt ETF SPDR			0	0.11	0	0	0	0	0	0
+MMV	Eaton Vance Massachusetts Muni Income Trust	Finance	Closed-End Fund - Debt	0	0	3.88	0	0.53	0	0	0
+MNA	IQ Merger Arbitrage ETF			0	0	0	0	0	0	0	0
+MNI	Mcclatchy Company			0	-48.49	0	7622000	0	-0.23	0.08	0
+MOAT	Wide Moat Vaneck ETF			0	0	0	0	0	0	0	0
+MOC	Command Security Corp	Consumer Services	Diversified Commercial Services	0	-0.25	0	9846645	0	0	0.18	1.92
+MOM	US Momentum Mkt Neutral ETF Quantshares			0	0	0	0	0	0	0	0
+MOO	Agribusiness ETF Vaneck			0	6.05	0	0	0	0	0	0
+MORL	Etracs Mt Pay 2X Mortgage REIT ETN			0	0	0	0	0	0	0	0
+MORT	Mortgage REIT Vaneck ETF			0	0	0	0	0	0	0	0
+MOTI	Morningstar Intl Moat Vaneck ETF			0	0	0	0	0	0	0	0
+MRGR	Merger ETF Proshares			0	0.567	0	0	0	0	0	0
+MRRL	Etracs Mt Pay 2X Mortgage REIT ETN Series B			0	0	0	0	0	0	0	0
+MSN	Emerson Radio Corp	Consumer Non-Durables	Consumer Electronics/Appliances	0	-0.04	0	26993240	0	0	2.22	0.74
+MTNB	Matinas Biopharma Hl			0	-0.46	0	91972980	0	0	1705.03	10.88
+MTUM	USA Momentum Factor Ishares ETF			0	0	0	0	0	0	0	0
+MUB	S&P National Amt-Free Muni Bd Ishares			0	0	0	0	0	0	0	0
+MUNI	Interm Muni Bond Strgy ETF Pimco			0	0	0	0	0	0	0	0
+MVF	Munivest Fund	Finance	Closed-End Fund - Debt	0	0.05	5.67	0	0.55	0	0	0
+MVIN	Natixis Seeyond Intl Min Vol ETF			0	0	0	0	0	0	0	0
+MVV	Ultra Midcap 400 Proshares			0	0	0	0	0	0	0	0
+MXC	Mexco Energy Corp	Energy	Oil & Gas Production	0	-0.35	0	2036753	0	0	3.4254	1.0167
+MXDU	Nationwide Max Diverse U.S. Core Equity ETF			0	0	0	0	0	0	0	0
+MXI	S&P Global Materials Ishares			0	0	0	0	0	0	0	0
+MYO	Myomo Inc			0	-8.54	0	6087663	0	0	14.12	4.12
+MYY	Midcap 400 Short Proshares			0	0	0	0	0	0	0	0
+MZA	Muniyield Arizona Fund	Finance	Closed-End Fund - Debt	0	0.026	4.95	0	0.74	0	0	0
+MZZ	Ultrashort Midcap400 Proshares			0	0	0	0	0	0	0	0
+NAIL	Direxion Homebuild & Suppliers Bull 3X			0	0	0	0	0	0	0	0
+NAK	Northern Dynasty Minerals	Basic Industries	Precious Metals	0	-0.14	0	303939700	0	0	0	4.22
+NANR	S&P North American Natural SPDR			0	0	0	0	0	0	0	0
+NASH	Nashville Area ETF			0	0	0	0	0	0	0	0
+NAVB	Navidea Biopharmaceuticals Inc			0.97	0.48	0	162000000	0	0	3.31	4.17
+NBH	Neuberger Berman Intermediate Fund Inc	Finance	Closed-End Fund - Debt	0	1.12	5.28	0	0.81	0	0	0
+NBO	Neuberger Berman New York Intermediate Fund Inc	Finance	Closed-End Fund - Debt	0	0.87	4.11	0	0.52	0	0	0
+NBW	Neuberger Berman California Intermediate Fund In	Finance	Closed-End Fund - Debt	0	1.11	4.32	0	0.61	0	0	0
+NBY	Novabay Pharmaceuticals	Consumer Durables	Major Pharmaceuticals	0	-0.79	0	15308700	0	0	4.39	20.95
+NEAR	Maturity Bond Short Ishares			0	0	0	0	0	0	0	0
+NEN	New England Realty Associates Limited Partnershi	Consumer Services	Building operators	1.23	57.67	1.69	121042	1.2	0	0.16	0
+NES	Nuverra Environmental Solutions			0	-1.09	0	150892900	0	0	11.67	0
+NFA	Claymore Sabrient Insider Indicitive Index			0	0	0	0	0	0	0	0
+NFLT	Virtus Multi-Sector Uncstd Bond			0	0	0	0	0	0	0	0
+NFO	Insider Sentiment Guggenheim			0	0	0	0	0	0	0	0
+NFRA	Flexshares Global Broad Infr Fund			0	0	0	0	0	0	0	0
+NG	Novagold Resources Inc	Basic Industries	Precious Metals	0	-0.12	0	321867300	0	0	0	4.35
+NGD	New Gold Inc	Basic Industries	Precious Metals	35.77	0.1	0	576368900	0	-2	2.77	0.85
+NGE	G-X Nigeria Index ETF			0	0	0	0	0	0	0	0
+NHC	National Healthcare Corp	Health Care	Hospital/Nursing Management	20.37	3.18	2.96	15194940	1.92	0	1.04	1.43
+NHS	Neuberger Berman High Yield Strategies	Finance	Closed-End Fund - Debt	0	1.4	7.28	0	0.87	0	0	0
+NIB	DJ-UBS Cocoa TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+NINI	Nickel Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+NLR	Uranium+Nuclear Energy Vaneck ETF			0	0	0	0	0	0	0	0
+NML	Neuberger Berman MLP Income Fun			0	0	7.17	0	0.66	0	0	0
+NNVC	Nanoviricides Inc			0	-0.17	0	63301720	0	0	0	3.04
+NOBL	S&P 500 Aristocrats Proshares			0	0	0	0	0	0	0	0
+NOG	Northern Oil and Gas	Energy	Oil & Gas Production	0	-0.44	0	61712120	0	13.2	0.24	0
+NORW	G-X Norway ETF			0	0	0	0	0	0	0	0
+NRO	Neuberger Berman Real Estate Securities	Finance	Closed-End Fund - Debt	0	0.6	10.11	0	0.54	0	0	0
+NSP.W	Inspiremd Inc Warrant			0	0	0	0	0	0	0	0
+NSP.X	Inspiremd Inc Series B Warrants			0	0	0	0	0	0	0	0
+NSPR	Inspiremd Inc			0	-2.45	0	7450000	0	0	1.52	0.53
+NSU	Nevsun Resources Ltd	Basic Industries	Precious Metals	0	-0.17	1.96	302086900	0.04	12.36	3.13	0.7
+NTIP	Network-1 Sec Solu			7.06	0.57	2.56	24160490	0.1	0	1.86	1.68
+NTN	Ntn Buzztime	Consumer Services	Broadcasting	0	-0.592	0	2503616	0	-0.64	0.6637	2.4429
+NUAG	Nushares US Aggregate Bond ETF			0	0	0	0	0	0	0	0
+NUBD	Nushares ESG U.S. Aggregate Bond ETF			0	0	0	0	0	0	0	0
+NUDM	Nushares ESG Intl Developed Markets Equity ETF			0	0	0	0	0	0	0	0
+NUEM	Nushares ESG Emerging Markets Equity ETF			0	0	0	0	0	0	0	0
+NUGT	Gold Miners Bull 3X Direxion ETF			0	0	0	0	0	0	0	0
+NULG	Nushares ESG Largecap Growth ETF			0	0	0	0	0	0	0	0
+NULV	Nushares ESG Largecap Value ETF			0	0	0	0	0	0	0	0
+NUMG	Nushares ESG Midcap Growth ETF			0	0	0	0	0	0	0	0
+NUMV	Nushares ESG Midcap Value ETF			0	0	0	0	0	0	0	0
+NURE	Nushares Short-Term REIT ETF			0	0	0	0	0	0	0	0
+NUSA	1-5 Year U.S. Aggregate Nushares			0	0	0	0	0	0	0	0
+NUSC	Nushares ESG Smallcap ETF			0	0	0	0	0	0	0	0
+NXE	Nexgen Energy Ltd	Finance	Closed-End Fund - Debt	0	-0.08	0	309363400	0	0	0	8.1081
+NYF	S&P NY Municipal Bond Ishares			0	0	0	0	0	0	0	0
+NYH	Eaton Vance New York Muni Bond Fund II	Finance	Closed-End Fund - Debt	0	-0.25	4.37	0	0.53	0	0	0
+OASI	O's Asia Pacific Qlty Divd ETF			0	0	0	0	0	0	0	0
+OBOR	Kraneshares MSCI One Belt One Road Index ETF			0	0	0	0	0	0	0	0
+OCIO	ETF Series Solutions Trust ETF			0	0	0	0	0	0	0	0
+OCX	Oncocyte Corp			0	-0.5	0	31336670	0	0	0	31.94
+OEF	S&P 100 Ishares			0	13.24	0	0	0	0	0	0
+OEUR	O's Europe Qlty Divd ETF			0	0	0	0	0	0	0	0
+OEW	Guggenheim ETF Trust ETF			0	0	0	0	0	0	0	0
+OGCP	Empire State Realty Op LP Se			0	0.39	0	9326044	0	0	0	0
+OGEN	Oragenics Inc			0	-0.159	0	49261350	0	0	0	0
+OIH	Oil Services Vaneck ETF			0	0	0	0	0	0	0	0
+OIIL	CS X-Links WTI Crude Oil Index ETN			0	0	0	0	0	0	0	0
+OIL	S&P GSCI Crude Oil TR ETN Ipath			0	0	0	0	0	0	0	0
+OILB	S&P GSCI Crude Oil TR Ipath B ETN			0	0	0	0	0	0	0	0
+OILD	Ultrapro Short Crude Oil Proshares			0	0	0	0	0	0	0	0
+OILK	Crude Oil Strategy Proshares			0	0	0	0	0	0	0	0
+OILU	Ultrapro Crude Oil Proshares			0	0	0	0	0	0	0	0
+OILX	Etracs S&P GSCI Crude Oil TR ETN			0	0	0	0	0	0	0	0
+OLEM	Crude Oil Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+OLO	DB Crude Oil ETN Powershares			0	0	0	0	0	0	0	0
+OMFL	Oppenheimer Rus 1000 Dynamic Multifactor ETF			0	0	0	0	0	0	0	0
+OMFS	Oppenheimer Rus 2000 Dynamic Multifactor ETF			0	0	0	0	0	0	0	0
+OMOM	Oppenheimer Rus 1000 Momentum Factor ETF			0	0	0	0	0	0	0	0
+ONEO	Russell 1000 Momentum Focus ETF SPDR			0	0	0	0	0	0	0	0
+ONEV	Russell 1000 Low Vol ETF SPDR			0	0	0	0	0	0	0	0
+ONEY	Russell 1000 Yield Focus ETF SPDR			0	0	0	0	0	0	0	0
+ONG	Energy Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+ONP	Orient Paper	Consumer Durables	Containers/Packaging	2.4481	0.36	0	21445590	0	0	0.1651	0.108
+ONTL	O's Russell Intl Qlty Divd ETF			0	0	0	0	0	0	0	0
+OQAL	Oppenheimer Rus 1000 Quality Factor ETF			0	0	0	0	0	0	0	0
+ORM	Owens Realty Mortgage Inc			6.7	2.68	2.23	10203120	0.4	0	11.77	0.81
+OSIZ	Oppenheimer Rus 1000 Size Factor ETF			0	0	0	0	0	0	0	0
+OUNZ	Gold Shares Vaneck			0	0	0	0	0	0	0	0
+OUSA	O's U.S. Qlty Divd ETF			0	0	0	0	0	0	0	0
+OUSM	O's Russell Smallcap Qlty Divd ETF			0	0	0	0	0	0	0	0
+OVLC	Guggenheim US Largecap Optimized ETF			0	0	0	0	0	0	0	0
+OVLU	Oppenheimer Rus 1000 Value Factor ETF			0	0	0	0	0	0	0	0
+OVOL	Oppenheimer Rus 1000 Low Volatility Factor ETF			0	0	0	0	0	0	0	0
+OYLD	Oppenheimer Rus 1000 Yield Factor ETF			0	0	0	0	0	0	0	0
+PAF	FTSE RAFI Asia Pacific Ex-Jp Powershares			0	0	0	0	0	0	0	0
+PAK	G-X MSCI Pakistan ETF			0	0	0	0	0	0	0	0
+PALL	Physical Palladium			0	0	0	0	0	0	0	0
+PARR	Par Petroleum Corp			46.32	0.45	0	45801930	0	0	0.42	2.3
+PAVE	G-X US Infr Development ETF			0	0	0	0	0	0	0	0
+PBD	Global Clean Energy Powershares			0	0	0	0	0	0	0	0
+PBDM	PS FTSE Developed Ex-North America Portfolio			0	0	0	0	0	0	0	0
+PBE	Dynamic Biotech & Genome Powershares			0	-15.73	0	0	0	0	0	0
+PBEE	PS FTSE Emerging Markets Portfolio			0	0	0	0	0	0	0	0
+PBJ	Dynamic Food & Beverage Powershares			0	1.15	0	0	0	0	0	0
+PBND	Powershares Exchange-Traded Fund Trust II			0	0	0	0	0	0	0	0
+PBP	S&P 500 Buywrite Powershares			0	0	0	0	0	0	0	0
+PBS	Dynamic Media Powershares			0	-2.97	0	0	0	0	0	0
+PBSM	PS MSCI USA Small Cap Portfolio			0	0	0	0	0	0	0	0
+PBTP	PS 0-5 Yr US TIPS Portfolio			0	0	0	0	0	0	0	0
+PBUS	PS MSCI USA Portfolio			0	0	0	0	0	0	0	0
+PBW	Wilderhill Clean Energy Powershares			0	-0.72	0	0	0	0	0	0
+PCEF	CEF Income Composite Powershares			0	0	0	0	0	0	0	0
+PCG-A	Pacific Gas El 6.00			0	0	0	0	0	0	0	0
+PCG-B	Pacific Gas El 5.50			0	0	0	0	0	0	0	0
+PCG-C	Pacific Gas El 5.00			0	0	0	0	0	0	0	0
+PCG-D	Pacific Gas El 5.00			0	0	0	0	0	0	0	0
+PCG-E	Pacific Gas El 5.00			0	0	0	0	0	0	0	0
+PCG-G	Pacific Gas El 4.80			0	0	0	0	0	0	0	0
+PCG-H	Pacific Gas El 4.50			0	0	0	0	0	0	0	0
+PCG-I	Pacific Gas El 4.36			0	0	0	0	0	0	0	0
+PCY	Emrg Mkts Sovereign Debt Powershares			0	0	0	0	0	0	0	0
+PDN	FTSE RAFI Dev Mkts Ex-US S/M Powershares			0	0	0	0	0	0	0	0
+PED	Pedevco Corp	Basic Materials	Oil & Gas Drilling & Exploration	0	-3.42	0	6085715	0	0	0.6	0
+PEJ	Dynamic Leisure & Entertain Powershares			0	-5.973	0	0	0	0	0	0
+PEK	China ETF Vaneck			0	0	0	0	0	0	0	0
+PEX	Global Listed Private Proshares	Finance	Diversified Investments	0	0	0	0	0	0	0	0
+PFFD	Global X U.S. Preferred ETF			0	0	0	0	0	0	0	0
+PFFR	Infracap REIT Preferred ETF			0	0	0	0	0	0	0	0
+PFIG	Fundamental Inv Gr Corp Bond Powershares			0	0	0	0	0	0	0	0
+PFNX	Pfenex Inc			45.32	0.06	0	23526690	0	-0.03	1.08	1.09
+PFXF	Preferred Securities Vaneck ETF			0	0	0	0	0	0	0	0
+PGAL	G-X FTSE Portugal 20 ETF			0	0	0	0	0	0	0	0
+PGD	Asian & Gulf Currency Reval ETN Ipath			0	0	0	0	0	0	0	0
+PGF	Financial Preferred Powershares			0	0	0	0	0	0	0	0
+PGHY	Global Short Term Hi Yld PS			0	0	0	0	0	0	0	0
+PGM	DJ-UBS Platinum TR Sub-Idx ETN Ipath			0	0	0	0	0	0	0	0
+PGX	Preferred Portfolio Powershares			0	0	0	0	0	0	0	0
+PHB	Fundamental High Yld Corp Bond Powershares			0	0	0	0	0	0	0	0
+PHDG	S&P 500 Downside Hedged PS			0	0	0	0	0	0	0	0
+PHYS	Sprott Physical Gold Trust			0	0	0	0	0	0	0	0
+PICB	Intl Corporate Bond Powershares			0	0	0	0	0	0	0	0
+PICK	Global Sel Metals & Mining Prd MSCI Ishares			0	0	0	0	0	0	0	0
+PILL	Direxion Daily Pharmaceutical & Medical Bull 3X			0	0	0	0	0	0	0	0
+PIN	India Powershares			0	0	0	0	0	0	0	0
+PJP	Dynamic Pharmaceuticals Powershares			0	-12.05	0	0	0	0	0	0
+PKB	Dynamic Building & Construct Powershares			0	-0.327	0	0	0	0	0	0
+PLG	Platinum Group Metals Ltd	Basic Industries	Precious Metals	0	-2.322	0	148465400	0	0	0	0.2354
+PLM	Polymet Mining	Basic Industries	Precious Metals	0	-0.036	0	319049100	0	-1.12	0	1.0565
+PLND	Poland Vaneck ETF			0	0	0	0	0	0	0	0
+PLTM	Graniteshares Platinum Shares ETF			0	0	0	0	0	0	0	0
+PLX	Protalix Biotherapeutics	Health Care	Biotechnology: Biological Products (No Diagnostic Substances)	0	-0.599	0	133356600	0	-0.16	6.065	0
+PLY-A	Plymouth Industrial REIT Inc Cum Red Pfd Ser A			0	0	0	0	0	0	0	0
+PLYM	Plymouth Industrial REIT Inc			0	-27.29	8.16	3811887	1.5	0	3.47	5.9
+PMR	Dynamic Retail Powershares			0	-2.78	0	0	0	0	0	0
+PPA	Aerospace & Defense Powershares			0	3.66	0	0	0	0	0	0
+PPLC	Portfolio S&P 500 ETF			0	0	0	0	0	0	0	0
+PPLN	Cushing 30 MLP Index Etns Due June 15 2037			0	0	0	0	0	0	0	0
+PPLT	Physical Platinum			0	0	0	0	0	0	0	0
+PPSC	Portfolio S&P Small Cap			0	0	0	0	0	0	0	0
+PRB	Pre-Refunded Muni ETF Vaneck	Basic Materials	Oil & Gas Drilling & Exploration	0	-0.782	0	0	0	0	0	0
+PREF	Principal Spectrum Preferred Securities Active E			0	0	0	0	0	0	0	0
+PRF	FTSE RAFI US 1000 Powershares			0	0	0	0	0	0	0	0
+PRID	Insightshares Lgbt Employment Equality ETF			0	0	0	0	0	0	0	0
+PRK	Park National Corp	Finance	Major Banks	19.88	5.63	3.37	15278770	3.76	4.95	5.3	2.27
+PRME	Heitman Global Prime Real Estate ETF FT			0	0	0	0	0	0	0	0
+PRNT	3D Printing ETF			0	0	0	0	0	0	0	0
+PSI	Dynamic Semiconductors Powershares	Telecommunications - Equipment		0	3.78	0	0	0	0	0	0
+PSJ	Dynamic Software Powershares			0	0.42	0	0	0	0	0	0
+PSK	Wells Fargo Preferred Stock SPDR			0	0	0	0	0	0	0	0
+PSLV	Sprott Physical Silver Trust ETV			0	0	0	0	0	0	0	0
+PSMB	Balanced Multi-Asset Allocation PS			0	0	0	0	0	0	0	0
+PSMC	Conservative Multi-Asset Allocation PS			0	0	0	0	0	0	0	0
+PSMG	Growth Multi-Asset Allocation Portfolio PS			0	0	0	0	0	0	0	0
+PSMM	Moderately Conservative Multi-Asset PS			0	0	0	0	0	0	0	0
+PSP	Global Listed Private Eq Powershares			0	0	0	0	0	0	0	0
+PSQ	QQQ Short Proshares			0	0	0	0	0	0	0	0
+PSR	Active US Real Estate Powershares			0	0	0	0	0	0	0	0
+PST	Ultrashort 7-10 Year Treasury Proshares	Consumer Durables	Specialized Health Services	0	0	0	0	0	0	0	0
+PTEU	Pacer Trendpilot European Index ETF			0	0	0	0	0	0	0	0
+PTLC	Pacer Trendpilot 750 ETF			0	0	0	0	0	0	0	0
+PTM	Long Platinum TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+PTMC	Pacer Trendpilot 450 ETF			0	0	0	0	0	0	0	0
+PTN	Palatin Technologies	Consumer Durables	Major Pharmaceuticals	0	-0.08	0	179040500	0	0	3.03	0
+PTNQ	Pacer Trendpilot 100 ETF			0	0	0	0	0	0	0	0
+PUTW	Wisdomtree CBOE S&P 500 Put Write			0	0	0	0	0	0	0	0
+PUW	Wilderhill Progressive Energy Powershares			0	0	0	0	0	0	0	0
+PVI	Vrdo Tax-Free Weekly Powershares			0	0	0	0	0	0	0	0
+PW	Pittsburgh & West Virginia Railroad	Consumer Services	Real Estate Investment Trusts	47.73	0.13	0	1826514	0	0	5.67	1.46
+PW-A	Power REIT 7.75% Series A Cumul			0	0	0	0	0	0	0	0
+PWB	Dynamic Largecap Growth Powershares			0	0.29	0	0	0	0	0	0
+PWC	Dynamic Market Powershares	Finance	Closed-End Fund - Debt	0	0.35	0	0	0	0	0	0
+PWS	Pacer Trendpilot			0	0	0	0	0	0	0	0
+PWV	Dynamic Largecap Value Powershares			0	2.06	0	0	0	0	0	0
+PWZ	Insured Cali Muni Bond Powershares			0	0	0	0	0	0	0	0
+PXE	Dynamic Energy Explor & Prod Powershares			0	-6.03	0	0	0	0	0	0
+PXF	FTSE RAFI Dev Mkts Ex-US Powershares			0	0	0	0	0	0	0	0
+PXH	FTSE RAFI Emrg Mkts Powershares			0	0	0	0	0	0	0	0
+PXJ	Dynamic Oil & Gas Services Powershares			0	-2.8	0	0	0	0	0	0
+PXLG	Fundamental Pure Large Grow Powershares			0	0	0	0	0	0	0	0
+PXLV	Fundamental Pure Large Value Powershares			0	0	0	0	0	0	0	0
+PXMG	Fundamental Pure Mid Growth Powershares			0	-1.593	0	0	0	0	0	0
+PXMV	Fundamental Pure Mid Value Powershares			0	2.26	0	0	0	0	0	0
+PXQ	Dynamic Networking Powershares			0	0.845	0	0	0	0	0	0
+PXR	Emrg Mkts Infrastructure Powershares			0	0	0	0	0	0	0	0
+PXSG	Fundamental Pure Small Grow Powershares			0	-0.67	0	0	0	0	0	0
+PXSV	Fundamental Pure Small Value Powershares			0	0.929	0	0	0	0	0	0
+PZA	Insured National Muni Bond Powershares	Consumer Services	Meat Products	0	0	0	0	0	0	0	0
+PZD	Cleantech Powershares			0	0	0	0	0	0	0	0
+PZG	Paramount Gold and Silver	Basic Industries	Precious Metals	0	-0.27	0	17782260	0	0	0	0.45
+PZI	Zacks Micro Cap Powershares			0	1.133	0	0	0	0	0	0
+PZT	Insured NY Muni Bond Powershares			0	0	0	0	0	0	0	0
+QAI	IQ Hedge Multi-Strategy Tracker ETF			0	0	0	0	0	0	0	0
+QCAN	Canada Quality Mix Ishares ETF			0	0	0	0	0	0	0	0
+QDEF	Flexshares Quality Div Def Fund			0	0	0	0	0	0	0	0
+QDEU	Germany Quality Mix Ishares ETF			0	0	0	0	0	0	0	0
+QDF	Flexshares Quality Div Fund			0	0	0	0	0	0	0	0
+QDYN	Flexshares Quality Div Dyn Fund			0	0	0	0	0	0	0	0
+QED	IQ Hedge Event-Driven Tracker ETF			0	0	0	0	0	0	0	0
+QEFA	EAFE Qlty Mix MSCI ETF SPDR			0	0	0	0	0	0	0	0
+QEMM	EM Strategicfactors MSCI ETF SPDR			0	0	0	0	0	0	0	0
+QGBR	UK Quality Mix Ishares ETF			0	0	0	0	0	0	0	0
+QGTA	IQ Leaders Gtaa Tracker ETF			0	0	0	0	0	0	0	0
+QID	Ultrashort QQQ Proshares			0	0	0	0	0	0	0	0
+QJPN	Japan Quality Mix Ishares ETF			0	0	0	0	0	0	0	0
+QLD	Ultra QQQ Proshares			0	0	0	0	0	0	0	0
+QLS	IQ Hedge Long Short Tracker ETF			0	0	0	0	0	0	0	0
+QLTA	AAA - A Rated Corporate Bond Ishares			0	0	0	0	0	0	0	0
+QMN	IQ Hedge Market Neutral Tracker ETF			0	0	0	0	0	0	0	0
+QMOM	Quantitative Momentum ETF			0	0	0	0	0	0	0	0
+QQQE	Nasdaq 100 EW Index Direxion			0	0	0	0	0	0	0	0
+QSY	Wisdomtree U.S. Quality Shareholder Yield Fund			0	0	0	0	0	0	0	0
+QUAL	USA Quality Factor Ishares ETF			0	0	0	0	0	0	0	0
+QUS	USA Qlty Mix MSCI ETF SPDR			0	0	0	0	0	0	0	0
+QVAL	US Quantitative Valueshares ETF			0	0	0	0	0	0	0	0
+QVM	Arrow Qvm Equity Factor ETF			0	0	0	0	0	0	0	0
+QWLD	World Qlty Mix MSCI ETF SPDR			0	0	0	0	0	0	0	0
+QXGG	Quantx Risk Managed Growth ETF ETF			0	0	0	0	0	0	0	0
+QXMI	Quantx Risk Managed Multi-Asset Income ETF			0	0	0	0	0	0	0	0
+QXRR	Quantx Risk Managed Real Return ETF			0	0	0	0	0	0	0	0
+QXTR	Quantx Risk Managed Multi-Asset Total Return ETF			0	0	0	0	0	0	0	0
+RALS	RAFI Long/Short Proshares			0	0	0	0	0	0	0	0
+RAVI	Flexshares Ready Access Variable Income			0	0	0	0	0	0	0	0
+RBIN	Nationwide Risk-Based International Equity ETF			0	0	0	0	0	0	0	0
+RBUS	Nationwide Risk-Based U.S. Equity ETF			0	0	0	0	0	0	0	0
+RCD	S&P 500 Cons Disc EW Guggenheim			0	0	0	0	0	0	0	0
+RCG	Renaissance Capital Growth & Income Fund III	Finance	Closed-End Fund - Equity	0	0.27	0	0	0	0	0	0
+RCOM	Elkhorn Fundamental Commodity Strategy ETF			0	0	0	0	0	0	0	0
+RDIV	Ultra Dividend Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+REED	Reeds Inc			0	-0.32	0	15135290	0	-0.28	0.69	0
+REEM	Oppenheimer Revenue Weighted ETF Trust ETF			0	0	0	0	0	0	0	0
+REET	Ishares Global REIT ETF			0	0	0	0	0	0	0	0
+REFA	Oppenheimer International Revenue ETF			0	0	0	0	0	0	0	0
+REGL	S&P Midcap 400 Divd Proshares			0	0	0	0	0	0	0	0
+REI	Ring Energy Inc			0	-0.08	0	54144910	0	1.79	15.25	1.97
+REK	Real Estate Short Proshares			0	0	0	0	0	0	0	0
+REM	FTSE Nareit Mort Plus Cp Idx Ishares			0	0	0	0	0	0	0	0
+REML	X-Links Mthy Pay 2X Leveraged Mortgage REIT			0	0	0	0	0	0	0	0
+REMX	Rare Earth/Strategic Metals Vaneck ETF			0	0	0	0	0	0	0	0
+RETL	Retail Bull 3X Direxion			0	0	0	0	0	0	0	0
+REW	Ultrashort Technology Proshares			0	0	0	0	0	0	0	0
+REZ	Ishares Residential Real Estate ETF			0	0	0	0	0	0	0	0
+RFCI	Riverfront Core Income Fund ETF			0	0	0	0	0	0	0	0
+RFDA	Riverfront US Dividend Adv ETF			0	0	0	0	0	0	0	0
+RFFC	Riverfront US Flex-Cap ETF			0	0	0	0	0	0	0	0
+RFG	S&P Midcap 400 Pure Growth Guggenheim			0	0	0	0	0	0	0	0
+RFUN	Riverfront Unconstrained Income ETF			0	0	0	0	0	0	0	0
+RFV	S&P Midcap 400 Pure Value Guggenheim			0	0	0	0	0	0	0	0
+RGI	S&P 500 Industrial EW Guggenheim			0	0	0	0	0	0	0	0
+RGLB	Oppenheimer Global Revenue ETF			0	0	0	0	0	0	0	0
+RHE	Regional Health Properties			0	-0.46	0	19763640	0	0	0	0
+RHE-A	Regional Health Properties 10.875% Series A			0	0	0	0	0	0	0	0
+RHS	S&P 500 Cons Staples EW Guggenheim			0	0	0	0	0	0	0	0
+RIF	Rmr Real Estate Income Fund	Finance & Other Services		0	3.33	0	0	0	0	0	0
+RIGS	Riverfront Strategic Income Fund ETF			0	0	0	0	0	0	0	0
+RINF	30 Year Tips/Tsy Spread Proshares			0	0	0	0	0	0	0	0
+RISE	Sit Rising Rate ETF			0	0	0	0	0	0	0	0
+RJA	Rogers Agriculture ETN Elements			0	0	0	0	0	0	0	0
+RJI	Rogers Commodity ETN Elements	Retail - Jewelry		0	0	0	0	0	0	0	0
+RJN	Rogers Energy ETN Elements			0	0	0	0	0	0	0	0
+RJZ	Rogers Metal ETN Elements			0	0	0	0	0	0	0	0
+RLG-A	Radiant Logistics Inc 9.75% S			0	0	0	0	0	0	0	0
+RLGT	Radiant Logistics			87.41	0.06	0	48826430	0	0.73	0.31	1.93
+RLY	SSGA Multi-Asset Real Return ETF SPDR			0	0	0	0	0	0	0	0
+RNN	Rexahn Pharmaceuticals	Consumer Durables	Major Pharmaceuticals	0	-1.01	0	28458330	0	0	0	3.65
+ROAM	Lattice EM Strategy ETF			0	0	0	0	0	0	0	0
+RODI	Barclays Return On Disability E			0	0	0	0	0	0	0	0
+RODM	Lattice Developed Markets Ex-US ETF			0	-0.92	0	0	0	0	0	0
+ROGS	Lattice Global Smallcap Strategy ETF			0	0	0	0	0	0	0	0
+ROLA	Long Extd Russell 1000 TR ETN Ipath			0	0	0	0	0	0	0	0
+ROM	Ultra Technology Proshares			0	0	0	0	0	0	0	0
+ROOF	IQ US Real Estate Smallcap ETF			0	0	0	0	0	0	0	0
+RORE	Lattice Real Estate Strategy ETF			0	0	0	0	0	0	0	0
+ROUS	Lattice US Equity Strategy ETF			0	0	0	0	0	0	0	0
+ROX	Castle Brands	Consumer Non-Durables	Beverages (Production/Distribution)	0	-0.01	0	164308300	0	0	2.69	110
+RPG	S&P 500 Pure Growth Guggenheim			0	0	0	0	0	0	0	0
+RPUT	Wisdomtree CBOE Russell 2000 Putwrite Strategy F			0	0	0	0	0	0	0	0
+RPV	S&P 500 Pure Value Guggenheim			0	0	0	0	0	0	0	0
+RSP	S&P 500 EW Guggenheim	Finance	Closed-End Fund - Equity	0	3.11	0	0	0	0	0	0
+RSX	Russia Vaneck ETF			0	0	0	0	0	0	0	0
+RSXJ	Russia Smallcap Vaneck ETF			0	0	0	0	0	0	0	0
+RTH	Retail ETF Vaneck			0	0	0	0	0	0	0	0
+RTM	S&P 500 Materials EW Guggenheim			0	0	0	0	0	0	0	0
+RUSL	Russia Bull 3X Direxion			0	0	0	0	0	0	0	0
+RUSS	Russia Bear 3X Direxion			0	0	0	0	0	0	0	0
+RVNU	Db-Xt Municipal Infrastructure ETF			0	0	0	0	0	0	0	0
+RVP	Retractable Technologies	Health Care	Medical/Dental Instruments	0	-0.17	0	31661760	0	0	0.68	0.78
+RVRS	Reverse Cap Weighted US Large Cap ETF			0	0	0	0	0	0	0	0
+RWC	Relm Wireless Corp	Technology	Radio And Television Broadcasting And Communications Equipment	70.75	0.05	2.13	13768000	0.08	0	1.29	1.4
+RWJ	Smallcap Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+RWK	Midcap Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+RWL	Largecap Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+RWM	Russell 2000 Short Proshares			0	0	0	0	0	0	0	0
+RWO	DJ Global Real Estate ETF SPDR			0	0	0	0	0	0	0	0
+RWR	DJ REIT ETF SPDR	Finance	Closed-End Fund - Equity	0	5.87	0	0	0	0	0	0
+RWW	Financial Sector Revenue ETF Oppenheimer			0	0	0	0	0	0	0	0
+RWX	DJ Intl Real Estate ETF SPDR			0	0	0	0	0	0	0	0
+RXD	Ultrashort Health Care Proshares			0	0	0	0	0	0	0	0
+RXI	S&P Global Cons Disc Ishares			0	0	0	0	0	0	0	0
+RXL	Ultra Health Care Proshares			0	0	0	0	0	0	0	0
+RYE	S&P 500 Energy Equal Weight Guggenheim			0	0	0	0	0	0	0	0
+RYF	S&P 500 Financials EW Guggenheim			0	0	0	0	0	0	0	0
+RYH	S&P 500 Healthcare EW Guggenheim			0	0	0	0	0	0	0	0
+RYJ	Rj Sb-1 Equity Guggenheim ETF			0	0	0	0	0	0	0	0
+RYT	S&P 500 Technology EW Guggenheim			0	0	0	0	0	0	0	0
+RYU	S&P 500 Utilities EW Guggenheim			0	0	0	0	0	0	0	0
+RZG	S&P Smallcap 600 Pure Growth Guggenheim			0	0	0	0	0	0	0	0
+RZV	S&P Smallcap 600 Pure Value Guggenheim			0	0	0	0	0	0	0	0
+SAA	Ultra Smallcap 600 Proshares			0	0	0	0	0	0	0	0
+SACH	Sachem Capital Corp			14.98	0.28	10.5	11101940	0.42	0	10.07	1.14
+SAGG	Total Bond Market Bear -1X Direxion			0	0	0	0	0	0	0	0
+SAND	Sandstorm Gold Ltd			57.24	0.08	0	184514900	0	0	11.5	1.2
+SBB	Smallcap 600 Short Proshares	Finance	Major Banks	0	0	0	0	0	0	0	0
+SBIO	Alps Medical Breakthroughs ETF			0	0	0	0	0	0	0	0
+SBM	Basic Materials Short Proshares			0	0	0	0	0	0	0	0
+SBV	Ipath Pure Beta Broad Commodity			0	0	0	0	0	0	0	0
+SCAP	Advisorshares Cornerstone Small			0	0	0	0	0	0	0	0
+SCC	Ultrashort Consumer Services Proshares	Finance	Property Management	0	0	0	0	0	0	0	0
+SCE-B	South CA Edis 408 Pf			0	0	0	0	0	0	0	0
+SCE-C	South CA Edis 424 Pf			0	0	0	0	0	0	0	0
+SCE-D	South CA Edis 431 Pf			0	0	0	0	0	0	0	0
+SCE-E	South CA Edis 478 Pf			0	0	0	0	0	0	0	0
+SCHA	Schwab US Smallcap ETF			0	0	0	0	0	0	0	0
+SCHB	Schwab US Broad Market ETF			0	0	0	0	0	0	0	0
+SCHC	Schwab Intl Smallcap ETF			0	0	0	0	0	0	0	0
+SCHD	Schwab US Dividend Equity ETF			0	0	0	0	0	0	0	0
+SCHE	Schwab EM Mkts Equity ETF			0	0	0	0	0	0	0	0
+SCHF	Schwab Intl Equity ETF			0	0	0	0	0	0	0	0
+SCHG	Schwab US Largecap Growth ETF			0	0	0	0	0	0	0	0
+SCHH	Schwab US REIT ETF			0	0	0	0	0	0	0	0
+SCHK	Schwab 1000 Index ETF			0	0	0	0	0	0	0	0
+SCHM	Schwab US Midcap ETF			0	0	0	0	0	0	0	0
+SCHO	Schwab Short-Term US Trsy ETF			0	0	0	0	0	0	0	0
+SCHP	Schwab US TIPS ETF			0	0	0	0	0	0	0	0
+SCHR	Schwab Interm-Term US Treasury			0	0.17	0	0	0	0	0	0
+SCHV	Schwab US Largecap Value ETF			0	0	0	0	0	0	0	0
+SCHX	Schwab US Largecap ETF			0	0	0	0	0	0	0	0
+SCHZ	Schwab US Aggregate Bond ETF			0	0	0	0	0	0	0	0
+SCID	G-X Scientific Beta Europe ETF			0	0	0	0	0	0	0	0
+SCIF	India Smallcap ETF Vaneck			0	0	0	0	0	0	0	0
+SCIJ	G-X Scientific Beta Japan ETF			0	0	0	0	0	0	0	0
+SCIN	India Smallcap Egshares			0	0	0	0	0	0	0	0
+SCIU	G-X Scientific Beta US ETF			0	0	0	0	0	0	0	0
+SCIX	G-X Scientific Beta Asia Ex-Jpn ETF			0	0.8	0	0	0	0	0	0
+SCJ	Japan Smallcap MSCI Ishares			0	0	0	0	0	0	0	0
+SCO	Ultrashort DJ-UBS Crude Oil Proshares			0	-2.57	0	0	0	0	0	0
+SCTO	G-X JPM US Sector Rotator ETF			0	0	0	0	0	0	0	0
+SDD	Ultrashort Smallcap 600 Proshares			0	0	0	0	0	0	0	0
+SDEM	G-X Super Dividend EM ETF			0	0	0	0	0	0	0	0
+SDIV	G-X Superdividend ETF			0	0	0	0	0	0	0	0
+SDOG	Alps Sector Dividend Dogs ETF			0	0	0	0	0	0	0	0
+SDOW	Ultrapro Short DOW 30 Proshares			0	0	0	0	0	0	0	0
+SDP	Ultrashort Utilities Proshares	Constr. & Agric. Machinery		0	0	0	0	0	0	0	0
+SDPI	Superior Drilling Products Inc			0	-0.172	0	15039300	0	0	1.0392	1.4116
+SDS	Ultrashort S&P 500 Proshares			0	0	0	0	0	0	0	0
+SDY	S&P Dividend SPDR			0	0	0	0	0	0	0	0
+SDYL	Etracs Mt Pay 2X S&P Div ETN			0	0	0	0	0	0	0	0
+SEA	Shipping Guggenheim ETF	Finance	Diversified Investments	0	0	0	0	0	0	0	0
+SEB	Seaboard Corp	Consumer Non-Durables	Meat/Poultry/Fish	15.37	274.23	0.14	1169632	6	0	0.89	1.48
+SECT	Northern Lights IV Main Sector Rotation ETF			0	-0.01	0	0	0	0	0	0
+SEF	Financials Short Proshares			0	0	0	0	0	0	0	0
+SENS	Senseonics Holdings			0	-0.48	0	123202100	0	0	193.6	26.94
+SFHY	Wisdomtree Short-Term Hi Yld Corp Bond Fundament			0	0	0	0	0	0	0	0
+SFIG	Wisdomtree Short-Term Corp Bond Fundamental			0	0	0	0	0	0	0	0
+SGA	Saga Communications	Consumer Services	Broadcasting	15.6	2.85	2.69	5906967	1.2	0	1.87	1.89
+SGAR	Sugar Pure Beta ETN Ipath			0	-0.04	0	0	0	0	0	0
+SGB	Southwest Georgia Financial Corp	Finance	Major Banks	12.89	1.61	2.13	2546988	0.44	0	2.54	1.3
+SGDJ	Alps ETF Trust Sprott Junior Gold			0	0	0	0	0	0	0	0
+SGDM	Sprott Gold Miners ETF			0	-0.062	0	0	0	0	0	0
+SGG	DJ-UBS Sugar TR Sub-Idx ETN Ipath			0	1.26	0	0	0	0	0	0
+SGGB	Ipatha Sugar Series B Bloomberg Subindex Total R			0	0	0	0	0	0	0	0
+SGOL	Physical Swiss Gold			0	0.15	0	0	0	0	0	0
+SGY.W	Stone Energy Corp			0	0	0	0	0	0	0	0
+SH	S&P 500 Short Proshares			0	0	0	0	0	0	0	0
+SHAG	Wisdomtree Yield Enhanced U.S. Short-Term Aggreg			0	0	0	0	0	0	0	0
+SHE	SSGA Gender Diversity ETF SPDR			0	0.53	0	0	0	0	0	0
+SHM	Short-Term Muni Bond ETF SPDR	Biotechnology & Drugs		0	0	0	0	0	0	0	0
+SHNY	Direxion Silver Miners Bull 2X			0	0	0	0	0	0	0	0
+SHYD	Short High-Yield Vaneck ETF			0	0	0	0	0	0	0	0
+SHYG	0-5 Year Hi Yld Core Ishares			0	0	0	0	0	0	0	0
+SHYL	Xtrackers Short Duration High Yield Bond ETF			0	0	0	0	0	0	0	0
+SIF	Sifco Industries	Capital Goods	Aerospace	0	-3.26	0	5595588	0	0	0.3	0.74
+SIJ	Ultrashort Industrials Proshares			0	0	0	0	0	0	0	0
+SIL	G-X Silver Miners ETF	Basic Materials	Silver	0	-3.66	0	0	0	0	0	0
+SILJ	Purefunds ISE Junior Silver ETF			0	0	0	0	0	0	0	0
+SIM	Grupo Simec S.A. De C.V.	Basic Industries	Steel/Iron Ore	20	0.5	0	164646500	0	-1.48	0.97	0.88
+SIVR	Physical Silver			0	0	0	0	0	0	0	0
+SIZ	US Size Mkt Neutral ETF Quantshares			0	0	0	0	0	0	0	0
+SIZE	USA Size Factor Ishares ETF			0	0	0	0	0	0	0	0
+SJB	High Yld Short Proshares			0	0	0	0	0	0	0	0
+SJNK	ST High Yield Bond ETF SPDR			0	0	0	0	0	0	0	0
+SKF	Ultrashort Financials Proshares			0	0	0	0	0	0	0	0
+SKY	Skyline Corp			129.4	0.1	0	8391036	0	0	0.45	3.93
+SLV	Silver Trust Ishares			0	2.23	0	0	0	0	0	0
+SLVP	Global Silver Miners MSCI Ishares			0	0	0	0	0	0	0	0
+SLX	Steel Vaneck ETF			0	0	0	0	0	0	0	0
+SLY	S&P Smallcap 600 SPDR			0	0	0	0	0	0	0	0
+SLYG	S&P Smallcap Growth ETF SPDR			0	31.34	0	0	0	0	0	0
+SLYV	S&P Smallcap Value ETF SPDR			0	21.16	0	0	0	0	0	0
+SMB	Municipal Short Vaneck ETF			0	0	0	0	0	0	0	0
+SMDD	Ultrapro Short Midcap 400 Proshares			0	0	0	0	0	0	0	0
+SMDV	Russell 2000 Divd Proshares			0	0	0	0	0	0	0	0
+SMEZ	Euro Stoxx Smallcap ETF SPDR			0	0	0	0	0	0	0	0
+SMH	Semiconductor Vaneck ETF			0	0	0	0	0	0	0	0
+SMHD	Etracs Mt Pay 2X US Smallcap Hi Div ETN			0	0	0	0	0	0	0	0
+SMIN	India Smallcap MSCI Ishares			0	0	0	0	0	0	0	0
+SMLF	Ishares US Smallcap Multifactor ETF			0	-16.21	0	0	0	0	0	0
+SMLL	Direxion Smallcap Bull			0	0	0	0	0	0	0	0
+SMLV	SSGA US Smallcap Low Vol Index SPDR			0	0	0	0	0	0	0	0
+SMMD	Ishares Trust			0	0	0	0	0	0	0	0
+SMMU	Short-Term Muni Bond Strgy ETF Pimco			0	0	0	0	0	0	0	0
+SMMV	Ishares Min Vol USA Smallcap ETF			0	0	0	0	0	0	0	0
+SMN	Ultrashort Basic Materials Proshares			0	0	0	0	0	0	0	0
+SMTS	Sierra Metals Inc			0	-0.03	0	162677700	0	0	0	0
+SNMP	Sanchez Midstream Partners LP			0	-4.36	16.68	14215090	1.78	-0.07	1.79	0
+SOIL	G-X Fertilizers/Potash ETF			0	0	0	0	0	0	0	0
+SOVB	Cambria Sovereign High Yield Bo			0	0	0	0	0	0	0	0
+SOXL	Semiconductor Bull 3X Direxion			0	0.89	0	0	0	0	0	0
+SOXS	Semiconductor Bear 3X Direxion			0	0	0	0	0	0	0	0
+SOYB	Teucrium Soybean			0	0	0	0	0	0	0	0
+SPAB	SPDR Aggregate Bond Portfolio ETF			0	0	0	0	0	0	0	0
+SPDN	Direxion S&P 500 Bear 1X			0	0	0	0	0	0	0	0
+SPDV	Aam S&P 500 High Dividend Value ETF			0	0	0	0	0	0	0	0
+SPDW	SPDR World Ex-US Portfolio ETF			0	0	0	0	0	0	0	0
+SPEM	SPDR Emerging Markets Portfolio ETF			0	0	0	0	0	0	0	0
+SPFF	G-X Superincome Preferred ETF			0	0	0	0	0	0	0	0
+SPHB	S&P 500 High Beta Powershares			0	0	0	0	0	0	0	0
+SPHD	S&P 500 Hi Div Low Vol PS			0	-2.14	0	0	0	0	0	0
+SPHQ	S&P 500 High Qlty Powershares			0	0	0	0	0	0	0	0
+SPIB	SPDR Intermediate Term Corporate Bond Portfolio			0	0	0	0	0	0	0	0
+SPLB	SPDR Long Term Corporate Bond Portfolio ETF			0	0	0	0	0	0	0	0
+SPLG	SPDR Large Cap Portfolio ETF			0	0	0	0	0	0	0	0
+SPLV	S&P 500 Low Vol Powershares			0	0	0	0	0	0	0	0
+SPLX	Etracs Mt Reset 2X S&P 500 TR ETN			0	0	0	0	0	0	0	0
+SPMD	SPDR Mid Cap Portfolio ETF			0	12.77	0	0	0	0	0	0
+SPMO	S&P 500 Momentum Portfolio PS			0	0	0	0	0	0	0	0
+SPMV	Powershares S&P 500 Minimum Variance Portfolio			0	0	0	0	0	0	0	0
+SPPP	Sprott Physical Platinum and Palladium			0	0	0	0	0	0	0	0
+SPSB	SPDR Short Term Corporate Bond Portfolio ETF			0	0	0	0	0	0	0	0
+SPSM	SPDR Small Cap Portfolio ETF			0	0	0	0	0	0	0	0
+SPTL	SPDR Long Term Treasury Portfolio ETF			0	0	0	0	0	0	0	0
+SPTM	SPDR Total Stock Market Portfolio ETF			0	0	0	0	0	0	0	0
+SPTS	SPDR Short Term Treasury Portfolio ETF			0	0	0	0	0	0	0	0
+SPUN	Global Spin-Off Vaneck			0	0	0	0	0	0	0	0
+SPUU	Direxion S&P 500 Bull 2X			0	0	0	0	0	0	0	0
+SPVM	S&P 500 Value Momentum Portfolio PS			0	0	0	0	0	0	0	0
+SPVU	S&P 500 Value Portfolio PS			0	0	0	0	0	0	0	0
+SPXE	S&P 500 Ex-Energy Proshares			0	0	0	0	0	0	0	0
+SPXH	Velocity Vol Hedge			0	0	0	0	0	0	0	0
+SPXL	Direxion S&P 500 Bull 3X			0	0	0	0	0	0	0	0
+SPXN	S&P 500 Ex-Financials Proshares			0	0	0	0	0	0	0	0
+SPXS	Direxion S&P 500 Bear 3X			0	1.96	0	0	0	0	0	0
+SPXT	S&P 500 Ex-Technology Proshares			0	0	0	0	0	0	0	0
+SPXU	Ultrapro Short S&P 500 Proshares			0	0	0	0	0	0	0	0
+SPXV	S&P 500 Ex-Health Care Proshares			0	0	0	0	0	0	0	0
+SPY	S&P 500 SPDR	Finance	Closed-End Fund - Equity	0	27.45	0	0	0	0	0	0
+SPYB	S&P 500 Buyback ETF SPDR			0	0	0	0	0	0	0	0
+SPYD	SPDR S&P 500 High Dividend Portfolio ETF			0	0	0	0	0	0	0	0
+SPYG	SPDR S&P 500 Growth Portfolio ETF			0	8.2	0	0	0	0	0	0
+SPYV	SPDR S&P 500 Value Portfolio ETF			0	15.32	0	0	0	0	0	0
+SPYX	S&P 500 Ex-Fossil Fuel ETF SPDR			0	0	0	0	0	0	0	0
+SRCI	Src Energy Inc			53.49	0.17	0	201327400	0	0.28	10.54	2.03
+SRLN	Blackstone Gso Senior Loan SPDR			0	0	0	0	0	0	0	0
+SRS	Ultrashort Real Estate Proshares	Medical - Nursing Homes		0	0	0	0	0	0	0	0
+SRTY	Ultrapro Short Russell 2000 Proshares			0	0	0	0	0	0	0	0
+SSG	Ultrashort Semiconductors Proshares			0	0	0	0	0	0	0	0
+SSO	Ultra S&P 500 Proshares			0	0	0	0	0	0	0	0
+SSY	Sunlink Health Systems	Health Care	Hospital/Nursing Management	5.05	0.29	0	9158621	0	0	0.26	0.63
+STIP	0-5 Year TIPS Bond Ishares			0	0	0	0	0	0	0	0
+STOT	Short Duration TR Tactical ETF SPDR			0	0	0	0	0	0	0	0
+STPZ	1-5 Year US TIPS Index ETF Pimco			0	0	0	0	0	0	0	0
+STRP	Straight Path Communications In			0	-3.67	0	12746940	0	0	3508.71	0
+SUB	S&P S/T National Muni Bond Ishares			0	0	0	0	0	0	0	0
+SUSA	Ishares Trust			0	-0.56	0	0	0	0	0	0
+SVM	Silvercorp Metals Inc	Basic Materials	Silver	8.68	0.28	0.76	167893000	0.02	0	2.46	1.49
+SVT	Servotronics Inc	Capital Goods	Industrial Machinery/Components	31.879	0.272	1.69	2293853	0.15	0	0.533	0.757
+SVXY	VIX Short-Term Fut Short Proshares			0	0	0	0	0	0	0	0
+SYE	MFS Core Equity ETF SPDR			0	0	0	0	0	0	0	0
+SYG	MFS Growth Equity ETF SPDR			0	0	0	0	0	0	0	0
+SYLD	Cambria Shareholder Yield ETF			0	0	0	0	0	0	0	0
+SYN	Synthetic Biologics Inc			0	-0.164	0	128249600	0	0	0	21.8342
+SYV	MFS Value Equity ETF SPDR			0	0	0	0	0	0	0	0
+SZK	Ultrashort Consumer Goods Proshares			0	0	0	0	0	0	0	0
+SZO	DB Crude Oil -1X ETN Powershares			0	0	0	0	0	0	0	0
+TAGS	Teucrium Agricultural			0	-0.18	0	0	0	0	0	0
+TAIL	Cambria Tail Risk ETF			0	0	0	0	0	0	0	0
+TAN	Solar ETF Guggenheim			0	0	0	0	0	0	0	0
+TAO	China Real Estate Guggenheim			0	0	0	0	0	0	0	0
+TAT	Transatlantic Petroleum Ltd	Energy	Oil & Gas Production	0	-0.2	0	47376620	0	0	0.58	0.8
+TAXR	U.S. Tax Reform Fund			0	0	0	0	0	0	0	0
+TBF	20+ Year Short Treasury Proshares			0	0	0	0	0	0	0	0
+TBLU	Managed Portfolio Series Tortoise Water Fund			0	0	0	0	0	0	0	0
+TBT	Ultrashort 20+ Year Treasury Proshares			0	0	0	0	0	0	0	0
+TBX	7-10 Year Short Treasury Proshares			0	0	0	0	0	0	0	0
+TCHF	Ishares Technology Multifactor			0	0	0	0	0	0	0	0
+TCTL	Premise Capital Frontier Advantage Dvsfd Tct ETF			0	0	0	0	0	0	0	0
+TDTF	Iboxx 5Yr Target Dur TIPS ETF Flexshares			0	0	0	0	0	0	0	0
+TDTT	Iboxx 3Yr Target Dur TIPS ETF Flexshares			0	0	0	0	0	0	0	0
+TECL	Technology Bull 3X Direxion			0	0	0	0	0	0	0	0
+TECS	Technology Bear 3X Direxion			0	0	0	0	0	0	0	0
+TERM	Equitycompass Tactical Risk Manager ETF			0	0	0	0	0	0	0	0
+TETF	Industry Exposure & Fin Srvs ETF			0	0	0	0	0	0	0	0
+TEUM	Pareteum Corp			0	-2.98	0	14504350	0	0	1.32	0
+TFI	Muni Bond ETF SPDR			0	0	0	0	0	0	0	0
+TFLO	Treasury Floating Rate Ishares			0	0	0	0	0	0	0	0
+TGB	Taseko Mines Ltd	Basic Industries	Precious Metals	50.24	0.04	0	226228200	0	0	1.71	1.68
+TGC	Tengasco Inc	Energy	Oil & Gas Production	0	-0.199	0	10615990	0	0	1.2511	1.1972
+THD	Thailand Index MSCI Ishares			0	0	0	0	0	0	0	0
+THM	International Tower Hill Mines Ltd	Basic Industries	Precious Metals	0	-0.043	0	162387100	0	0	0	1.192
+TIK	Tel-Instrument Electronics	Capital Goods	Electrical Products	0	-1.708	0	3255256	0	0	0.5792	0
+TILT	Mstar US Mkt Factors Tilt ETF Flexshares			0	0	0	0	0	0	0	0
+TIP	TIPS Bond Ishares			0	5.43	0	0	0	0	0	0
+TIPX	Barclays 1-10 Year TIPS SPDR			0	0	0	0	0	0	0	0
+TIPZ	Broad U.S. TIPS Index ETF Pimco			0	0	0	0	0	0	0	0
+TIS	Orchids Paper Products Company	Basic Industries	Paper	65.35	0.19	0	10428810	0	60.7	0.84	0.98
+TKAT	Takung Art Co. Ltd			7.5167	0.455	0	11186810	0	0	2.1422	1.9667
+TLDH	Flexshares Dm Ex-US Factor Tilt Index Fund			0	0	0	0	0	0	0	0
+TLEH	Flexshares EM Factor Tilt Index Fund			0	0	0	0	0	0	0	0
+TLH	10-20 Year Treasury Bd Ishares			0	0	0	0	0	0	0	0
+TLTD	Flexshares Dev Mkt Ex-US Factor Tilt Index Fund			0	0	0	0	0	0	0	0
+TLTE	Flexshares EM Factor Tilt Index Fund			0	0	0	0	0	0	0	0
+TMF	20+ Year Trsy Bull 3X Direxion			0	0	0	0	0	0	0	0
+TMFC	Motley Fool 100 Index ETF ETF			0	0	0	0	0	0	0	0
+TMP	Tompkinstrustco	Finance	Major Banks	21.3	4.12	2.05	15156700	1.8	2.44	5.14	2.26
+TMQ	Trilogy Metals Inc			0	-0.11	0	105676500	0	0	0	3.36
+TMV	20+ Year Trsy Bear 3X Direxion			0	0	0	0	0	0	0	0
+TNA	Smallcap Bull 3X Direxion			0	0	0	0	0	0	0	0
+TOK	Kokusai Index MSCI Ishares			0	0	0	0	0	0	0	0
+TOLZ	DJ Brookfield Global Proshares			0	0	0	0	0	0	0	0
+TOTL	Total Return Tactical ETF SPDR			0	0	0	0	0	0	0	0
+TPHS	Trinity Pl Hldgs Inc			0	-0.24	0	31445380	0	0	172.95	3.5
+TPOR	Direxion Daily Transportation Bull 3X Shares			0	0	0	0	0	0	0	0
+TPYP	Tortoise North Amer Pipeline Fund			0	0	0	0	0	0	0	0
+TRSK	Velocity Tail Risk Hedged			0	0	0	0	0	0	0	0
+TRT	Trio-Tech International	Technology	Industrial Machinery/Components	14.281	0.36	0	3522661	0	0	0.471	0.903
+TRX	Tanzanian Royalty Exploration Corp			0	-0.076	0	119524000	0	0	0	0.9333
+TRXC	Transenterix Inc			0	-0.47	0	148535900	0	0	84.14	3.43
+TTAC	Trimtabs Float Shrink ETF			0	0	0	0	0	0	0	0
+TTAI	Trimtabs ETF Trust ETF			0	0	0	0	0	0	0	0
+TTFS	Advisorshares Wilshire Buyback ETF			0	0	0	0	0	0	0	0
+TTT	Ultrapro Short 20+ Year Trsy Proshares			0	1.2	0	0	0	0	0	0
+TUZ	1-3 Year US Treasury Index ETF Pimco			0	0	0	0	0	0	0	0
+TWM	Ultrashort Russell 2000 Proshares			0	0	0	0	0	0	0	0
+TYBS	20+ Year Trsy Bear 1X Direxion			0	0	0	0	0	0	0	0
+TYD	7-10 Year Treasury Bull 3X Direxion			0	0	0	0	0	0	0	0
+TYNS	7-10 Year Treasury Bear -1X Direxion			0	0	0	0	0	0	0	0
+TYO	7-10 Year Treasury Bear -3X Direxion			0	0	0	0	0	0	0	0
+TZA	Smallcap Bear 3X Direxion			0	0.27	0	0	0	0	0	0
+UAG	CMCI Agriculture TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+UAMY	U S Antimony Corp			0	-0.021	0	67496980	0	0	1.5262	1.5207
+UAUD	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+UBC	CMCI Livestock TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+UBG	CMCI Gold TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+UBM	CMCI Industrial Metals TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+UBN	CMCI Energy TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+UBR	Ultra MSCI Brazil Proshares			0	0	0	0	0	0	0	0
+UBRT	CS Axelatrader 3X Long Brent Crude Oil ETN			0	0	0	0	0	0	0	0
+UBT	Ultra 20+ Year Treasury Proshares			0	0	0	0	0	0	0	0
+UCC	Ultra Consumer Services Proshares			0	0	0	0	0	0	0	0
+UCHF	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+UCI	CMCI TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+UCIB	Etracs UBS Bberg Constant Maturity ETN			0	0	0	0	0	0	0	0
+UCO	Ultra DJ-UBS Crude Oil Proshares			0	0	0	0	0	0	0	0
+UDN	DB US Dollar Bearish Powershares			0	0	0	0	0	0	0	0
+UDOW	Ultrapro DOW 30 Proshares			0	0	0	0	0	0	0	0
+UEC	Uranium Energy	Basic Industries	Precious Metals	0	-0.14	0	155853500	0	0	0	3.45
+UEUR	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+UEVM	Usaa MSCI EM Value Momentum Blend Index ETF			0	0	0	0	0	0	0	0
+UFAB	Unique Fabricating Inc			10.78	0.81	6.93	9756014	0.6	0.56	0.47	1.66
+UGA	US Gasoline			0	0	0	0	0	0	0	0
+UGAZ	Natural Gas 3X Long ETN Velocityshares			0	0	0	0	0	0	0	0
+UGBP	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+UGE	Ultra Consumer Goods Proshares			0	0	0	0	0	0	0	0
+UGL	Ultra Gold Proshares			0	0	0	0	0	0	0	0
+UHN	US Heating Oil			0	0	0	0	0	0	0	0
+UITB	Usaa Core Intermediate-Term Bond ETF			0	0	0	0	0	0	0	0
+UIVM	Usaa MSCI Intl Value Momentum Blend Index ETF			0	0	0	0	0	0	0	0
+UJB	Ultra High Yield Proshares			0	0	0	0	0	0	0	0
+UJPY	Citigroup Global Markets Holdings Inc			0	0	0	0	0	0	0	0
+ULBR	Citigroup Global Markets Holdings Inc Velocitysh			0	0	0	0	0	0	0	0
+ULE	Ultra Euro Proshares			0	0	0	0	0	0	0	0
+ULST	SSGA Ultra Short Term Bond SPDR			0	0	0	0	0	0	0	0
+ULVM	Usaa MSCI USA Value Momentum Blend Index ETF			0	0	0	0	0	0	0	0
+UMDD	Ultrapro Midcap 400 Proshares			0	0	0	0	0	0	0	0
+UNG	US Natural Gas Fund			0	1.4	0	0	0	0	0	0
+UNL	US 12 Month Natural Gas			0	0	0	0	0	0	0	0
+UPRO	Ultrapro S&P 500 Proshares			0	0	0	0	0	0	0	0
+UPV	Ultra FTSE Europe Proshares			0	0	0	0	0	0	0	0
+UPW	Ultra Utilities Proshares			0	0	0	0	0	0	0	0
+UQM	Uqm Technologies Inc	Capital Goods	Industrial Machinery/Components	0	-0.36	0	48643480	0	0	10.7	9.22
+URA	G-X Uranium ETF			0	0	0	0	0	0	0	0
+URE	Ultra Real Estate Proshares			0	-0.16	0	0	0	0	0	0
+URG	Ur Energy Inc	Basic Industries	Precious Metals	9.8111	0.054	0	145866400	0	0	1.7373	1.7317
+URR	Euro 2X ETN Vaneck			0	0	0	0	0	0	0	0
+URTH	World Index MSCI Ishares			0	0	0	0	0	0	0	0
+URTY	Ultrapro Russell 2000 Proshares			0	0	0	0	0	0	0	0
+USAG	US Agriculture Index			0	0	0	0	0	0	0	0
+USAI	American Energy Independence ETF			0	0	0	0	0	0	0	0
+USAS	Americas Silver Corp			0	-0.02	0	39907500	0	0	2.5	1.78
+USCI	US Commodity Index			0	0	0	0	0	0	0	0
+USD	Ultra Semiconductors Proshares			0	0	0	0	0	0	0	0
+USDU	Wisdomtree USD Bullish Fund			0	0	0	0	0	0	0	0
+USEQ	Powershares Russell 1000 Enhanced Equal Weight P			0	0	0	0	0	0	0	0
+USFR	Wisdomtree Floating Rate Treasury Fund			0	0	0	0	0	0	0	0
+USHY	Ishares Broad USD High Yield Corporate Bond ETF			0	0	0	0	0	0	0	0
+USL	US 12 Month Oil	Pollution Control		0	0	0	0	0	0	0	0
+USMF	Wisdomtree U.S. Multifactor Fund			0	0	0	0	0	0	0	0
+USMV	US Min Vol MSCI Ishares			0	0	0	0	0	0	0	0
+USO	US Oil Fund	Finance	Investment Brokerage - Regional	0	2.01	0	0	0	0	0	0
+USOD	United States 3X Short Oil Fund			0	0	0	0	0	0	0	0
+USOU	United States 3X Oil Fund			0	0	0	0	0	0	0	0
+USRT	Ishares Core US REIT ETF			0	0	0	0	0	0	0	0
+UST	Ultra 7-10 Year Treasury Proshares			0	0	0	0	0	0	0	0
+USTB	Usaa Core Short-Term Bond ETF			0	0	0	0	0	0	0	0
+USV	CMCI Silver TR ETN UBS E-Tracs			0	0	0	0	0	0	0	0
+USVM	Usaa MSCI USA Small Cap Value Momentum Blend Ind			0	0	0	0	0	0	0	0
+UTES	Reaves Utilities ETF			0	0	0	0	0	0	0	0
+UTG	Reaves Utility	Finance	Closed-End Fund - Equity	0	5.03	5.32	0	1.92	0	0	0
+UTLF	Ishares Utilities Multifactor			0	0	0	0	0	0	0	0
+UTSL	Direxion Daily Utilities Bull 3X Shares			0	0	0	0	0	0	0	0
+UUP	DB US Dollar Bullish Powershares			0	0	0	0	0	0	0	0
+UUU	Universal Security Instruments	Consumer Non-Durables	Electronic Components	0	-0.957	0	2309529	0	0	0.2601	0.2674
+UUU.W	Energy Fuels Inc Warrants			0	0	0	0	0	0	0	0
+UUUU	Energy Fuels Inc			0	-0.53	0	71407700	0	0	1.9	0.75
+UVXY	Ultra VIX Short-Term Fut Proshares			0	0	0	0	0	0	0	0
+UWM	Ultra Russell 2000 Proshares			0	0	0	0	0	0	0	0
+UWN	Nevada Gold & Casinos	Consumer Services	Services-Misc. Amusement & Recreation	48.22	0.05	0	16834100	0	0	0.5	1.13
+UWT	Velocity 3X Long Crude Oil			0	0	0	0	0	0	0	0
+UXI	Ultra Industrials Proshares			0	0	0	0	0	0	0	0
+UYG	Ultra Financials Proshares			0	0	0	0	0	0	0	0
+UYM	Ultra Basic Materials Proshares			0	0	0	0	0	0	0	0
+VALQ	American Century Stoxx U.S. Quality Value ETF			0	0	0	0	0	0	0	0
+VAMO	Cambria ETF Trust Cambria Value			0	0	0	0	0	0	0	0
+VAW	Materials ETF Vanguard			0	0	0	0	0	0	0	0
+VB	Smallcap ETF Vanguard			0	11.44	0	0	0	0	0	0
+VBK	Smallcap Growth ETF Vanguard			0	4.99	0	0	0	0	0	0
+VBR	Smallcap Value ETF Vanguard			0	10.16	0	0	0	0	0	0
+VCF	Delaware Colorado Muni Income Fund Inc	Consumer Services	Miscellaneous	0	-0.01	4.76	0	0.72	0	0	0
+VCR	Consumer Disc ETF Vanguard			0	0	0	0	0	0	0	0
+VDC	Consumer Staples ETF Vanguard			0	0	0	0	0	0	0	0
+VDE	Energy ETF Vanguard			0	4.2	0	0	0	0	0	0
+VEA	FTSE Developed Markets Vanguard			0	0	0	0	0	0	0	0
+VEGA	Advisorshares Star Global Buy-Write ETF			0	0	0	0	0	0	0	0
+VEGI	Global Agriculture Prod MSCI Ishares			0	0	0	0	0	0	0	0
+VESH	Virtus Enhanced Short U.S. Equity ETF			0	0	0	0	0	0	0	0
+VEU	FTSE All-World Ex-US ETF Vanguard			0	0	0	0	0	0	0	0
+VFH	Financial ETF Vanguard			0	0	0	0	0	0	0	0
+VFL	Delaware Florida Insured Muni	Finance	Closed-End Fund - Debt	0	-0.03	5.37	0	0.72	0	0	0
+VGFO	Virtus Wmc Global Factor Opportunities ETF			0	0	0	0	0	0	0	0
+VGK	Europe ETF FTSE Vanguard			0	-4.23	0	0	0	0	0	0
+VGT	Information Technology ETF Vanguard			0	0	0	0	0	0	0	0
+VGZ	Vista Gold Corp	Basic Industries	Precious Metals	0	-0.106	0	98193100	0	0	0	2.003
+VHC	Virnetx Holding Corp	Miscellaneous	Multi-Sector Companies	0	-0.39	0	58309610	0	0	195.87	58.43
+VHT	Healthcare ETF Vanguard			0	2.41	0	0	0	0	0	0
+VIG	Dividend Appreciation ETF Vanguard			0	0	0	0	0	0	0	0
+VII	Vicon Industries Inc	Consumer Durables	Telecommunications Equipment	0	-0.85	0	9350000	0	0	0.14	0.8
+VIOG	S&P Smallcap 600 Growth Vanguard			0	0	0	0	0	0	0	0
+VIOO	S&P Smallcap 600 Index Vanguard			0	0	0	0	0	0	0	0
+VIOV	S&P Smallcap 600 Value Vanguard			0	0	0	0	0	0	0	0
+VIS	Industrials ETF Vanguard			0	13.58	0	0	0	0	0	0
+VISI	Volt Information Services Inc			0	-0.39	0	21010260	0	0	0.07	1.93
+VIXM	VIX Mid-Term Futures Proshares			0	0	0	0	0	0	0	0
+VIXY	VIX Short-Term Futures Proshares			0	0	0	0	0	0	0	0
+VKI	Invesco Advantage Muni Income Trust II	Finance	Closed-End Fund - Debt	0	0.05	5.69	0	0.66	0	0	0
+VLU	S&P 1500 Value Tilt ETF SPDR			0	0	0	0	0	0	0	0
+VLUE	USA Value Factor Ishares ETF			0	0	0	0	0	0	0	0
+VMAX	Rex Volmaxx Long VIX Weekly Futures			0	0	0	0	0	0	0	0
+VMIN	Rex Volmaxx Inverse VIX Weekly			0	0	0	0	0	0	0	0
+VMM	Delaware Minnesota Muni II	Finance	Closed-End Fund - Debt	0	-0.05	3.91	0	0.57	0	0	0
+VMOT	Alpha Architect Value Momentum Trend ETF			0	0	0	0	0	0	0	0
+VNLA	Janus Short Duration Income ETF			0	0	0	0	0	0	0	0
+VNM	Vietnam Vaneck ETF			0	0	0	0	0	0	0	0
+VNQ	Vanguard Real Estate ETF			0	5.68	0	0	0	0	0	0
+VNRX	Volitionrx Ltd			0	-0.52	0	26516950	0	0	0	3.88
+VO	Midcap ETF Vanguard			0	8.41	0	0	0	0	0	0
+VOE	Midcap Value ETF Vanguard			0	0	0	0	0	0	0	0
+VOO	S&P 500 ETF Vanguard			0	0	0	0	0	0	0	0
+VOOG	S&P 500 Growth ETF Vanguard			0	0	0	0	0	0	0	0
+VOOV	S&P 500 Value ETF Vanguard			0	0	0	0	0	0	0	0
+VOT	Midcap Growth ETF Vanguard			0	0	0	0	0	0	0	0
+VOX	Telecom Services ETF Vanguard			0	12.1	0	0	0	0	0	0
+VPL	Pacific ETF FTSE Vanguard			0	2.53	0	0	0	0	0	0
+VPU	Utilities ETF Vanguard			0	14.04	0	0	0	0	0	0
+VQT	S&P 500 Dynamic Veqtor ETN Barclays			0	0	0	0	0	0	0	0
+VRP	Variable Rate Preferred Portfolio PS			0	0	0	0	0	0	0	0
+VSS	FTSE All-World Ex-US Smcp Idx ETF Vanguard			0	0	0	0	0	0	0	0
+VT	Total World Stock Index ETF Vanguard			0	0	0	0	0	0	0	0
+VTEB	Tax-Exempt Bond Vanguard			0	0	0	0	0	0	0	0
+VTI	Total Stock Market ETF Vanguard			0	1.5	0	0	0	0	0	0
+VTV	Value ETF Vanguard			0	7.39	0	0	0	0	0	0
+VUG	Growth ETF Vanguard			0	4.03	0	0	0	0	0	0
+VV	Largecap ETF Vanguard			0	7.99	0	0	0	0	0	0
+VWO	Emrg Mkts ETF MSCI Vanguard			0	3.08	0	0	0	0	0	0
+VXF	Extended Market Index ETF Vanguard			0	12.69	0	0	0	0	0	0
+VXX	VIX Short-Term Futures ETN Ipath			0	0	0	0	0	0	0	0
+VXXB	Ipath S&P 500 VIX Short-Term Futures ETN			0	0	0	0	0	0	0	0
+VXZ	VIX Mid-Term Futures ETN Ipath			0	0	0	0	0	0	0	0
+VXZB	Ipath S&P 500 VIX Mid-Term Futures ETN			0	0	0	0	0	0	0	0
+VYM	High Dividend Yld Indx ETF Vanguard			0	0	0	0	0	0	0	0
+WBAL	Wisdomtree Balanced Income Fund			0	0	0	0	0	0	0	0
+WBIA	WBI Smg Growth Shares			0	0	0	0	0	0	0	0
+WBIB	WBI Smg Value Shares			0	0	0	0	0	0	0	0
+WBIC	WBI Smg Yield Shares			0	0	0	0	0	0	0	0
+WBID	WBI Smg Select Shares			0	0	0	0	0	0	0	0
+WBIE	WBI Largecap Growth Shares			0	0	0	0	0	0	0	0
+WBIF	WBI Largecap Value Shares			0	0	0	0	0	0	0	0
+WBIG	WBI Largecap Growth Shares			0	0	0	0	0	0	0	0
+WBIH	WBI High Income Shares			0	0	0	0	0	0	0	0
+WBII	WBI Income Shares			0	0	0	0	0	0	0	0
+WBIL	WBI Largecap Select Shares			0	0	0	0	0	0	0	0
+WBIR	WBI Rotation Shares			0	0	0	0	0	0	0	0
+WBIY	WBI Largecap Yield Shares			0	0	0	0	0	0	0	0
+WCHN	Wisdomtree Icbccs S& P China 500 Fund			0	0	0	0	0	0	0	0
+WDIV	S&P Global Dividend SPDR			0	0	0	0	0	0	0	0
+WDRW	Direxion Regional Banks Bear 3X			0	0	0	0	0	0	0	0
+WEAR	Wear ETF			0	0	0	0	0	0	0	0
+WEAT	Teucrium Wheat			0	0	0	0	0	0	0	0
+WEET	Grains Pure Beta ETN Ipath			0	0	0	0	0	0	0	0
+WEXP	Wisdomtree US Export and Multinational Fund			0	0	0	0	0	0	0	0
+WFHY	Wisdomtree US Hi Yld Corp Bond Fundamental			0	0	0	0	0	0	0	0
+WFIG	Wisdomtree US Corp Bond Fundamental			0	0	0	0	0	0	0	0
+WIL	Barclays Women In Leadership ETF			0	0	0	0	0	0	0	0
+WIP	DB Intl Govt Infl-Protected Bond SPDR			0	0	0	0	0	0	0	0
+WLDR	Affinity World Leaders Equity ETF ETF			0	0	0	0	0	0	0	0
+WMCR	Microcap ETF Wilshire			0	0	0	0	0	0	0	0
+WMW	Mstar Wide Moat Focus ETN Elements			0	0	0	0	0	0	0	0
+WPS	S&P Dev Ex-US Property Ishares			0	0	0	0	0	0	0	0
+WREI	US REIT ETF Wilshire			0	0	0	0	0	0	0	0
+WRN	Western Copper Corp	Basic Industries	Precious Metals	0	-0.022	0	96452880	0	0	0	2.6425
+WSKY	Spirited Funds/Etfmg Whiskey & Spirits ETF			0	0	0	0	0	0	0	0
+WTID	Crude Daily -3X Inverse Proshares			0	0	0	0	0	0	0	0
+WTIU	Crude Daily 3X Long Proshares			0	0	0	0	0	0	0	0
+WTMF	Wisdomtree Managed Futures Strategy Fund			0	0	0	0	0	0	0	0
+WTRX	Summit Water Infrastructure Multifactor ETF			0	0	0	0	0	0	0	0
+WTT	Wireless Telecom Group Inc	Capital Goods	Electrical Products	0	-0.2	0	22378880	0	0	0.95	1.02
+WUSA	Wisdomtree US Domestic Economy Fund			0	0	0	0	0	0	0	0
+WYDE	CDS Short N Amer HY Credit Proshares			0	0	0	0	0	0	0	0
+WYY	Widepoint Corp	Technology	EDP Services	0	-0.061	0	82954540	0	-0.87	0.5539	1.6508
+XAR	S&P Aerospace & Defense SPDR			0	0	0	0	0	0	0	0
+XBI	S&P Biotech SPDR			0	0	0	0	0	0	0	0
+XCEM	Columbia EM Core Ex-China ETF			0	0	0	0	0	0	0	0
+XDIV	U.S. Equity Ex-Dividend Fund Series 2027 Shares			0	0	0	0	0	0	0	0
+XES	S&P Oil & Gas Eqpt & Services SPDR			0	4.13	0	0	0	0	0	0
+XHB	S&P Homebuilders SPDR			0	0	0	0	0	0	0	0
+XHE	S&P Healthcare Equipment SPDR			0	0	0	0	0	0	0	0
+XHS	S&P Healthcare Services SPDR			0	0	0	0	0	0	0	0
+XINA	China A Shares IMI MSCI ETF SPDR			0	0	0	0	0	0	0	0
+XITK	Factset Innovative Technology SPDR			0	0	0	0	0	0	0	0
+XIVH	Velocity VIX Short Vol Hedged			0	0	0	0	0	0	0	0
+XKFS	SPDR Kensho Future Security ETF			0	0	0	0	0	0	0	0
+XKII	SPDR Kensho Intelligent Structures ETF			0	0	0	0	0	0	0	0
+XKST	SPDR Kensho Smart Mobility ETF			0	0	0	0	0	0	0	0
+XLB	S&P 500 Materials Sector SPDR	Finance	Closed-End Fund - Equity	0	7.07	0	0	0	0	0	0
+XLE	S&P 500 Energy Sector SPDR	Finance	Closed-End Fund - Equity	0	11.33	0	0	0	0	0	0
+XLF	S&P 500 Financials Sector SPDR	Finance	Closed-End Fund - Equity	0	1.22	0	0	0	0	0	0
+XLG	Russell Top 50 Guggenheim	Real Estate - Development		0	0	0	0	0	0	0	0
+XLI	S&P 500 Industrial Sector SPDR	Finance	Closed-End Fund - Equity	0	9.15	0	0	0	0	0	0
+XLK	S&P 500 Info Tech Sector SPDR	Finance	Closed-End Fund - Equity	0	8.67	0	0	0	0	0	0
+XLP	S&P 500 Cons Staples Sector SPDR	Finance	Closed-End Fund - Equity	0	7.58	0	0	0	0	0	0
+XLRE	S&P 500 Real Estate Sector SPDR			0	0	0	0	0	0	0	0
+XLU	S&P 500 Utilities Sector SPDR	Finance	Closed-End Fund - Equity	0	7.59	0	0	0	0	0	0
+XLV	S&P 500 Healthcare Sector SPDR	Finance	Closed-End Fund - Equity	0	6.78	0	0	0	0	0	0
+XLY	S&P 500 Cons Disc Sector SPDR	Finance	Closed-End Fund - Equity	0	7.18	0	0	0	0	0	0
+XME	S&P Metals & Mining SPDR			0	14.96	0	0	0	0	0	0
+XMLV	S&P Midcap Low Vol Portfolio PS			0	0	0	0	0	0	0	0
+XMPT	CEF Municipal Income ETF Vaneck			0	0	0	0	0	0	0	0
+XMX	Wisdomtree Global Ex-Mexico Equity Fund			0	0	0	0	0	0	0	0
+XNTK	SPDR Series Trust			0	0	0	0	0	0	0	0
+XNY	China Xiniya Fashion			0	0	0	0	0	0	0	0
+XOP	S&P Oil & Gas Expl & Prod SPDR			0	12.01	0	0	0	0	0	0
+XPH	S&P Pharmaceuticals SPDR			0	-11.87	0	0	0	0	0	0
+XPL	Solitario Exploration & Royalty Corp	Basic Industries	Precious Metals	0	-0.041	0	58442550	0	0	0	1.5158
+XPP	Ultra FTSE China 25 Proshares			0	0	0	0	0	0	0	0
+XRLV	S&P 500 Ex-Rate Low Vol ETF PS			0	0	0	0	0	0	0	0
+XRT	S&P Retail SPDR			0	2.43	0	0	0	0	0	0
+XSD	S&P Semiconductor SPDR			0	10.04	0	0	0	0	0	0
+XSHD	S&P Smallcap Hi Div Low Vol Portolio PS			0	0	0	0	0	0	0	0
+XSHQ	S&P Smallcap Qlty Portfolio PS			0	0	0	0	0	0	0	0
+XSLV	S&P Smallcap Low Vol Portfolio PS			0	0	0	0	0	0	0	0
+XSOE	Wisdomtree EM Ex-Soe Fund			0	0	0	0	0	0	0	0
+XSW	S&P Software & Srvs ETF SPDR			0	0	0	0	0	0	0	0
+XTH	S&P Tech Hardware Et SPDR			0	0	0	0	0	0	0	0
+XTL	S&P 500 Telecom Sector SPDR			0	0	0	0	0	0	0	0
+XTN	S&P Transportation SPDR			0	0	0	0	0	0	0	0
+XTNT	Xtant Medical Holdings Inc			0	-1.55	0	18088100	0	-0.02	0.1252	0
+XUSA	Quantx Dynamic Beta US Equity ETF			0	0	0	0	0	0	0	0
+XVZ	S&P 500 Dynamic VIX ETN Ipath			0	0	0	0	0	0	0	0
+XWEB	S&P Internet ETF SPDR			0	0	0	0	0	0	0	0
+XXII	22nd Century Group Inc			0	-0.14	0	102758800	0	0	20.78	9.88
+XXV	S&P 500 VIX Inv S/T Fut ETN Ipath			0	0	0	0	0	0	0	0
+YANG	Direxion FTSE China Bear 3X			0	0	0	0	0	0	0	0
+YAO	China All-Cap Guggenheim			0	0	0	0	0	0	0	0
+YCL	Ultra Yen Proshares			0	0	0	0	0	0	0	0
+YCS	Ultrashort Yen Proshares			0	0	0	0	0	0	0	0
+YESR	Amplify Yieldshares Senior Loan & Income ETF			0	0	0	0	0	0	0	0
+YINN	Direxion FTSE China Bull 3X			0	0	0	0	0	0	0	0
+YLD	Principal Edge Active Income ETF			0	0	0	0	0	0	0	0
+YMLI	High Income Infrastructure MLP Fund Vaneck			0	0	0	0	0	0	0	0
+YMLP	High Income MLP ETF Yorkville			0	0	0	0	0	0	0	0
+YUMA	Yuma Energy Inc			0	-1.319	0	12560850	0	0	0.509	0.34
+YXI	China 25 Short Proshares			0	0	0	0	0	0	0	0
+YYY	Yieldshares High Income ETF			0	0	0	0	0	0	0	0
+ZBZX	Bats Bzx Exchange Test Issue			0	0	0	0	0	0	0	0
+ZDGE	Zedge Inc Class B			0	-0.13	0	9648980	0	0	2.18	2.07
+ZMLP	Direxion Zacks MLP High Income ETF			0	0	0	0	0	0	0	0
+ZOM	Zomedica Pharmaceuticals Corp			0	0	0	0	0	0	0	0
+ZROZ	25+ Year Zero Cpn U.S. Trsy Idx ETF Pimco			0	0	0	0	0	0	0	0
+ZSL	Ultrashort Silver Proshares			0	0	0	0	0	0	0	0
+ZVV	NYSE Arca Test Stock			0	0	0	0	0	0	0	0

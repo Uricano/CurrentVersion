@@ -1,0 +1,49 @@
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\CherriesBatchProcess.exe.config
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\CherriesBatchProcess.exe
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\CherriesBatchProcess.pdb
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\Ionic.Zip.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\Newtonsoft.Json.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.IO.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Extensions.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Primitives.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.WebRequest.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Runtime.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Threading.Tasks.dll
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\Newtonsoft.Json.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.IO.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Extensions.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Primitives.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.WebRequest.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Runtime.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Threading.Tasks.xml
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.csproj.App.config
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.csproj.CoreCompileInputs.cache
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.exe
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.pdb
+C:\CLOUD\DeveloperEnvironment\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.csprojResolveAssemblyReference.cache
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\CherriesBatchProcess.exe.config
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\CherriesBatchProcess.exe
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\CherriesBatchProcess.pdb
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\Ionic.Zip.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\Newtonsoft.Json.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.IO.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.WebRequest.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Runtime.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Threading.Tasks.dll
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\Newtonsoft.Json.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.IO.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Net.Http.WebRequest.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Runtime.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\bin\Release\System.Threading.Tasks.xml
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.csproj.App.config
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.csprojResolveAssemblyReference.cache
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.exe
+C:\Users\uriel\Documents\My Workspaces\CurrentVersion\Takin\StockUpdate\CherriesBatchProcess\CherriesBatchProcess\obj\x86\Release\CherriesBatchProcess.pdb

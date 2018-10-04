@@ -1,0 +1,116 @@
+﻿
+<header>
+    <div class="blueLogo-container diableBgColor">
+        <div class="col-md-12">
+            <a href="/">
+                <img src="Content/themes/images/logo white clear background.png" alt="Takin" class="systemLogo">
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <form name="registrationForm" class="registrationForm" action="">
+        <div class="registerArea-container">
+
+            <div class="col-md-12 col-sm-12">
+                <div class="registerForm-container">
+                    <div class="registerForm-divInner">
+
+                        <div class="registerForm-header">
+                            <h1>STEP 1: ACCOUNT DETAILS</h1>
+                        </div>
+
+                        <div class="registerForm-main">
+                            <fieldset class="registerFormItems">
+
+                                <div>
+                                    <div>
+                                        <div class="formItem">
+                                            <input tabindex="1" type="text" placeholder="Full Name" ng-blur="model.User.Name = model.User.Name.trim()" name="fullname" id="fullname" ng-model="model.User.Name" required>
+                                        </div>
+                                        <div class="formItem">
+                                            <input tabindex="3" type="text" placeholder="Email" name="email" id="email" autocomplete="off" ng-model="model.User.Email" required>
+                                            <span ng-if="isDiffrentEmail" style="color:red">Confirm email not equal to email</span>
+                                            <span ng-if="!isDiffrentEmail && (registrationForm.email.$error.email || registrationForm.confirmEmail.$error.email)" style="color:red">Invalid email</span>
+                                        </div>
+                                        <div class="formItem">
+                                            <input tabindex="4" type="text" placeholder="Retype Email" autocomplete="off" name="confirmEmail" id="confirmEmail" ng-model="confirmEmail" onpaste="return false" ng-blur="checkConfirmEmail()" required>
+                                        </div>
+
+                                        <div class="formItem padding-bottom-no">
+                                            <input tabindex="5" type="password" placeholder="Password*" ng-blur="model.Password = model.Password.trim()" name="passInput" id="passInput" ng-model="model.Password" required>
+                                            <span class="commentSmall">*minimum 8 characters and numbers</span>
+                                        </div>
+                                        <div class="formItem">
+                                            <input tabindex="6" type="password" placeholder="Retype Password" ng-blur="checkValidAndConfirmPassword()" name="passInput2" id="passInput2" ng-model="confirmPassword" onpaste="return false" required>
+                                            <span ng-if="isDiffrentPassword" style="color:red">Confirm password not equal to password</span>
+                                        </div>
+                                    
+
+                                        <!--<div class="col-md-12 col-sm-12">
+                                            <div class="formItem col-md-6 col-sm-12 registrationForm-leftSide">
+                                                <span ng-class="{'Error-req-field':submitForm && model.User.YearOfBirth == null}">*</span>
+                                                <select tabindex="7" class="selectOption" ng-model="model.User.YearOfBirth" required>
+                                                    <option value="" selected="selected">Select Year of Birth</option>
+                                                    <option ng-repeat="year in years">{{year}}</option>
+                                                </select>
+                                            </div>
+                                            <div class="formItem col-md-6 col-sm-12 registrationForm-rightSide">
+                                                <span ng-class="{'Error-req-field':submitForm && model.User.Gender == null}">*</span> <select tabindex="8" class="selectOption" name="slGender" id="slGender" ng-model="model.User.Gender">
+                                                    <option value="" selected="selected">Select Gender</option>
+                                                    <option ng-repeat="gender in genders" value="{{gender.Id}}">{{gender.Description}}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12">
+                                            <div class="formItem col-md-6 col-sm-12 registrationForm-leftSide">
+                                                <span ng-class="{'Error-req-field':submitForm && model.User.District.idCountry == null}">*</span>
+                                                <select tabindex="9" class="selectOption" name="slCountry" id="slCountry" ng-model="model.User.District.idCountry">
+                                                    <option value="" selected="selected">Select Country</option>
+                                                    <option ng-repeat="country in countries" value="{{country.CountryID}}">{{country.CountryName}}</option>
+                                                </select>
+                                            </div>
+                                            <div class="formItem col-md-6 col-sm-12 registrationForm-rightSide">
+                                                <span ng-class="{'Error-req-field':submitForm && model.User.District.idDistrict == null}">*</span>
+                                                <select tabindex="10" class="selectOption" name="slState" id="slState" ng-model="model.User.District.idDistrict">
+                                                    <option value="" selected="selected">Select State</option>
+                                                    <option ng-repeat="dis in districts | filter:{idCountry:model.User.District.idCountry*1}:true" value="{{dis.idDistrict}}">{{dis.strDistrictName}}</option>
+                                                </select>
+                                            </div>
+                                        </div>-->
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </div>
+
+                        <div class="registerForm-footer">
+                            <button type="button" class="SendAuth buttonStyle1" tabindex="11" ng-click="next(registrationForm)">NEXT</button>
+                        </div>
+
+                        <!--<div class="registerForm-footer">
+                            <div class="formItem">
+                                <p>To complete the first registration step, click “Send Authentication Code.” The code will be sent to your email.</p>
+                                <button type="button" class="SendAuth buttonStyle1" tabindex="11" ng-click="sendAuthentication(registrationForm)">Send Authentication Code</button>
+                            </div>
+                        </div>-->
+
+                        <!--<div class="verifyContainer-footer registerFormItems">
+                            <div class="verifyCode">
+                                <input type="text" placeholder="Enter Authentication Code" tabindex="12" name="" id="authCode" ng-model="confirmCodeValue" ng-blur="confirmCodeValue = confirmCodeValue.trim()">
+                                <button type="button" class="verifyButton buttonStyle1" tabindex="13" ng-click="verifyConfirmCode()" ng-disabled="!confirmCodeValue">Verify</button>
+                            </div>
+                            <p class="creditSmall">
+                                By clicking “Verify,” you agree to the
+                                <a href="#">Terms & Conditions</a>
+                                <a href="#">Click here</a> to read Cherries’ Privacy Policy
+                            </p>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</main>

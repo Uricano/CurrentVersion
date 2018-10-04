@@ -1,0 +1,312 @@
+﻿<div class="portfolio-create-backtesting">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="background-color:white;">
+        <label class="l-title-1">Backtesting</label>
+    </div>
+    <div class="container-fluid">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 l-padding-left-xs--xs l-padding-right-xs--xs">
+
+            <!-- blue top div -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 l-padding-left-xs--xs l-padding-right-xs--xs">
+                <form name="portForm">
+                
+                    <div layout="column" layout-gt-sm="row" 
+                         layout-align="start stretch" layout-align-gt-sm="start center" 
+                         class="blue-div">
+                        <div flex-grow class="blue-div-inner">
+                            <div layout="column" class="l-margin-left-lg l-margin-right-lg">
+                                <div layout="column" layout-gt-sm="row"
+                                     layout-align="space-between">
+                                    <div flex-gt-sm="30" class="formItem l-padding-left-sm l-padding-right-sm">
+                                        <label class="no-padding col-lg-12 col-md-12 col-sm-12 col-xs-12 ellipsis-txt l-color-light l-font-base l-font-normal"
+                                               ng-class="{'no-margin':createNewPortfolio == true}">1. Portfolio Name:</label>
+                                        <input class="input-control-wide" style="padding: 1px !important"
+                                               ng-class="{'Error-req-field-border':submit && portForm.portName.$invalid}"
+                                               name="portName" ng-blur="isValidPortfolioName()" required ng-model="newPort.Name" />
+                                    </div>
+                                    <div flex-gt-sm="30" class="formItem l-padding-left-sm l-padding-right-sm">
+                                        <label class="no-padding col-lg-12 col-md-12 col-sm-12 col-xs-12 ellipsis-txt l-color-light l-font-base l-font-normal"
+                                               ng-class="{'no-margin':createNewPortfolio == true}">2. Investment Amount:</label>
+                                        <span style="float:left" class="white-txt">{{currency}}</span>
+                                        <tfi-input-container tfi-left="$" class="l-width-100">
+                                            <input type="text" class="input-control-wide"
+                                                   ng-class="{'Error-req-field-border':submit && portForm.equity.$invalid}"
+                                                   is-number-format="true"
+                                                   required name="equity" number-only limit-decimal="true"
+                                                   ng-model="newPort.Equity" negative-number="false" number-length="10" />
+                                        </tfi-input-container>
+                                    </div>
+                                    <div flex-gt-sm="30" class="formItem l-padding-left-sm l-padding-right-sm">
+                                        <label class="no-padding col-lg-12 col-md-12 col-sm-12 col-xs-12 ellipsis-txt l-color-light l-font-base l-font-normal"
+                                               ng-class="{'no-margin':createNewPortfolio == true}">3. Date Range:</label>
+
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <td class="l-aligh-right">
+                                                    <label class="ellipsis-txt l-color-light l-margin-right-sm" style="padding:2px">Start Date:</label>
+                                                </td>
+                                                <td style="width: 100%;">
+                                                    <input class="no-padding cst-datepicker--wide-sm" ng-model="newPort.StartDate"
+                                                           cst-datepicker readonly="readonly" allowd-days="1" format-date="mm/dd/yy" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="l-aligh-right">
+                                                    <label class="ellipsis-txt l-color-light l-margin-right-sm" style="padding:2px">End Date:&nbsp;</label>
+                                                </td>
+                                                <td style="width: 100%;">
+                                                    <input class="no-padding cst-datepicker--wide-sm" ng-model="newPort.EndDate"
+                                                           cst-datepicker readonly="readonly" allowd-days="1" format-date="mm/dd/yy" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div layout="column" layout-gt-sm="row"
+                                     layout-align="space-between">
+                                    <div flex-gt-sm="30" class="formItem l-padding-left-sm l-padding-right-sm">
+                                        <label class="no-padding col-lg-12 col-md-12 col-sm-12 col-xs-12 ellipsis-txt l-color-light l-font-base l-font-normal"
+                                               ng-class="{'no-margin':createNewPortfolio == true}">4. Benchmark:</label>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding drop-down-btn dropdown-multiselect--wide"
+                                             ng-dropdown-multiselect="" options="benchMarks"
+                                             selected-model="newPort.benchMarks" extra-settings="benchMarkSettings"
+                                             not-required="true" translation-texts="benchMarkTexts"
+                                             style="height:25px;" submit="submit">
+                                        </div>
+                                    </div>
+                                    <div flex-gt-sm="30" class="formItem l-padding-left-sm l-padding-right-sm">
+                                        <label class="no-padding col-lg-12 col-md-12 col-sm-12 col-xs-12 ellipsis-txt l-color-light l-font-base l-font-normal"
+                                               ng-class="{'no-margin':createNewPortfolio == true}">5. Building Process:</label>
+                                        <select id="slctApartment" lang="{{$parent.language}}" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 input-control-wide"
+                                                ng-class="{'Error-req-field-border':submit && portForm.sapartment.$invalid}" name="sapartment"
+                                                style="height:26px;" ng-model="customType">
+                                            <option value="" selected="selected">Choose type</option>
+                                            <option value="1">Auto Create</option>
+                                            <option value="2">Custom Create</option>
+                                        </select>
+                                    </div>
+                                    <div flex-gt-sm="30" class="formItem l-padding-left-sm l-padding-right-sm"
+                                         ng-class="{'disable-risks' : customType == 2}">
+                                        <label class="no-padding col-lg-12 col-md-12 col-sm-12 col-xs-12 ellipsis-txt l-color-light l-font-base l-font-normal"
+                                               ng-class="{'no-margin':createNewPortfolio == true}">6. Exchanges:</label>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding drop-down-btn dropdown-multiselect--wide"
+                                             ng-dropdown-multiselect=""
+                                             options="stockMarket" Error-req-field-border disabled="customType == 2"
+                                             selected-model="exchanges" extra-settings="stockMarketSettings"
+                                             style="height:25px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="btn-align text-right l-padding-left-sm l-padding-right-sm">
+                            <button class="white-blue-btn  go-btn" ng-click="createBacktesting()">Go!</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+            <!-- body -->
+            <div show-gt-sm>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 black-gray-color optimize-font bold-text"
+                     ng-class="{'disable-risks' : customType != 2}">Filter by:</div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blue-div">
+                        <div layout="row" class="blue-div-inner l-margin-left-md l-margin-right-md" ng-class="{'disable-risks' : customType == 1 || !customType}">
+                            <div flex="50" class="l-padding-right-md flex-shrink-0">
+                                <div class="col-lg-12 col-md-12 col-sm-12 white-txt regular-font no-padding">
+                                    <span>Maximum Risk Level (Securities):</span>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <button class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-border" ng-disabled="customType == 1  || !customType" style="background-color:#d7dbdc;height:25px;" ng-click="setRiskFilter('none')" ng-class="{'white-border':isRiskFilter==false}"></button>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <button class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-border" ng-disabled="customType == 1 || !customType" style="background-color:#2fd074;height:25px;" ng-click="setRiskFilter('Solid')" ng-class="{'white-border':riskFilter=='Solid'}"></button>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <button class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-border" ng-disabled="customType == 1 || !customType" style="background-color:#f9ec23;height:25px;" ng-click="setRiskFilter('Low')" ng-class="{'white-border':riskFilter=='Low'}"></button>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <button class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-border" ng-disabled="customType == 1 || !customType" style="background-color:#f9b50a;height:25px;" ng-click="setRiskFilter('Moderate')" ng-class="{'white-border':riskFilter=='Moderate'}"></button>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <button class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-border" ng-disabled="customType == 1 || !customType" style="background-color:#ff8812;height:25px;" ng-click="setRiskFilter('High')" ng-class="{'white-border':riskFilter=='High'}"></button>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <button class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-border" ng-disabled="customType == 1 || !customType" style="background-color:#fc3d5e;height:25px;" ng-click="setRiskFilter('Very High')" ng-class="{'white-border':riskFilter=='Very High'}"></button>
+                                    </span>
+
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding white-txt text-center small-font no-padding"> None </span>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt text-center small-font no-padding">Solid</span>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt text-center small-font no-padding">Low</span>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt text-center small-font no-padding moderate-padding"> Mod </span>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt text-center small-font no-padding"> High</span>
+                                    </span>
+                                    <span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding">
+                                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding white-txt text-center small-font no-padding"> V. High </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div flex-grow layout="row" layout-align="space-around">
+                                <div flex="30">
+                                    <div class="white-txt regular-font">
+                                        <span>Exchanges:</span>
+                                    </div>
+                                    <div class="drop-down-btn dropdown-multiselect--wide" ng-dropdown-multiselect="" options="stockMarket"
+                                         selected-model="exchangesFilter" extra-settings="stockMarketSettings" disabled="customType == 1  || !customType"
+                                         tfi-on-close="exchangesClosed"
+                                         style="height:35px;">
+                                    </div>
+
+                                </div>
+
+                                <div flex="30">
+                                    <div class="white-txt regular-font">
+                                        <span>Sectors:</span>
+                                    </div>
+                                    <div class="drop-down-btn dropdown-multiselect--wide" ng-dropdown-multiselect="" options="sectorsOptions"
+                                         selected-model="sectors" extra-settings="sectorsSettings"
+                                         tfi-on-close="sectorsClosed"
+                                         style="height:35px;" disabled="customType == 1 || !customType">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="clear:both">&nbsp;</div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="clear:both">&nbsp;</div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 l-padding-left-xs--xs l-padding-right-xs--xs">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" ng-class="{'disable-risks' : customType == 1 || !customType}">
+                    <div class="row" style="padding:15px;background-color:#fff;">
+                        <div class="l-padding-left-lg l-padding-left-no--xs l-padding-right-lg l-padding-right-no--xs">
+                            <div layout="column" layout-align="start start"
+                                 layout-gt-sm="row" layout-align-gt-sm="space-between start"
+                                 class="l-margin-bottom-lg">
+                                <div class="main-header4">
+                                    <span>{{selectSecurityNum}} Securities Selected</span>
+                                    <!--<div class="col-md-12 col-sm-12 col-xs-12 text-lable-blue">
+                                        (Out Of {{stocksCount}} in The license)
+                                    </div>-->
+                                </div>
+                                <div layout="column"
+                                     layout-align="start start"
+                                     layout-align-gt-sm="start end"
+                                     class="l-padding-top-md text-lable-blue-bold">
+                                    <span>Stocks marked in <span style="color:red">red</span> are disqualified from participation.</span>
+                                    <span ng-show="customType == 1 || !customType">Read More</span>
+                                    <a ng-show="customType == 2" href="https://www.gocherries.com/how-it-works-en" target="_blank">Read More</a>
+                                </div>
+                            </div>
+
+                            <div layout="column" layout-gt-sm="row"
+                                 class="l-padding-left-m l-padding-right-m l-margin-bottom-lg">
+                                <div layout="row" layout-align="space-between center" 
+                                     flex-grow
+                                     class="l-margin-bottom-lg">
+                                    <a type="button" class="btn blue-button" style="font-size:16px;width:105px; margin-top: 6px;"
+                                        ng-click="selectOrUnSelectAll()" ng-disabled="customType == 1 || !customType">
+                                        <span ng-show="selectSecurityNum == 0">Check All</span>
+                                        <span ng-show="selectSecurityNum > 0">Uncheck All</span>
+                                    </a>
+                                    <div layout="row" layout-align="end end">
+                                        <div class="checkbox checkbox-small checkbox-primary">
+                                            <input type="checkbox" id="hideDisqualified" ng-disabled="customType == 1 || !customType"
+                                                   ng-change="search()" ng-model="showDisqualified" />
+                                            <label for="hideDisqualified"></label>
+                                            <span style="margin-left: -25px;" class="text-lable-blue-bold">show disqualified</span>
+                                        </div>
+                                        <div class="hide-gt-sm">
+                                            <tfi-security-filter tfi-data-source="filterDataSource"
+                                                                    tfi-on-filter="applyFilter(filterData)"
+                                                                    ng-disabled="customType == 1 || !customType">
+                                            </tfi-security-filter>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div flex-grow>
+                                    <input type="text" class="search-input" ng-disabled="customType == 1 || !customType"
+                                           ng-change="search()" ng-model="searchParams.searchText" placeholder="Search Security" style="font-size:20px;width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 no-padding">
+                            <!-- Header -->
+                            <div sortable-header model="searchParams" sort="search()" read-only="customType == 1 || !customType">
+                                <div class="col-lg-1 col-md-1 hidden-sm hidden-xs">
+                                    &nbsp;
+                                </div>
+                                <div class="col-lg-11 col-md-11 hidden-sm hidden-xs text-lable-blue no-padding">
+                                    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs text-lable-blue-bold no-padding" field="StdYield">
+                                        <span field="StdYield" class="sortable" style="display: inline-block; min-width: 47px;">Risk</span>
+                                        <span class="sortable asc" field="strName"> Security</span>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding sortable" field="strSymbol">
+                                        Symbol
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 hidden-sm hidden-xs text-lable-blue-bold no-padding sortable" field="marketName">
+                                        Exchange
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding sortable" field="sectorName">
+                                        Sector
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding sortable" field="{{avgYield}}">
+                                        Annual Return
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding sortable" field="rank">
+                                        Global Rank
+                                    </div>
+                                </div>
+                            </div>
+                            <table ng-table="tableParams" class="table-securities">
+                                <tr ng-repeat="sec in $data" class="no-padding">
+                                    <td>
+                                        <security model="sec" disable-mode="customType == 1 || !customType"
+                                                    columns="columns" mobile-columns="mobileColumns"
+                                                    risk-color-field="'StdYield'" chart-width="1000"
+                                                    index="$index" can-select="'true'" select-model="addOrRemoveToSectorList(model)"
+                                                    currency="sec.idCurrency"></security>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="col-lg-6 col-md-6 text-right" ng-show="data.length > 0 " style="margin-top:25px;color:#337ab7;">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-size:20px;">
+                                    {{currenPageCount}} of {{tableParams.total() }}
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /body -->
+
+
+
+    </div>
+</div>

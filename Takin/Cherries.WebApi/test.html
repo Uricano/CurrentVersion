@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+            var timerStart = Date.now();
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>Performance test</div>
+    <div id="timeLabel"></div>
+    <script type="text/javascript">
+        window.onload = function ()
+        {
+            var label = document.getElementById('timeLabel');
+            label.innerText = "Page loading time: " + ((Date.now() - timerStart) / 1000) + 'sec.';
+        };
+    </script>
+</body>
+</html>

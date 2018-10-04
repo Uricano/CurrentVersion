@@ -1,0 +1,2240 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/20/2016 9:37:39 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="C1000119104"
+  DTS:CreatorName="NESS\P0018035"
+  DTS:DTSID="{B64430E4-9F83-4081-A352-FA58B0017102}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="13.0.2164.0"
+  DTS:LocaleID="1037"
+  DTS:ObjectName="Import"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="32"
+  DTS:VersionGUID="{1A491274-C439-4F15-8281-2AF25FC53260}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EMPTLCLOUD.CLOUDAPP.NET.ExchangesDB.emptl]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{AE2E7B77-2042-441E-B9E6-FF91E5868109}"
+      DTS:ObjectName="EMPTLCLOUD.CLOUDAPP.NET.ExchangesDB.emptl">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=tcp:takin.database.windows.net;User ID=takinadm@takin.database.windows.net;Initial Catalog=ExchangesDB1;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="hSteo5HW8g=="
+            IV="ZwUnh8j8NtU=" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc" />
+            <CipherData>
+              <CipherValue>ZwUnh8j8NtVjdly+J+6wyLdiloau5yExH6FSSmo/1d3tAak8eYgc4JqViVNsnxrRmuiFcMQxSkdHb+tQUUzS7t5Qu+1m4ZVlF1xC/JNChurMrYCgC5fN8VFe7gN4KPZ9J6VGNFNBL5VOwK4VcUltEU6jfhzQ1RQROO1WgnZmDNo=</CipherValue>
+            </CipherData>
+          </EncryptedData>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{020676CA-EA56-438F-AE99-749A42AA34EA}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::FlatFileConnectionManager_ConnectionString]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1037"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1255"
+          DTS:ConnectionString="C:\Users\p0018035\Documents\תקין\DailyHistFile.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LocalID"
+              DTS:DTSID="{EB40411B-B90B-4F88-8C5F-3D3CA3D438C9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ValueDT"
+              DTS:DTSID="{B80AF174-008F-47B8-9461-20CB271CB3F5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:DataType="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceClose"
+              DTS:DTSID="{28ADBB52-3605-4095-B01E-734DC2670A5E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceBase"
+              DTS:DTSID="{E2DF544D-822C-491E-BDEA-EC9B042D2DE1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceOpen"
+              DTS:DTSID="{4D8CCBEF-BA72-4535-A804-5D65C3158BA6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceMax"
+              DTS:DTSID="{61132EDD-66F7-4BA0-A8F6-03977235ACDE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceMin"
+              DTS:DTSID="{A334F1EB-1BC0-44D8-81EE-487FDDEA7DF9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Quantity"
+              DTS:DTSID="{888E3341-FBEB-4735-990C-13B28C242F31}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Monetary"
+              DTS:DTSID="{C4417792-18CC-438B-AD07-A71250E33C36}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TransNum"
+              DTS:DTSID="{92600078-DE6A-4EF2-AC87-0491BFCF5A6F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Volume"
+              DTS:DTSID="{3995DBDD-8773-4836-9393-7C890F00B4DB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceBid"
+              DTS:DTSID="{1C5D86CC-1748-4187-8F29-FDF3FB2385D4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PriceAsk"
+              DTS:DTSID="{6A8744FF-8BFB-47AA-898D-FC903AFCC2BA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FAC"
+              DTS:DTSID="{C2016363-5258-4ABE-87DE-E64D73A3845B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsHoliday"
+              DTS:DTSID="{4C677563-99B9-4A7D-AE99-03E3D55E8AA9}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{812F5453-3FE8-43DC-8284-861130F5A013}"
+      DTS:ObjectName="FlatFileConnectionManager_ConnectionString"
+      DTS:Required="True">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">C:\Users\p0018035\Documents\תקין\DailyHistFile.txt</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow Task"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{ED14DBAB-B526-483A-880B-E8D79790259E}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task\Aggregate"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregate;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Aggregates data with functions such as Average, Sum, Count, Max, and Min. For example, group data to compute the sum of sales per product or the average visits per day."
+              name="Aggregate"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of distinct values in a column that the aggregation counts distinctly. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no CountDistinctScale value is used."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of distinct values in a column that the aggregation counts distinctly. If a CountDistinctScale value is specified, the value in CountDistinctKeys takes precedence."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage by which memory can be extended during the aggregation. Valid values are between 1 and 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Aggregate.Inputs[Aggregate Input 1]"
+                  name="Aggregate Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Aggregate.Inputs[Aggregate Input 1].Columns[ValueDT]"
+                      cachedDataType="date"
+                      cachedName="ValueDT"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Aggregate.Outputs[Aggregate Output 1]"
+                  name="Aggregate Output 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aggregate.Outputs[Aggregate Output 1].Columns[ValueDT]"
+                      dataType="date"
+                      lineageId="Package\Data Flow Task\Aggregate.Outputs[Aggregate Output 1].Columns[ValueDT]"
+                      name="ValueDT">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1037"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LocalID]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LocalID]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[LocalID]"
+                      name="LocalID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValueDT]"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]"
+                      name="ValueDT"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceClose]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceClose]"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceClose]"
+                      name="PriceClose"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBase]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]"
+                      name="PriceBase"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceOpen]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]"
+                      name="PriceOpen"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMax]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]"
+                      name="PriceMax"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMin]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]"
+                      name="PriceMin"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Monetary]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]"
+                      name="Monetary"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TransNum]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]"
+                      name="TransNum"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Volume]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]"
+                      name="Volume"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBid]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]"
+                      name="PriceBid"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceAsk]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]"
+                      name="PriceAsk"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FAC]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]"
+                      name="FAC"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[IsHoliday]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsHoliday]"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[IsHoliday]"
+                      name="IsHoliday"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LocalID]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="LocalID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValueDT]"
+                      dataType="date"
+                      name="ValueDT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceClose]"
+                      dataType="r4"
+                      name="PriceClose" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBase]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceBase" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceOpen]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceOpen" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMax]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceMax" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMin]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceMin" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Monetary]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="Monetary" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TransNum]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="TransNum" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Volume]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="Volume" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBid]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceBid" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceAsk]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceAsk" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FAC]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="FAC" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsHoliday]"
+                      dataType="bool"
+                      name="IsHoliday" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1255"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\OLE DB Command"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
+              name="OLE DB Command"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">delete from tb_TradingData where ValueDT = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1255</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\OLE DB Command.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[EMPTLCLOUD.CLOUDAPP.NET.ExchangesDB.emptl]"
+                  connectionManagerRefId="Package.ConnectionManagers[EMPTLCLOUD.CLOUDAPP.NET.ExchangesDB.emptl]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input]"
+                  errorOrTruncationOperation="Command Execution"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Command Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input].Columns[ValueDT]"
+                      cachedDataType="date"
+                      cachedName="ValueDT"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\Data Flow Task\Aggregate.Outputs[Aggregate Output 1].Columns[ValueDT]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      dataType="dbTimeStamp"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\OLE DB Command.Outputs[OLE DB Command Output]"
+                  exclusionGroup="1"
+                  name="OLE DB Command Output"
+                  synchronousInputId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\OLE DB Command.Outputs[OLE DB Command Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Command Error Output"
+                  synchronousInputId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow Task.Paths[Aggregate Output 1]"
+              endId="Package\Data Flow Task\OLE DB Command.Inputs[OLE DB Command Input]"
+              name="Aggregate Output 1"
+              startId="Package\Data Flow Task\Aggregate.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output]"
+              endId="Package\Data Flow Task\Aggregate.Inputs[Aggregate Input 1]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Import csv"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{D24F0DFE-E981-4FDD-A92B-CC569D8D3627}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Import csv"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Import csv\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Import csv\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[PriceBase]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PriceBase"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[PriceMax]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PriceMax"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[PriceMin]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PriceMin"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[Monetary]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Monetary"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[TransNum]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TransNum"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[Volume]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Volume"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[PriceBid]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PriceBid"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[PriceAsk]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PriceAsk"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[FAC]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="FAC"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[PriceOpen]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PriceOpen"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]" />
+                    <inputColumn
+                      refId="Package\Import csv\Derived Column.Inputs[Derived Column Input].Columns[Quantity]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Quantity"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Import csv\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Import csv\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Base]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Base]"
+                      name="Price_Base"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PriceBase == "NULL" ? NULL(DT_R8) : (DT_R8)PriceBase</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Max]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Max]"
+                      name="Price_Max"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PriceMax == "NULL" ? NULL(DT_R8) : (DT_R8)PriceMax</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Min]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Min]"
+                      name="Price_Min"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PriceMin == "NULL" ? NULL(DT_R8) : (DT_R8)PriceMin</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Monetary_F]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Monetary_F]"
+                      name="Monetary_F"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">Monetary == "NULL" ? NULL(DT_R8) : (DT_R8)Monetary</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Trans_Num]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Trans_Num]"
+                      name="Trans_Num"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]} == "NULL" ? NULL(DT_I8) : (DT_I8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TransNum == "NULL" ? NULL(DT_I8) : (DT_I8)TransNum</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Volume_I]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Volume_I]"
+                      name="Volume_I"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]} == "NULL" ? NULL(DT_I8) : (DT_I8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">Volume == "NULL" ? NULL(DT_I8) : (DT_I8)Volume</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Bid]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Bid]"
+                      name="Price_Bid"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PriceBid == "NULL" ? NULL(DT_R8) : (DT_R8)PriceBid</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Ask]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Ask]"
+                      name="Price_Ask"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PriceAsk == "NULL" ? NULL(DT_R8) : (DT_R8)PriceAsk</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[FAC_F]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[FAC_F]"
+                      name="FAC_F"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">FAC == "NULL" ? NULL(DT_R8) : (DT_R8)FAC</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Open]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Open]"
+                      name="Price_Open"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]} == "NULL" ? NULL(DT_R8) : (DT_R8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PriceOpen == "NULL" ? NULL(DT_R8) : (DT_R8)PriceOpen</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Quantity_I]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Quantity_I]"
+                      name="Quantity_I"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]} == "NULL" ? NULL(DT_I8) : (DT_I8)#{Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">Quantity == "NULL" ? NULL(DT_I8) : (DT_I8)Quantity</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Import csv\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Import csv\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import csv\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Import csv\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1037"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Import csv\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[LocalID]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LocalID]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[LocalID]"
+                      name="LocalID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValueDT]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]"
+                      name="ValueDT"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceClose]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceClose]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceClose]"
+                      name="PriceClose"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBase]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBase]"
+                      name="PriceBase"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceOpen]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceOpen]"
+                      name="PriceOpen"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMax]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMax]"
+                      name="PriceMax"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMin]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceMin]"
+                      name="PriceMin"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Monetary]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Monetary]"
+                      name="Monetary"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TransNum]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[TransNum]"
+                      name="TransNum"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Volume]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[Volume]"
+                      name="Volume"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBid]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceBid]"
+                      name="PriceBid"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceAsk]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceAsk]"
+                      name="PriceAsk"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]"
+                      codePage="1255"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FAC]"
+                      length="50"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[FAC]"
+                      name="FAC"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[IsHoliday]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsHoliday]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[IsHoliday]"
+                      name="IsHoliday"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LocalID]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="LocalID" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValueDT]"
+                      dataType="date"
+                      name="ValueDT" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceClose]"
+                      dataType="r4"
+                      name="PriceClose" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBase]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceBase" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceOpen]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceOpen" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMax]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceMax" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceMin]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceMin" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Monetary]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="Monetary" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TransNum]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="TransNum" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Volume]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="Volume" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceBid]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceBid" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PriceAsk]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="PriceAsk" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FAC]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="FAC" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsHoliday]"
+                      dataType="bool"
+                      name="IsHoliday" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1255"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Import csv\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[tb_TradingData]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1255</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Import csv\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[EMPTLCLOUD.CLOUDAPP.NET.ExchangesDB.emptl]"
+                  connectionManagerRefId="Package.ConnectionManagers[EMPTLCLOUD.CLOUDAPP.NET.ExchangesDB.emptl]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LocalID]"
+                      cachedCodepage="1255"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="LocalID"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocalID]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[LocalID]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ValueDT]"
+                      cachedDataType="date"
+                      cachedName="ValueDT"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ValueDT]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[ValueDT]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PriceClose]"
+                      cachedDataType="r4"
+                      cachedName="PriceClose"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceClose]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[PriceClose]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[IsHoliday]"
+                      cachedDataType="bool"
+                      cachedName="IsHoliday"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IsHoliday]"
+                      lineageId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output].Columns[IsHoliday]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Price_Base]"
+                      cachedDataType="r8"
+                      cachedName="Price_Base"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceBase]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Base]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Price_Open]"
+                      cachedDataType="r8"
+                      cachedName="Price_Open"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceOpen]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Open]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Price_Max]"
+                      cachedDataType="r8"
+                      cachedName="Price_Max"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceMax]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Max]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Price_Min]"
+                      cachedDataType="r8"
+                      cachedName="Price_Min"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceMin]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Min]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Monetary_F]"
+                      cachedDataType="r8"
+                      cachedName="Monetary_F"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Monetary]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Monetary_F]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Trans_Num]"
+                      cachedDataType="i8"
+                      cachedName="Trans_Num"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TransNum]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Trans_Num]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Volume_I]"
+                      cachedDataType="i8"
+                      cachedName="Volume_I"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Volume]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Volume_I]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Price_Bid]"
+                      cachedDataType="r8"
+                      cachedName="Price_Bid"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceBid]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Bid]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Price_Ask]"
+                      cachedDataType="r8"
+                      cachedName="Price_Ask"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceAsk]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[Price_Ask]" />
+                    <inputColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[FAC_F]"
+                      cachedDataType="r8"
+                      cachedName="FAC_F"
+                      externalMetadataColumnId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FAC]"
+                      lineageId="Package\Import csv\Derived Column.Outputs[Derived Column Output].Columns[FAC_F]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocalID]"
+                      codePage="1255"
+                      dataType="str"
+                      length="50"
+                      name="LocalID" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ValueDT]"
+                      dataType="dbTimeStamp"
+                      name="ValueDT" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceClose]"
+                      dataType="r8"
+                      name="PriceClose" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceBase]"
+                      dataType="r8"
+                      name="PriceBase" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceOpen]"
+                      dataType="r8"
+                      name="PriceOpen" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceMax]"
+                      dataType="r8"
+                      name="PriceMax" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceMin]"
+                      dataType="r8"
+                      name="PriceMin" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Quantity]"
+                      dataType="i8"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Monetary]"
+                      dataType="r8"
+                      name="Monetary" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TransNum]"
+                      dataType="i8"
+                      name="TransNum" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Volume]"
+                      dataType="i8"
+                      name="Volume" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceBid]"
+                      dataType="r8"
+                      name="PriceBid" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PriceAsk]"
+                      dataType="r8"
+                      name="PriceAsk" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FAC]"
+                      dataType="r8"
+                      name="FAC" />
+                    <externalMetadataColumn
+                      refId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IsHoliday]"
+                      dataType="bool"
+                      name="IsHoliday" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Import csv\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import csv\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import csv\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import csv\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import csv\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Import csv.Paths[Derived Column Output]"
+              endId="Package\Import csv\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Import csv\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Import csv.Paths[Flat File Source Output]"
+              endId="Package\Import csv\Derived Column.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Import csv\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="343,132" />
+        <NodeLayout
+          Size="129,42"
+          Id="Package\Import csv"
+          TopLeft="346,242" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Data Flow Task">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task\Flat File Source"
+          TopLeft="361,70" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Data Flow Task\OLE DB Command"
+          TopLeft="380,276" />
+        <NodeLayout
+          Size="127,42"
+          Id="Package\Data Flow Task\Aggregate"
+          TopLeft="384,173" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="436.5,112">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11,61"
+              Start="0,0"
+              End="11,53.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.5"
+                    Point2="0,30.5"
+                    Point3="4,30.5" />
+                  <mssgle:LineSegment
+                    End="7,30.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7,30.5"
+                    Point2="11,30.5"
+                    Point3="11,34.5" />
+                  <mssgle:LineSegment
+                    End="11,53.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Aggregate Output 1]"
+          TopLeft="447.5,215">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.5,61"
+              Start="0,0"
+              End="15.5,53.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.5"
+                    Point2="0,30.5"
+                    Point3="4,30.5" />
+                  <mssgle:LineSegment
+                    End="11.5,30.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.5,30.5"
+                    Point2="15.5,30.5"
+                    Point3="15.5,34.5" />
+                  <mssgle:LineSegment
+                    End="15.5,53.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Import csv">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="274,43"
+          Id="Package\Import csv\Flat File Source"
+          TopLeft="289,0" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Import csv\OLE DB Destination"
+          TopLeft="334,384" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Import csv\Derived Column"
+          TopLeft="321,117" />
+        <EdgeLayout
+          Id="Package\Import csv.Paths[Flat File Source Output]"
+          TopLeft="426,43">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-28,74"
+              Start="0,0"
+              End="-28,66.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33"
+                    Point2="0,37"
+                    Point3="-4,37" />
+                  <mssgle:LineSegment
+                    End="-24,37" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-24,37"
+                    Point2="-28,37"
+                    Point3="-28,41" />
+                  <mssgle:LineSegment
+                    End="-28,66.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import csv.Paths[Derived Column Output]"
+          TopLeft="398,159">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.5,225"
+              Start="0,0"
+              End="21.5,217.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,108.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,108.5"
+                    Point2="0,112.5"
+                    Point3="4,112.5" />
+                  <mssgle:LineSegment
+                    End="17.5,112.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.5,112.5"
+                    Point2="21.5,112.5"
+                    Point3="21.5,116.5" />
+                  <mssgle:LineSegment
+                    End="21.5,217.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import csv\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

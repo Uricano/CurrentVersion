@@ -1,0 +1,49 @@
+﻿//
+// Styles for security filter form component
+//
+
+.security-filter-form{
+    display: block;
+    position: relative;
+}
+
+.security-filter-form__close{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.security-filter-form__panel {
+    padding: 15px 10px;
+
+    &:not(:last-child) {
+        border-bottom: solid 1px $border-color-default;
+    }
+}
+
+.security-filter-form__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    a {
+        @extend .l-color-light;
+        @extend .l-font-base;
+        @extend .l-font-underline;
+
+        &:hover {
+            @extend .l-color-light;
+        }
+    }
+}
+
+.security-filter-form__title {
+    @extend .l-color-light;
+    @extend .l-title-3;
+}

@@ -1,0 +1,283 @@
+﻿//
+// layout
+//
+
+$indents: ( 
+    no: $indent-no, 
+    xxs: $indent-xxs, 
+    xs: $indent-xs, 
+    sm: $indent-sm, 
+    md: $indent-md, 
+    lg: $indent-lg, 
+    xl: $indent-xl, 
+    xxl: $indent-xxl
+);
+
+@for $i from 0 through 20 {
+    $value: #{$i * 5};
+
+    .l-width-#{$value}{
+        width: $value + %;
+    }
+}
+
+@mixin create-indents ($media-breakpoint: null, $suffix: null) {
+
+    @each $index, $value in $indents {
+
+        @if $media-breakpoint {
+
+            @media (max-width: $media-breakpoint - 1) {
+                .l-padding-#{$index}--#{$suffix} {
+                    padding: $value;
+                }
+
+                .l-padding-left-#{$index}--#{$suffix} {
+                    padding-left: $value;
+                }
+
+                .l-padding-right-#{$index}--#{$suffix} {
+                    padding-right: $value;
+                }
+
+                .l-padding-top-#{$index}--#{$suffix} {
+                    padding-top: $value;
+                }
+
+                .l-padding-bottom-#{$index}--#{$suffix} {
+                    padding-bottom: $value;
+                }
+            }
+        }
+        @else {
+            .l-padding-#{$index} {
+                padding: $value;
+            }
+
+            .l-padding-left-#{$index} {
+                padding-left: $value;
+            }
+
+            .l-padding-right-#{$index} {
+                padding-right: $value;
+            }
+
+            .l-padding-top-#{$index} {
+                padding-top: $value;
+            }
+
+            .l-padding-bottom-#{$index} {
+                padding-bottom: $value;
+            }
+        }
+    }
+
+    @each $index, $value in $indents {
+        .l-margin-#{$index} {
+            margin: $value;
+        }
+
+        .l-margin-left-#{$index} {
+            margin-left: $value;
+        }
+
+        .l-margin-right-#{$index} {
+            margin-right: $value;
+        }
+
+        .l-margin-top-#{$index} {
+            margin-top: $value;
+        }
+
+        .l-margin-bottom-#{$index} {
+            margin-bottom: $value;
+        }
+    }
+}
+
+@include create-indents();
+@include create-indents($layout-breakpoint-sm, 'sm');
+@include create-indents($layout-breakpoint-xs, 'xs');
+
+.l-min-width{
+    min-width: 1px;
+}
+
+.l-inline-block{
+    display: inline-block;
+}
+
+.l-aligh-center{
+    text-align: center;
+}
+
+.l-aligh-right {
+    text-align: right;
+}
+.l-aligh-left {
+    text-align: left;
+}
+
+.l-panel {
+    padding: 15px;
+    background-color: $pane-bg-color;
+}
+
+.vertical-separator {
+    width: 1px;
+    background-color: $vertical-separator-color;
+}
+
+h1 {
+    margin: 0;
+    font-size: $font-size-xxl;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0;
+    font-size: $font-size-xxl;
+    font-weight: 700;
+}
+
+.l-uppercase{
+    text-transform: uppercase;
+}
+
+//
+// templates
+//
+
+// Template for ul list
+%border-default {
+    border: solid 1px $border-color-default;
+}
+
+%border-1 {
+    border: solid 1px $border-color-1;
+}
+
+//
+// fonts
+//
+
+.l-font-xxs {
+    font-size: $font-size-xxs;
+}
+
+.l-font-xs {
+    font-size: $font-size-xs;
+}
+
+.l-font-sm {
+    font-size: $font-size-sm;
+}
+
+.l-font-base {
+    font-size: $font-size-base;
+}
+
+.l-font-lg {
+    font-size: $font-size-lg;
+}
+
+.l-font-bold {
+    font-weight: 700;
+}
+
+.l-font-normal {
+    font-weight: 500;
+}
+
+.l-font-underline{
+    text-decoration: underline;
+}
+
+.l-title-1 {
+    font-size: $font-size-xxl;
+    font-weight: 700;
+    color: $text-color-brand;
+
+    @media (max-width: $layout-breakpoint-sm - 1) {
+        font-size: $font-size-xl;
+    }
+
+    @media (max-width: $layout-breakpoint-xs - 1) {
+        font-size: $font-size-lg;
+    }
+}
+
+.l-title-2 {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    color: $text-color-brand;
+
+    @media (max-width: $layout-breakpoint-sm - 1) {
+        font-size: $font-size-lg;
+    }
+
+    @media (max-width: $layout-breakpoint-xs - 1) {
+        font-size: $font-size-md;
+    }
+}
+
+.l-title-3 {
+    font-size: $font-size-lg;
+    font-weight: 700;
+}
+
+//
+// colors
+//
+
+.l-color-light {
+    color: $text-color-light;
+}
+
+.l-color-gray {
+    color: $text-color-gray;
+}
+
+.l-color-brand {
+    color: $text-color-brand;
+}
+
+//
+// styles
+//
+
+.show-gt-xs {
+    @media (max-width: $screen-xs - 1) {
+        display: none;
+    }
+}
+
+.show-gt-sm {
+    @media (max-width: $screen-sm - 1) {
+        display: none;
+    }
+}
+
+.l-float-clear{
+    clear: both;
+}
+
+.l-title-panel {
+    text-align: center;
+    background-color: $pane-bg-color;
+}
+
+.l-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+//
+// flex
+//
+
+.flex-shrink-0 {
+    flex-shrink: 0 !important;
+}

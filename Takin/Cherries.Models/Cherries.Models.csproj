@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AB2D795-52F7-4E85-AE3E-F81090A83376}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cherries.Models</RootNamespace>
+    <AssemblyName>Cherries.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs628C.tmp\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs628C.tmp\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\BacktestingPort.cs" />
+    <Compile Include="App\BenchMarkResult.cs" />
+    <Compile Include="App\CatData.cs" />
+    <Compile Include="App\CategoryItem.cs" />
+    <Compile Include="App\GeneralItem.cs" />
+    <Compile Include="App\Message.cs" />
+    <Compile Include="App\OptimalPortfolioSecurity.cs" />
+    <Compile Include="App\OptimalPortfolio.cs" />
+    <Compile Include="App\PortfolioDetails.cs" />
+    <Compile Include="App\PortRiskItem.cs" />
+    <Compile Include="App\Rate.cs" />
+    <Compile Include="App\SecurityData.cs" />
+    <Compile Include="App\StaticData.cs" />
+    <Compile Include="Command\ReconnectCommand.cs" />
+    <Compile Include="Command\UpdateLicenseCommand.cs" />
+    <Compile Include="Command\BasePortfolioCommand.cs" />
+    <Compile Include="Command\UpdatePortfolioCommand.cs" />
+    <Compile Include="Command\VerifyUsernameCommand.cs" />
+    <Compile Include="dbo\BMPrice.cs" />
+    <Compile Include="dbo\BMsecurity.cs" />
+    <Compile Include="dbo\LicenceService.cs" />
+    <Compile Include="dbo\Portfolio.cs" />
+    <Compile Include="dbo\PortfolioSecurities.cs" />
+    <Compile Include="dbo\Price.cs" />
+    <Compile Include="App\PriceReturn.cs" />
+    <Compile Include="dbo\Security.cs" />
+    <Compile Include="dbo\Transactions.cs" />
+    <Compile Include="dbo\User.cs" />
+    <Compile Include="dbo\UserLicence.cs" />
+    <Compile Include="Lookup\Country.cs" />
+    <Compile Include="Lookup\Currency.cs" />
+    <Compile Include="Lookup\District.cs" />
+    <Compile Include="Lookup\Gender.cs" />
+    <Compile Include="Lookup\Sector.cs" />
+    <Compile Include="Lookup\StockMarket.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\AllSecuritiesQuery.cs" />
+    <Compile Include="Queries\BackTestingQuery.cs" />
+    <Compile Include="Queries\CalculationQuery.cs" />
+    <Compile Include="Command\CreatePortfolioCommand.cs" />
+    <Compile Include="Command\ChangePasswordCommand.cs" />
+    <Compile Include="Command\SaveUserQuery.cs" />
+    <Compile Include="Queries\GetPortfolioQuery.cs" />
+    <Compile Include="Queries\LicenseCalculationQuery.cs" />
+    <Compile Include="Queries\LoginQuery.cs" />
+    <Compile Include="Queries\LogoffCommand.cs" />
+    <Compile Include="Queries\OptimazationExportQuery.cs" />
+    <Compile Include="Queries\OptimazationQuery.cs" />
+    <Compile Include="Queries\SendConfirmCodeQuery.cs" />
+    <Compile Include="Queries\VerifyConfirmCodeQuery.cs" />
+    <Compile Include="dbo\BacktestingSecurity.cs" />
+    <Compile Include="ViewModel\BacktestingPortfolioViewModel.cs" />
+    <Compile Include="ViewModel\BacktestingPortsViewModel.cs" />
+    <Compile Include="ViewModel\BackTestingViewModel.cs" />
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\BenchMarkSecuritiesViewModel.cs" />
+    <Compile Include="ViewModel\CalculationResponse.cs" />
+    <Compile Include="ViewModel\ConfirmCodeViewModel.cs" />
+    <Compile Include="ViewModel\CountriesViewModel.cs" />
+    <Compile Include="ViewModel\CurrencyViewModel.cs" />
+    <Compile Include="ViewModel\DistrictsViewModel.cs" />
+    <Compile Include="ViewModel\FileDataViewModel.cs" />
+    <Compile Include="ViewModel\GenderViewModel.cs" />
+    <Compile Include="ViewModel\LicenceServiceViewModel.cs" />
+    <Compile Include="ViewModel\LicenseCalculationViewModel.cs" />
+    <Compile Include="ViewModel\LicenseViewModel.cs" />
+    <Compile Include="ViewModel\LookupViewModel.cs" />
+    <Compile Include="ViewModel\OptimalPortoliosViewModel.cs" />
+    <Compile Include="ViewModel\PortfolioViewModel.cs" />
+    <Compile Include="ViewModel\SecurityPriceReturnsViewModel.cs" />
+    <Compile Include="ViewModel\SecurityPricesViewModel.cs" />
+    <Compile Include="ViewModel\TopPortfoliosViewModel.cs" />
+    <Compile Include="ViewModel\TopSecuritiesViewModel.cs" />
+    <Compile Include="ViewModel\UserViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TFI_Consts\TFI.Consts.csproj">
+      <Project>{03e389fd-a72a-428e-a6bf-7aed89964908}</Project>
+      <Name>TFI.Consts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TFI_Entities\TFI.Entities.csproj">
+      <Project>{86B59818-0B03-46ED-B6A3-F10DEA1DC3E9}</Project>
+      <Name>TFI.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

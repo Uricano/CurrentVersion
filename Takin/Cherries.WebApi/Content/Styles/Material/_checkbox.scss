@@ -1,0 +1,24 @@
+﻿// Contains overrides for material checkbox
+
+// Variables overrides
+$checkbox-width: 15px;
+$checkbox-height: $checkbox-width; 
+$checkbox-margin: 0;
+
+// Styles overrides
+
+md-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    .md-container {
+        background-color: $bg-color-base;
+        top: 0;
+        transform: none;
+    }
+
+    .md-icon {
+        border-width: 1px;
+    }
+}

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86B59818-0B03-46ED-B6A3-F10DEA1DC3E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TFI.Entities</RootNamespace>
+    <AssemblyName>TFI.Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs12C6.tmp\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs12C6.tmp\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.4.0.0.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dbo\BacktestingPortfolio.cs" />
+    <Compile Include="dbo\BacktestingPortfolioSecurities.cs" />
+    <Compile Include="dbo\BMPrice.cs" />
+    <Compile Include="dbo\BMsecurity.cs" />
+    <Compile Include="dbo\LicTransactions.cs" />
+    <Compile Include="dbo\PortfolioBase.cs" />
+    <Compile Include="dbo\PriceReturn.cs" />
+    <Compile Include="dbo\UsersLogin.cs" />
+    <Compile Include="EntityBase.cs" />
+    <Compile Include="Lookup\Country.cs" />
+    <Compile Include="Lookup\District.cs" />
+    <Compile Include="Lookup\Gender.cs" />
+    <Compile Include="Lookup\Licenseexchanges.cs" />
+    <Compile Include="Lookup\Licensetypes.cs" />
+    <Compile Include="Lookup\LookupBase.cs" />
+    <Compile Include="Lookup\Parameters.cs" />
+    <Compile Include="Lookup\Sector.cs" />
+    <Compile Include="Lookup\Exchangestock.cs" />
+    <Compile Include="Lookup\SelCurrency.cs" />
+    <Compile Include="Lookup\Selexchanges.cs" />
+    <Compile Include="Lookup\SelSecurityType.cs" />
+    <Compile Include="Lookup\SelStockmarkets.cs" />
+    <Compile Include="Mapping\BacktestingPortfolioMap.cs" />
+    <Compile Include="Mapping\BacktestingPortfolioSecuritiesMap.cs" />
+    <Compile Include="Mapping\BMPriceMap.cs" />
+    <Compile Include="Mapping\BMsecuritiesMap.cs" />
+    <Compile Include="Mapping\CountryMap.cs" />
+    <Compile Include="Mapping\DistrictMap.cs" />
+    <Compile Include="Mapping\GenderMap.cs" />
+    <Compile Include="Mapping\LicenseexchangesMap.cs" />
+    <Compile Include="Mapping\LicensetypesMap.cs" />
+    <Compile Include="Mapping\LicTransactionsMap.cs" />
+    <Compile Include="Mapping\ParametersMap.cs" />
+    <Compile Include="Mapping\PriceMap.cs" />
+    <Compile Include="Mapping\PriceReturnMap.cs" />
+    <Compile Include="Mapping\SecurityMap.cs" />
+    <Compile Include="Mapping\PortfolioSecuritiesMap.cs" />
+    <Compile Include="Mapping\PortfolioMap.cs" />
+    <Compile Include="Mapping\SectorMap.cs" />
+    <Compile Include="Mapping\ExchangestockMap.cs" />
+    <Compile Include="Mapping\LicservicesMap.cs" />
+    <Compile Include="Mapping\SecurityTypeViewMap.cs" />
+    <Compile Include="Mapping\SelCurrencyMap.cs" />
+    <Compile Include="Mapping\SelexchangesMap.cs" />
+    <Compile Include="Mapping\SelStockmarketsMap.cs" />
+    <Compile Include="Mapping\StockMarketViewMap.cs" />
+    <Compile Include="Mapping\TopSecuritiesMap.cs" />
+    <Compile Include="Mapping\UserlicensesMap.cs" />
+    <Compile Include="Mapping\UsersLoginMap.cs" />
+    <Compile Include="Mapping\UsersMap.cs" />
+    <Compile Include="dbo\Price.cs" />
+    <Compile Include="dbo\Security.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="dbo\Portfolio.cs" />
+    <Compile Include="dbo\PortfolioSecurities.cs" />
+    <Compile Include="Sp\SecurityData.cs" />
+    <Compile Include="dbo\TopSecurities.cs" />
+    <Compile Include="Sp\UserPortfolio.cs" />
+    <Compile Include="dbo\Licservices.cs" />
+    <Compile Include="dbo\Userlicenses.cs" />
+    <Compile Include="dbo\Users.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

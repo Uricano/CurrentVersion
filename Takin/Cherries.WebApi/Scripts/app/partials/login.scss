@@ -1,0 +1,18 @@
+﻿.login {
+    background-color: rgba(255, 255, 255, 0.73);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(33,55,131,0.35);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(33,55,131,0.35);
+    box-shadow: 1px 1px 5px 0px rgba(33,55,131,0.35);
+    margin: 0px auto 20px auto;
+    padding: 25px 15px 40px 15px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+        line-height: 40px;
+        color: $text-color-brand;
+    }
+}

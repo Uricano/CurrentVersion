@@ -1,0 +1,552 @@
+01.08.2018 16:40:51 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:45:23 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:48:39 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:53:40 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:54:09 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:54:50 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:55:27 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:58:26 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 16:59:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:00:25 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:09:07 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:09:35 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id37_, selsecurit0_.strName as strName37_, selsecurit0_.strNameHeb as strNameHeb37_, selsecurit0_.isActive as isActive37_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:23:38 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:23:41 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:26:04 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:26:08 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:26:38 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:26:53 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:27:33 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:30:20 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:35:46 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:38:37 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:38:41 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+01.08.2018 17:53:36 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+03.08.2018 13:13:33 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+03.08.2018 13:13:42 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+13.08.2018 12:08:47 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+13.08.2018 15:19:31 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1123. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1123
+
+
+13.08.2018 16:16:18 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1123. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1123
+
+
+15.08.2018 13:22:53 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1123. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1123
+
+
+15.08.2018 14:53:35 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1123. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1123
+
+
+16.08.2018 11:58:48 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1123. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1123
+
+
+16.08.2018 12:55:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1123. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1123
+
+
+21.08.2018 12:46:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id36_, selsecurit0_.strName as strName36_, selsecurit0_.strNameHeb as strNameHeb36_, selsecurit0_.isActive as isActive36_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id36_, selsecurit0_.strName as strName36_, selsecurit0_.strNameHeb as strNameHeb36_, selsecurit0_.isActive as isActive36_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+21.08.2018 14:16:29 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id45_, selsecurit0_.strName as strName45_, selsecurit0_.strNameHeb as strNameHeb45_, selsecurit0_.isActive as isActive45_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id45_, selsecurit0_.strName as strName45_, selsecurit0_.strNameHeb as strNameHeb45_, selsecurit0_.isActive as isActive45_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+8/21/2018 3:41:16 PM Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+22.08.2018 14:52:18 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id18_, selsecurit0_.strName as strName18_, selsecurit0_.strNameHeb as strNameHeb18_, selsecurit0_.isActive as isActive18_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id18_, selsecurit0_.strName as strName18_, selsecurit0_.strNameHeb as strNameHeb18_, selsecurit0_.isActive as isActive18_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+22.08.2018 14:58:22 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id18_, selsecurit0_.strName as strName18_, selsecurit0_.strNameHeb as strNameHeb18_, selsecurit0_.isActive as isActive18_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id18_, selsecurit0_.strName as strName18_, selsecurit0_.strNameHeb as strNameHeb18_, selsecurit0_.isActive as isActive18_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+

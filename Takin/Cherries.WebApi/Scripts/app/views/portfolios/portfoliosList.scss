@@ -1,0 +1,41 @@
+﻿.portfolios
+{
+
+}
+
+.portfolios__list-panel{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.portfolios__list-panel__title {
+    flex: 1 1 50%;
+    padding: 0 15px;
+
+    @media (max-width: $layout-breakpoint-sm - 1) {
+        flex-basis: 100%;
+        padding: 0;
+    }
+}
+
+.portfolios__list-panel__subtitle {
+    font-size: $font-size-sm;
+    margin-top: $indent-lg;
+    padding-left: $indent-sm;
+
+    @media (max-width: $layout-breakpoint-xs - 1) {
+        font-size: $font-size-xxs;
+    }
+}
+
+.portfolios__list-panel__sort {
+    flex: 1 1 50%;
+    text-align: right;
+    margin-right: $indent-sm;
+    margin-top: $indent-lg; 
+    
+    @media (max-width: $layout-breakpoint-sm - 1) {
+        display: none;
+    }
+}

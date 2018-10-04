@@ -1,0 +1,147 @@
+﻿<div ng-if="!isLoginPage && !isRegistrationPage">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-header" style="padding:0px">
+
+        <div class="clo-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-lg-12 col-md-12 no-padding">
+                <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 no-padding">
+                    <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                        <div class="col-lg-12 col-md-12 col-sm-12  no-padding text-left">
+                            <div class="col-md-1 col-sm-2 hidden-xs no-padding" style="margin-top:11px">
+                                <a href="https://www.gocherries.com" target="_blank"><img id="logoimg" class="header-logo" src="content/themes/images/logo white clear background.png" /></a>
+                            </div>
+                            <div class="col-md-11 col-sm-10 col-xs-12 no-padding">
+                                <div layout="row" layout-align="space-between center" class="navbar-header">
+                                    <!--style="display: inline-grid;"-->
+                                    <div>
+                                        <!--style="display:inline-grid"-->
+                                        <button id="btnOpenMenu" type="button" ng-click="isMobileOpen = true" 
+                                                class="navbar-toggle collapsed l-margin-no l-padding-no" 
+                                                style="z-index:1000; border-radius: 0;" data-toggle="collapse" 
+                                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <img src="content/themes/images/hamburger_menu_icon.png" style="height:25px;width:25px" />
+                                        </button>
+                                    </div>
+                                    <div class="col-xs-8 no-padding" style="display:inline-grid"> 
+                                        <a class="navbar-toggle collapsed no-padding text-center l-margin-top-no l-margin-bottom-no" href="https://www.gocherries.com" target="_blank">
+                                            <img src="content/themes/images/logo white clear background.png" style="width:190px" />
+                                        </a>
+                                    </div>
+                                    <div class="hidden-lg hidden-md hidden-sm" style="min-width:25px;">
+                                        <img ng-show="isDataReady" src="content/themes/images/notification-outline.png" ng-click="showNewPortfolio()" width="24" height="24" alt="notifications" style="z-index:100"/>
+                                    </div>
+
+                                </div><!--navHeaderCollapse-->
+                               
+                                <div id="navbar" class="navbar-collapse collapse no-padding" ng-class="{'in' : isMobileOpen}">
+                                    <div class="col-sm-12 col-xs-12 mobile-menu no-padding" ng-show="isMobileOpen">
+                                        <a ng-click="isMobileOpen = !isMobileOpen" class="col-xs-5" style="padding-top:7px"><img src="content/themes/images/x icon.png" style="height:20px;padding-left:10px;" /></a>
+                                    </div>
+                                    <div class="col-sm-12 col-xs-12 ipad-menu-padding" style="padding-right:0px;">
+                                        <ul class="nav navbar-nav navPad">
+                                            <li class="dropdown text-center hidden-lg hidden-md hidden-sm"><span class="color-white ipad-font ipad-padding">{{ 'Hello' | translate }} {{userName}}</span></li>
+                                            <li class="dropdown text-center"><a href="/portfolios" class="ipad-font ipad-padding" ng-click="isMobileOpen = false" ng-class="{'select':selectMenu == 1 && !isMobileOpen}" class="mobile-menu-align">Portfolio Universe</a></li>
+                                            <li class="dropdown text-center"><a href="/BuildNewPortfolio" class="ipad-font ipad-padding" ng-click="isMobileOpen = false" ng-class="{'select':selectMenu == 2 && !isMobileOpen}" class="mobile-menu-align">Build New Portfolio</a></li>
+                                            <li class="dropdown text-center"><a href="/createbacktesting" class="ipad-font ipad-padding" ng-click="isMobileOpen = false" ng-class="{'select':selectMenu == 3 && !isMobileOpen}" class="mobile-menu-align">Backtesting</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-xs-12 mobile-menu mobile-menu-align"  ng-show="isMobileOpen" >
+                                        <span class="col-sm-3 col-xs-3">&nbsp;</span>
+                                        <a class="regular-font white-txt col-sm-6 col-xs-6 horizontal-split" style="padding-left:27px;" ng-click="logout()">{{ 'Logout' | translate }}</a>
+                                        <span class="col-sm-3 col-xs-3">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-lg col-md-2 hidden-sm hidden-xs">&nbsp;</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 no-padding logout-aligment" style="margin-top:-3px;">
+                    <div class="clo-lg-12 col-md-12 col-sm-12 hidden-xs regular-font no-padding" style="margin-top:35px;color: white;text-align:right">
+                        <span ng-show="isDataReady" class="mobile-collapse">{{objName}} Ready</span>
+                        <img src="content/themes/images/notification-outline.png" width="24" ng-show="isDataReady" style="margin-top:-7px; cursor:pointer" ng-click="showNewPortfolio()" height="24" alt="notifications" />
+                        &nbsp;{{ 'Greeting' | translate }} {{userName}}&nbsp;
+                        <a class="regular-font white-txt white-pipe-line" ng-click="showOrhideAccount()" id="accountDiv">
+                            {{ 'Account' | translate }}
+                        </a>
+                        <a class="regular-font white-txt white-pipe-line" ng-click="logout()" style="padding-left: 5px;">{{ 'Logout' | translate }}</a>
+                        <!--<select id="lang" ng-model="language" ng-change="setLanguage()">
+                            <option value="en">English</option>
+                            <option value="he">Hebrew</option>
+                        </select>-->
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-lg hidden-md hidden-sm hidden-xs no-padding">
+
+            <div class="col-sm-12 col-xs-12 no-padding">
+
+                <div class="col-sm-12 col-xs-12 pd-header no-padding">
+                    <!--<div class="col-sm-4 col-xs-4 text-right"><a href="portfolios"><img style="height:50px;" src="content/themes/images/logo white clear background.png" /></a></div>-->
+                    <div class="col-sm-1 col-xs-1 no-padding" style="margin-top:20px;text-align:left">&nbsp;</div>
+                    <div class="col-sm-7 col-xs-7 no-padding" style="margin-top:20px;text-align:left">
+                        <!--<span class="hidden-lg hidden-md hidden-sm red-text bold-text" style="float:right">To view full portfolio details, please switch to landscape view</span>-->
+                    </div>
+                </div>
+
+
+                <!--<div class="col-sm-4 col-xs-4 text-right" style="padding-top:10px;margin-top: 6px;">
+                    <a style="color:white" ng-click="logout()"><img src="content/themes/images/logout.png" /></a>
+
+                </div>-->
+                <div class="col-sm-12 col-xs-12 text-right">
+
+                    <div class="col-sm-12 col-xs-12 no-padding regular-font">
+                        <img src="content/themes/images/notification-outline.png" width="24" ng-show="isDataReady" style="margin-top:-7px;" ng-click="showNewPortfolio()" height="24" alt="notifications" />
+                        <span class="white-txt" style="padding-right:5px;">{{ 'Hello' | translate }} {{userName}}</span>
+                        <a class="regular-font white-txt white-pipe-line" id="accountDiv" ng-click="showOrhideAccount()">{{ 'Account' | translate }}</a>
+                        <a class="regular-font white-txt white-pipe-line" ng-click="logout()" style="padding-left: 10px;">{{ 'Logout' | translate }}</a>
+                    </div><!--ng-click="showAccount=!showAccount"-->
+                </div>
+            </div>
+
+            <div class="col-sm-8 col-xs-12" style="margin-top:5px;">
+                <!--<div class="col-sm-1 hidden-xs">-->
+                &nbsp;
+
+            </div>
+        </div>
+
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 account-mrg" ng-show="showAccount" style="z-index:999;" ng-style="{'position':showAccount==true?'absolute':'relative'}">
+        <div class="col-lg-7 col-md-7 col-sm-1 col-xs-1">
+            &nbsp;
+        </div>
+        <div id="accountDiv" style="height:210px;" ng-clik="show()" class="col-lg-5 col-md-5 col-sm-11 col-xs-11 tooltip-background account-tp-padding">
+            <div class="col-lg-12 hidden-md hidden-sm hidden-xs" id="accountDiv">&nbsp;</div>
+            <div class="col-lg-9 col-md-8 col-sm-8 col-xs-8 no-padding" id="accountDiv">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding" id="accountDiv">
+                    <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 middle-label black-gray-color" id="accountDiv">License details</span>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="accountDiv">
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text black-gray-color account-large-font no-padding" id="accountDiv">{{licenseType}}</span>
+                    </div>
+                    <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 middle-label black-gray-color" id="accountDiv">Exchanges:</span>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="accountDiv">
+                        <span class="bold-text account-large-font black-gray-color" ng-repeat="m in marketStock" id="accountDiv">
+                            {{m.HebName}}&nbsp;
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 no-padding account-gray-splitter" id="accountDiv">
+                <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 black-gray-color middle-label" id="accountDiv">Expiry Date</span>
+                <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text black-gray-color account-large-font" id="accountDiv">{{expiryDate |date:'dd.MM.yyyy'}}</span>
+                <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 black-gray-color middle-label" id="accountDiv">Days Left</span>
+                <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text black-gray-color account-large-font" id="accountDiv">{{daysLeft}}</span>
+            </div>
+            <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-top:15px;">
+                <a class="col-lg-6 col-md-6" ng-click="updateDetail('changeAccount')">Change account details</a>
+                <a class="col-lg-6 col-md-6" ng-click="updateDetail('changeBilling')">Change billing details</a>
+            </div>-->
+        </div>
+    </div>
+</div>

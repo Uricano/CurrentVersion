@@ -1,0 +1,76 @@
+﻿.portfolio{}
+
+.portfolio__container {
+    background-color: #F8F8F8;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 0px;
+}
+
+.portfolio__container:hover {
+    background-color: #FDF5E6;
+    cursor: pointer;
+}
+
+.portfolio__name{
+    max-width: 100%;
+}
+
+@media(max-width:991px) {
+    .portfolio__container {
+        min-height: 65px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .portfolio__title{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 2px 15px 5px;
+        justify-content: space-between;
+        align-self: stretch;
+    }
+
+    .portfolio__name {
+        font-size: 24px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-wrap: normal;
+    }
+
+    .portfolio__create-date {
+        font-size: 14px;
+        line-height: 14px;
+        color: #999999;
+        line-height: 18px;
+    }
+
+    .portfolio__profit {
+        width: 35%;
+        display: inline-block;
+        text-align: center;
+        line-height: 14px;
+        font-size: 14px;
+    }
+
+    .portfolio__profit-icon{
+        height: 16px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio__profit-icon img{
+        max-height: 100%;
+    }
+
+    .portfolio__delete {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

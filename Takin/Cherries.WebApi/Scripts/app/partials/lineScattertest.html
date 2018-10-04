@@ -1,0 +1,19 @@
+﻿<div>
+    <div id="container-lsChart" style="width:110%; overflow:auto; position: relative;">
+        <div class="bg-canvas-container" style="position: absolute;">
+            <canvas class="bg-canvas"></canvas>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12">
+       
+        <div class="col-lg-12 col-md-12" ng-show="options.series.length>0">
+            <chart-legend>
+                <ul class="line-legend">
+                    <li ng-repeat="s in options.series">
+                        <span style="background-color:{{s.color}}"></span>{{s.text}}
+                    </li>
+                </ul>
+            </chart-legend>
+        </div>
+    </div>
+</div>

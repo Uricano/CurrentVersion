@@ -1,0 +1,80 @@
+﻿<div class="container-fluid port-back" style="padding-left:0px;padding-right:0px;" ng-click="openPortfolio()">
+    <div class="col-lg-12 col-md-12 hidden-sm hidden-xs port-main-div" style="border-left: 25px solid;" ng-style="{'color' : riskColor}">
+        <div class="col-lg-12 col-md-12 hidden-sm hidden-xs no-padding">
+
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs port-td-splitter" style="padding:0px;">
+                <span class="col-md-12 black-gray-color port-name-font">{{model.Name}}</span>
+                <span class="col-md-12 regular-font black-gray-color" style="padding:0">
+                    <!--<span class="col-lg-3 col-md-4 medium-font" style="border-right:1px solid black">{{model.ID}}</span>-->
+                    <span class="col-lg-9 col-md-8 medium-font" style="padding-right:0px;">created:   {{model.DateCreated | date:'MM/dd/yyyy'}}</span>
+                </span>
+            </div>
+
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs port-td-splitter" style="padding-right:0px;padding-left:5px;">
+                <div class="col-md-12 text-left" style="padding:5px">
+                    <span class="black-gray-color" style="font-size:50px;">{{model.SecsNum}} </span><span class="black-gray-color small-header">Portfolio Securities</span>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs no-padding port-td-splitter">
+                <div class="col-md-12 no-padding">
+                    <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left big-font black-gray-color" style="font-weight:100;min-height:37px">Investment</label>
+                    <div class="col-md-12"><span class="small-header black-gray-color">{{getCurrency(model.CalcCurrency)}}{{model.Equity  |number:0}}</span></div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs no-padding">
+                <div class="col-md-12 no-padding" ng-style="{'margin-top': model.isManual == true ? '0px' : '10px'}">
+                    <div class="col-md-12 no-padding text-right" ng-show="model.isManual==true"><label class="blue-label">Generated Manually</label></div>
+                    <label class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-left big-font black-gray-color" style="font-weight:100;padding-left:10px;">Current equity</label><span class="col-md-6 text-right"><a ng-click="deletePortfolio($event);" title="delete portfolio"><img src="content/themes/images/deleteSmall.png" /></a></span>
+                    <div class="col-lg-3 col-md-5" style="padding-left:10px;"><span class="small-header black-gray-color">{{getCurrency(model.CalcCurrency)}}{{model.CurrEquity | number:0}}</span></div>
+                    <div class="col-lg-9 col-md-7">
+                        <div class="col-lg-2 hidden-md" style="margin-top:10px;">
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 text-right darkblue-color port-value-mrg" style="padding-left:0px;text-align:left">
+                            <img ng-show="model.Profit>0" src="content/themes/images/arrow_up.png" />
+                            <img ng-show="model.Profit<0" src="content/themes/images/arrow_down.png" />
+                            <span class="bold-text col-lg-12 col-md-12 no-padding">{{model.Profit/model.Equity|percentage:2}}</span>
+                            <span class="col-lg-12 col-md-12 no-padding">(<span ng-show="model.Profit">{{getCurrency(model.CalcCurrency)}}</span>{{model.Profit|number:0 }})</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hidden-lg hidden-md">
+        <div class="portfolio__container no-padding mobile-font" style="border-left: 25px solid {{riskColor}};">
+            <div class="portfolio__title">
+                <div class="portfolio__name black-gray-color mobile-padding">
+                    <span title="{{model.Name}}">{{model.Name}}</span>
+                </div>
+                <div class="portfolio__create-date mobile-padding">created: {{model.DateCreated | date:'MM/dd/yyyy'}}</div>
+            </div>
+            <div class="portfolio__profit darkblue-color">
+                <div class="portfolio__profit-icon">
+                    <img ng-show="model.Profit>=0" src="content/themes/images/arrow_up.png" />
+                    <img ng-show="model.Profit<0" src="content/themes/images/arrow_down.png" />
+                </div>
+                <div class="bold-text no-padding">{{model.Profit/model.Equity|percentage:2}}</div>
+                <div class="no-padding">(
+                    <span ng-show="model.Profit">{{getCurrency(model.CalcCurrency)}}</span>{{model.Profit|number:0 }})
+                </div>
+            </div>
+            <div class="portfolio__delete mobile-padding text-right">
+                <a ng-click="deletePortfolio($event)" title="delete portfolio">
+                    <img src="content/themes/images/deleteSmall.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

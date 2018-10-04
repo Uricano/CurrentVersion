@@ -1,0 +1,21 @@
+﻿//
+// override css classes for angular dropdown multiselect.
+//
+
+.dropdown-multiselect--wide {
+    .dropdown-multiselect {
+        width: 100%;
+
+        .btn {
+            position: relative;
+            text-align: left;
+
+            .caret {
+                position: absolute;
+                right: 5px;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+        }
+    }
+}

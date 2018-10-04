@@ -1,0 +1,70 @@
+﻿//
+// overrides
+//
+
+$checkbox-border-width: 1px;
+
+//
+// colors
+//
+
+$brand-color: #2d3e58;
+$light-color: #fff;
+
+$bg-color-base: #fff;
+$bg-color-light-gray: #dadada;
+$bg-color-dark: #000;
+
+$pane-bg-color: $light-color;
+
+$border-color-default: #dadada;
+$border-color-1: #bababa;
+$border-color-light: $light-color;
+$border-color-brand: $brand-color;
+
+$button-border-color: $border-color-default;
+
+$text-color-brand: #28364e;
+$text-color-gray: #aaaaaa;
+$text-color-dark-gray: #888888;
+$text-color-light: $light-color;
+
+$vertical-separator-color: #dadada;
+
+//
+// font
+//
+
+// overrides
+$font-family: inherit;
+
+$font-size-xxs: 12px;
+$font-size-xs: 14px;
+$font-size-sm: 16px;
+$font-size-base: 20px;
+$font-size-md: 24px;
+$font-size-lg: 30px;
+$font-size-xl: 36px;
+$font-size-xxl: 60px;
+
+//
+// indents
+//
+
+$indent-no: 0;
+$indent-xxs: 3px;
+$indent-xs: 5px;
+$indent-sm: 10px;
+$indent-md: 15px; 
+$indent-lg: 20px;
+$indent-xl: 30px;
+$indent-xxl: 40px;
+
+//
+// screen sizes
+//
+
+$screen-xs: 600px;
+$screen-sm: 960px;
+$screen-md: 1280px;
+$screen-lg: 1920px;

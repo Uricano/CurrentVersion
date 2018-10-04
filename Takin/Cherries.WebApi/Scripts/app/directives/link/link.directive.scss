@@ -1,0 +1,26 @@
+﻿.link-button {
+    display: inline-block;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    .icon {
+        border-radius: 3px;
+        max-width: 100%;
+    }
+
+    &:not(.no-border) {
+        .icon{
+            border: solid 1px $button-border-color;
+        }
+    }
+
+    &.is-disabled {
+        cursor: default;
+
+        .icon {
+            opacity: 0.5;
+        }
+    }
+}

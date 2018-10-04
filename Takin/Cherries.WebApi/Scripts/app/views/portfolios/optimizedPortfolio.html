@@ -1,0 +1,375 @@
+﻿<div class="portfolio-optimized">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="background-color:white;">
+        <label class="l-title-1">New Portfolio Analysis</label>
+    </div>
+
+    <div style="direction:ltr;background:white;" id="opt"
+         class="l-padding-left-xl l-padding-right-xl l-padding-left-sm--xs l-padding-right-sm--xs">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blue-div">
+                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12 no-padding">
+                    <div class="col-lg-12 col-md-12 col-sm-12 no-padding" style="color:white;font-size:38px;margin-top:-15px;">
+                        <span class="white-txt no-padding middle-label mrg-btm">Portfolio Name:</span>
+                        <span class="middle-label bold-text">{{newPort.PortDetails.Name}}</span>
+                    </div>
+                    <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding text-left middle-label"><label class="white-txt no-padding">Valid for {{currDay | date:'MMM dd/yy'}}</label></div>-->
+                </div>
+                <div class="col-lg-6 col-md-7 col-sm-7 col-xs-12 no-padding text-right" style="color:white">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right" style="padding:16px 10px 0px 0px">
+                        <button class="white-blue-btn img-btn" ng-click="export()"><img class="icon-cls" src="content/themes/images/export-icon.png" />&nbsp;Export</button>
+                        <button class="blue-white-btn img-btn" ng-click="updatePortdolio()"><img class="icon-cls" src="content/themes/images/save_icon.png" />&nbsp;Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="col-lg-1 col-md-1 hidden-sm hidden-xs">&nbsp;</div>-->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gray-border no-padding" style="border-left: 25px solid;" ng-style="{'color': riskColor}">
+                <div class="col-md-4 col-sm-4 col-xs-12 l-color-brand optimize-td">
+                    <span class="col-sm-12 col-md-12 col-xs-6 small-header">Created</span>
+                    <span class="col-sm-12 col-md-12 col-xs-6 optimize-font">{{portDetails.DateCreated | date:'MM/dd/yyyy'}}</span>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 l-color-brand optimize-td">
+                    <span class="col-sm-12 col-md-12 col-xs-6 small-header">Risk Level</span>
+                    <span class="col-sm-12 col-md-12 col-xs-6 optimize-font" ng-style="{'color':riskColor}">{{riskColorName}}</span>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 l-color-brand optimize-td">
+                    <span class="col-sm-12 col-md-12 col-xs-6 small-header">Investment Amount</span>
+                    <span class="col-sm-12 col-md-12 col-xs-6 no-padding" ng-class="{'optimize-font': newPort.PortDetails.Equity.toString().length < 11,'opt-data-font': newPort.PortDetails.Equity.toString().length > 11}">{{currency}}{{newPort.PortDetails.Equity | number}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gray-border" style="padding:15px;">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 portfolio-optimized__panel">
+                <span class="col-lg-12 col-md-12 hidden-sm hidden-xs black-gray-color simple-header bold-text no-padding"> Efficient Frontier </span>
+                <span class="col-lg-12 col-md-12 hidden-sm hidden-xs black-gray-color simple-header no-padding">Select an available portfolio according to return / risk level ratio</span>
+                <!--<div class="col-lg-4 col-md-3 hidden-sm hidden-xs no-padding text-right">
+            <button ng-class="{'white-blue-btn':isProfessionalView==true,'blue-white-btn':isProfessionalView==false}" ng-click="isProfessionalView=false"><img ng-if="isProfessionalView==false" src="content/themes/images/basic_view_icon_select.png" /><img ng-if="isProfessionalView==true" src="content/themes/images/basic_view_icon.png" />&nbsp;Basic view</button>
+            <button ng-class="{'white-blue-btn':isProfessionalView==false,'blue-white-btn':isProfessionalView==true}" ng-click="isProfessionalView=true"><img ng-if="isProfessionalView==true" src="content/themes/images/professional_view_icon.png" /><img ng-if="isProfessionalView==false" src="content/themes/images/professional_view_icon_Blue.png" />&nbsp;Professional view</button>
+        </div>-->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+                <div class="chart-responsive">
+                    <div class="col-md-12 gray-border hidden-sm hidden-xs">
+                        <!-- LINE CHART -->
+                        <div class="box-content">
+                            <div class="chart-responsive" id="chartScatchercanvas" ng-click="updatechartSize()">
+                                <div line-scattertest labels="lineLabels" all-data="lineData" options="lineOptions" select-point-event="setSelectPortfolio(index)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visible-sm visible-xs l-float-clear">
+
+                    <div layout="row" layout-align="stretch start" class="portfolio-optimized__selector l-margin-bottom-xl">
+
+                        <div class="portfolio-optimized__selector-item"
+                             ng-class="{'is-selected':selectProfessional=='MVP'}"
+                             ng-click="setSelectProfessional('MVP')">
+                            <div class="l-font-lg l-font-bold portfolio-optimized__selector-item-title">MVP</div>
+                            <div class="portfolio-optimized__selector-item-content">
+                                <div class="l-font-lg portfolio-optimized__selector-item-value">{{mvpPort.Return | percentage :2}}</div>
+                                <div class="portfolio-optimized__selector-item-label">Return</div>
+                                <div class="l-font-lg portfolio-optimized__selector-item-value">{{mvpPort.Risk | percentage :2}}</div>
+                                <div class="portfolio-optimized__selector-item-label">Risk</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-optimized__selector-item"
+                             ng-class="{'is-selected':selectProfessional=='yourPort'}"
+                             ng-click="setSelectProfessional('yourPort')">
+                            <div class="l-font-lg l-font-bold portfolio-optimized__selector-item-title">Optimal Portfolio</div>
+                            <div class="portfolio-optimized__selector-item-content">
+                                <div class="l-font-lg portfolio-optimized__selector-item-value">{{yourPort.Return | percentage :2}}</div>
+                                <div class="portfolio-optimized__selector-item-label">Return</div>
+                                <div class="l-font-lg portfolio-optimized__selector-item-value">{{yourPort.Risk | percentage :2}}</div>
+                                <div class="portfolio-optimized__selector-item-label">Risk</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-optimized__selector-item"
+                             ng-class="{'is-selected':selectProfessional=='TP'}"
+                             ng-click="setSelectProfessional('TP')">
+                            <div class="l-font-lg l-font-bold portfolio-optimized__selector-item-title">TP</div>
+                            <div class="portfolio-optimized__selector-item-content">
+                                <div class="l-font-lg portfolio-optimized__selector-item-value">{{tpPort.Return | percentage :2}}</div>
+                                <div class="portfolio-optimized__selector-item-label">Return</div>
+                                <div class="l-font-lg portfolio-optimized__selector-item-value">{{tpPort.Risk | percentage :2}}</div>
+                                <div class="portfolio-optimized__selector-item-label">Risk</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding-left:0px;" ng-click="setSelectProfessional('MVP')">
+                    <div class="col-md-1 col-lg-1">&nbsp;</div>
+                    <div class="col-md-11 col-lg-11 col-sm-12 col-xs-12 no-padding select-pointer opt-basicview-div" ng-class="{'light-blue-div':selectProfessional=='MVP','gray-border':selectProfessional!='MVP'}">
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center bold-text opt-basicview-font" ng-class="{'white-txt':selectProfessional=='MVP','light-blue-label':selectProfessional!='MVP'}">MVP</span>
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='MVP','light-blue-label':selectProfessional!='MVP'}">Optimal portfolio for minimum level of risk</span>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 gray-splitter no-padding">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text no-padding text-center opt-basicview-small-font" ng-class="{'white-txt':selectProfessional=='MVP','light-blue-label':selectProfessional!='MVP'}">{{mvpPort.Return | percentage :2}}</div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='MVP','light-blue-label':selectProfessional!='MVP'}">Historical Return</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text no-padding text-center opt-basicview-small-font" ng-class="{'white-txt':selectProfessional=='MVP','light-blue-label':selectProfessional!='MVP'}">{{mvpPort.Risk | percentage :2}}</div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='MVP','light-blue-label':selectProfessional!='MVP'}">Risk Level</div>
+                            </div>
+                        </div>
+                        <span class="col-lg-12 col-md-12 hidden-sm hidden-xs text-center">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding-left:0px;" ng-click="setSelectProfessional('yourPort')">
+                    <div class="col-md-1 col-lg-1">&nbsp;</div>
+                    <div class="col-md-11 col-lg-11 col-sm-12 col-xs-12 no-padding select-pointer opt-basicview-div" ng-class="{'gray-border':selectProfessional!='yourPort','light-blue-div':selectProfessional=='yourPort'}">
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center  bold-text no-padding opt-basicview-font" ng-class="{'white-txt':selectProfessional=='yourPort','light-blue-label':selectProfessional!='yourPort'}">Preferred Portfolio</span>
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 space-row">&nbsp;</span>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-splitter no-padding">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text text-center no-padding opt-basicview-small-font" ng-class="{'white-txt':selectProfessional=='yourPort','light-blue-label':selectProfessional!='yourPort'}">{{yourPort.Return | percentage :2}}</div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center  big-font no-padding" ng-class="{'white-txt':selectProfessional=='yourPort','light-blue-label':selectProfessional!='yourPort'}">Return</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text text-center opt-basicview-small-font no-padding" ng-class="{'white-txt':selectProfessional=='yourPort','light-blue-label':selectProfessional!='yourPort'}">{{yourPort.Risk | percentage :2}}</div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='yourPort','light-blue-label':selectProfessional!='yourPort'}">Risk Level</div>
+                            </div>
+                        </div>
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding-left:0px;" ng-click="setSelectProfessional('TP')">
+                    <div class="col-md-1 col-lg-1">&nbsp;</div>
+                    <div class="col-md-11 col-lg-11 col-sm-12 col-xs-12  no-padding select-pointer opt-basicview-div" ng-class="{'light-blue-div':selectProfessional=='TP','gray-border':selectProfessional!='TP'}">
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center  bold-text opt-basicview-font" ng-class="{'white-txt':selectProfessional=='TP','light-blue-label':selectProfessional!='TP'}">TP</span>
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='TP','light-blue-label':selectProfessional!='TP'}">Optimal portfolio for all securities</span>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 gray-splitter no-padding">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bold-text no-padding text-center opt-basicview-small-font" ng-class="{'white-txt':selectProfessional=='TP','light-blue-label':selectProfessional!='TP'}">{{tpPort.Return | percentage :2}}</div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='TP','light-blue-label':selectProfessional!='TP'}">Historical Return</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  bold-text no-padding text-center opt-basicview-small-font" ng-class="{'white-txt':selectProfessional=='TP','light-blue-label':selectProfessional!='TP'}">{{tpPort.Risk | percentage :2}}</div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center big-font no-padding" ng-class="{'white-txt':selectProfessional=='TP','light-blue-label':selectProfessional!='TP'}">Risk Level</div>
+                            </div>
+                        </div>
+                        <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">&nbsp;</span>
+                    </div>
+                </div>
+            </div>-->
+
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">&nbsp;</div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:#2D3E58;padding:20px">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
+                        <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12 no-padding" style="color:white">
+                            <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt no-padding text-lable-bold">Risk</label>
+                            <span class="opt-data-font">{{selectPortfolio.Risk|percentage:2}}</span>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-4 col-xs-12 no-padding" style="color:white">
+                            <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt no-padding text-lable-bold">Average Yearly Return</label>
+                            <span class="opt-data-font">{{selectPortfolio.Return|percentage:2}}</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padding" style="color:white">
+                            <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt no-padding text-lable-bold">Return To Risk Ratio</label>
+                            <span class="opt-data-font">{{selectPortfolio.RateToRisk|number:2}}</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding" style="color:white">
+                            <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt no-padding text-lable-bold">Profit</label>
+                            <span class="opt-data-font">{{currency}}{{changeFromYesterday | number:2}}</span>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding" style="color:white">
+                            <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-txt no-padding text-lable-bold">Equity</label>
+                            <span class="opt-data-font">{{currency}}{{equityCalc | number:2}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-sm hidden-xs" style="padding:20px">
+                <span class="black-gray-color" style="font-size:30px;" ng-show="selectPortfolio.Securities.length > 0">{{selectPortfolio.Securities.length}} Securities in this portfolio</span>
+            </div>
+
+            <div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
+                <div class="col-md-12 col-lg-12 hidden-sm hidden-xs gray-border" style="padding-left:0px;padding-top:10px;">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="col-lg-6 col-md-6">Weight</div>
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs text-right">
+                            <input type="radio" class="hidden-sm hidden-xs" id="percentageRadio" name="orderRadio" ng-model="chartOrderByField" value="percentage" ng-change="changeOrderByBarChart()" /><label style="padding-left:5px;" for="percentageRadio">security percentage</label>
+                            <input type="radio" class="hidden-sm hidden-xs" id="symbolRadio" name="orderRadio" ng-model="chartOrderByField" value="symbol" ng-change="changeOrderByBarChart()" /><label style="padding-left:5px;" for="symbolRadio">security symbol</label>
+                        </div>
+                    </div>
+                    <div class="chart-responsive">
+                        <div class="col-md-12 hidden-sm hidden-xs">
+                            <!-- BAR CHART -->
+                            <div class="box-content">
+                                <div class="chart-responsive" style="min-height:300px;" id="chartcanvas" ng-click="updatechartSize()">
+                                    <div chart-bar labels="barLabels" name="'optSecurities'" all-data="barData" show-value="true" chart-height="400" options="barOptions"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="hidden-lg hidden-md col-sm-12 col-xs-12 no-padding">
+        <div class="col-sm-12 col-xs-12">&nbsp;</div>
+        <div class="col-sm-12 col-xs-12 text-right">
+            <div class="col-sm-6 hidden-xs no-padding">&nbsp;</div>
+            <div class="col-sm-3 col-xs-12 no-padding"><input type="radio" id="percentageRadio" name="orderMobileRadio" ng-model="chartOrderByField" value="percentage" ng-change="changeOrderByBarChart()" /><label style="padding-left:5px;" for="percentageRadio">security percentage</label></div>
+            <div class="col-sm-3 col-xs-12 no-padding" style="padding-right:22px">
+                <input type="radio" id="symbolRadio" name="orderMobileRadio" ng-model="chartOrderByField" value="symbol" ng-change="changeOrderByBarChart()" /><label style="padding-left:5px;" for="symbolRadio">security symbol</label>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+        <div class="col-sm-12 col-xs-12 no-padding">
+            <div style="height:100px;overflow-y:auto;overflow-x:hidden;direction:rtl" class="col-sm-12 col-xs-12 no-padding">
+                <div ng-repeat="sec in barData1 track by $index" class="col-sm-12 col-xs-12 no-padding">
+                    <span class="col-sm-2 col-xs-3 black-gray-font text-center" style="padding-right:0px;">{{barLabels[$index]}}</span>
+                    <div class="col-sm-10 col-xs-9 no-padding">
+                        <div class="col-sm-10 col-xs-10" style="padding-left:0px;">
+                            <div class="progress-bar progress" role="progressbar" aria-valuenow="{{sec.id}}" aria-valuemin="0" aria-valuemax="100" ng-style="{'width': sec.id + '%'}">
+                                <span class="black-gray-font text-center no-padding" style="color:white;font-size:9px;" ng-show="sec.portSecWeight * 100 > 60"> {{sec.id| number}}%</span>
+                            </div>
+                        </div>
+                        <span class="black-gray-font col-sm-2 col-xs-2 no-padding" ng-show="sec.id < 60"> {{sec.id| number}}%</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>-->
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;</div>
+
+            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 l-padding-left-xs--xs">
+
+                <div layout="row"
+                     class="l-margin-top-sm l-margin-bottom-sm">
+                    <div layout="row" layout-align="start center" class="l-margin-right-sm">
+                        <input type="radio" id="sectorWeightChart"
+                               name="weightChart" ng-model="weightChart" value="sector" />
+                        <label for="sectorWeightChart" class="l-margin-top-sm l-margin-left-xs">Sector Weights</label>
+                    </div>
+                    <div layout="row" layout-align="start center">
+                        <input type="radio" id="stockWeightChart" name="weightChart"
+                               ng-model="weightChart" value="stock" />
+                        <label for="stockWeightChart" class="l-margin-top-sm l-margin-left-xs">Stock Exchange Weights</label>
+                    </div>
+                </div>
+
+
+                <!--<md-radio-group ng-model="weightChart">
+            <md-radio-button ng-value="'sector'">
+                <span>Sector Weights</span>
+            </md-radio-button>
+            <md-radio-button ng-value="'stock'">
+                <span>Stock Exchange Weights</span>
+            </md-radio-button>
+        </md-radio-group>-->
+
+                <div class="col-sm-12 col-xs-12" ng-show="weightChart == 'sector'">
+                    <div chart-pie name="'stockPieChartMobile'" options="stockOptions" chart-width="200" chart-height="200" data="stockData"></div>
+                </div>
+                <div class="col-sm-12 col-xs-12" ng-show="weightChart == 'stock'">
+                    <div chart-pie name="'sectorPieChartMobile'" options="sectorOptions" chart-width="200" chart-height="200" data="sectorData"></div>
+                </div>
+
+                <!--<div class="col-sm-12 col-xs-12 black-gray-color simple-header">Stock Exchange Weights</div>
+        <div class="col-sm-12 col-xs-12">
+            <div chart-pie name="'stockPieChartMobile'" options="stockOptions" chart-width="200" chart-height="100" data="stockData"></div>
+        </div>
+        <div class="col-sm-12 col-xs-12 black-gray-color text-left simple-header">Sector Weights</div>
+        <div class="col-sm-12 col-xs-12">
+            <div chart-pie name="'sectorPieChartMobile'" options="sectorOptions" chart-width="200" chart-height="100" data="sectorData"></div>
+        </div>-->
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-md" style="padding:20px">
+                <span class="black-gray-color" style="font-size:30px;" ng-show="selectPortfolio.Securities.length > 0">{{selectPortfolio.Securities.length}} Securities in this portfolio</span>
+            </div>
+
+            <div class="col-lg-9 col-md-12 col-xs-12 col-sm-12 no-padding">
+
+                <div class="col-md-12 col-xs-12 col-sm-12 input-group">
+
+                    <input type="text" class="search-input" ng-change="search()" ng-model="searchText" placeholder="Search Security" style="font-size:20px;margin-top:10px;width:98%">
+
+                </div>
+
+
+                <!-- Header -->
+
+                <div class="col-lg-12 col-md-12 hidden-sm hidden-xs text-lable-blue no-padding">
+                    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs text-lable-blue-bold no-padding">
+                        <span style="display: inline-block; margin-left: 16px; min-width: 47px;">
+                            Risk
+                        </span>
+                        <span style="display: inline-block;">
+                            Security
+                        </span>
+                    </div>
+                    <div class="col-lg-1 col-md-1 hidden-sm hidden-xs text-lable-blue-bold no-padding"
+                         style="padding-left: 7px;">
+                        Symbol
+                    </div>
+                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding"
+                         style="padding-left: 4px;">
+                        Exchange
+                    </div>
+                    <div class="col-lg-1 col-md-1 hidden-sm hidden-xs text-lable-blue-bold no-padding">
+                        Weight
+                    </div>
+                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding">
+                        Sector
+                    </div>
+                    <div class="col-lg-1 col-md-1 hidden-sm hidden-xs text-lable-blue-bold no-padding" style="margin-left: -10px;">
+                        Quantity
+                    </div>
+                    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs text-lable-blue-bold no-padding" style="padding-left:15px;">
+                        Value
+                    </div>
+                </div>
+
+                <table ng-table="tableParams" class="table-securities">
+                    <tr ng-repeat="sec in $data" class="no-padding">
+                        <td>
+                            <security model="sec" columns="columns" mobile-columns="sec.Name == 'Cash' ? mobileCashColumns : mobileColumns"
+                                      is-full="false" risk-color-field="'StdYield'" chart-width="900"
+                                      index="$index" select-model="addOrRemoveToSectorList(model)"
+                                      currency="sec.IdCurrency"></security>
+                        </td>
+                    </tr>
+                </table>
+                <tfi-table-paginator tfi-table-params="tableParams"
+                                     class="l-margin-left-m l-margin-right-m"></tfi-table-paginator>
+            </div>
+            <div class="col-lg-3 col-md-12 hidden-sm hidden-xs no-padding text-center">
+                <div class="col-lg-12 hidden-md hidden-sm hidden-xs" style="height:60px;">&nbsp;</div>
+
+                <div class="col-lg-12 col-md-12 black-gray-color" style="font-size:28px;">Stock Exchange Weights</div>
+                <div class="col-lg-12 col-md-12 no-padding">
+                    <div chart-pie name="'stockPieChart'" class="no-padding" options="stockOptions" data="stockData"></div>
+                </div>
+                <div class="col-lg-12 col-md-12 black-gray-color text-center" style="font-size:28px;">Sector Weights</div>
+                <div class="col-lg-12 col-md-12 no-padding">
+                    <div chart-pie name="'sectorPieChart'" class="no-padding" options="sectorOptions" data="sectorData"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

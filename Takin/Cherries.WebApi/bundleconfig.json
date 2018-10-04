@@ -1,0 +1,268 @@
+[
+  {
+    "outputFileName": "Scripts/bundle.js",
+    "inputFiles": [
+      "Scripts/libs/jquery/jquery-1.11.2.min.js",
+      "Scripts/libs/jquery/jquery-ui-1.10.3.min.js",
+      "Scripts/libs/jquery/jquery.signalR-2.2.1.js",
+      "bower_components/select2/dist/js/select2.full.min.js",
+      "bower_components/select2/dist/js/i18n/en.js",
+      "bower_components/select2/dist/js/i18n/he.js",
+      "bower_components/angular/angular.js",
+      "bower_components/angular-resource/angular-resource.min.js",
+      "bower_components/angular-route/angular-route.min.js",
+      "bower_components/angular-sanitize/angular-sanitize.min.js",
+      "bower_components/angular-translate/angular-translate.min.js",
+      "bower_components/angular-ismobile/dist/angular-ismobile.min.js",
+      "bower_components/angular-bindonce/bindonce.min.js",
+      "scripts/libs/linqjs/linq.js",
+      "scripts/libs/angular-ui/select2.js",
+      "scripts/libs/bootstrap/ui-bootstrap-tpls-0.13.4.min.js",
+      "scripts/libs/multi-select/lodash.js",
+      "scripts/libs/angular-ui/angular-prompt.js",
+      "Scripts/libs/ngTable/ng-table.js",
+      "Scripts/libs/bootstrap/bootstrap-multiselect.js",
+      "Scripts/libs/multi-select/angularjs-dropdown-multiselect.js",
+      "Scripts/libs/chartjs/Chart.js",
+      "Scripts/libs/chartjs/Chart.Scatter.js",
+      "Scripts/libs/jsPdf/html2canvas.js",
+      "Scripts/libs/jsPdf/jsPdf.js",
+      "Scripts/libs/angular-animate/angular-animate.js",
+      "Scripts/libs/underscore/underscore.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bundleapp.js",
+    "inputFiles": [
+      "Scripts/app/models/shared/translations.js",
+      "Scripts/app/app.js",
+      "Scripts/app/controllers/shared/takinMngrCtrl.js",
+      "Scripts/app/controllers/portfolios/portfolioCtrl.js",
+      "Scripts/app/controllers/shared/newPasswordCtrl.js",
+      "Scripts/app/controllers/shared/forgetPasswordCtrl.js",
+      "Scripts/app/controllers/portfolios/customPortfolioCtrl.js",
+      "Scripts/app/controllers/portfolios/optimizedPortfolioCtrl.js",
+      "Scripts/app/controllers/portfolios/portfolioDetailsCtrl.js",
+      //"Scripts/app/controllers/backtesting/backtestingCtrl.js",
+      "Scripts/app/controllers/shared/registrationCtrl.js",
+      "Scripts/app/controllers/shared/registrationTrialCodeCtrl.js",
+      "Scripts/app/controllers/shared/changeAccountDetailsCtrl.js",
+      "Scripts/app/controllers/shared/changeBillingDetailsCtrl.js",
+      "Scripts/app/controllers/backtesting/createBacktestingCtrl.js",
+      "Scripts/app/directives/login.js",
+      "Scripts/app/directives/portfolio.js",
+      "Scripts/app/directives/backtesting.js",
+      "Scripts/app/directives/header.js",
+      "Scripts/app/directives/loginHeader.js",
+      "Scripts/app/directives/loadingoverlay.js",
+      "Scripts/app/directives/numbersOnly.js",
+      "Scripts/app/directives/security.js",
+      //"Scripts/app/directives/chartBar.js",
+      "Scripts/app/directives/chartLine.js",
+      "Scripts/app/directives/chartLineScroll.js",
+      "Scripts/app/directives/chartPie.js",
+      "Scripts/app/directives/lineScattertest.js",
+      "Scripts/app/directives/resize.js",
+      "Scripts/app/directives/paypalPayment.js",
+      "Scripts/app/directives/formInputTypes.js",
+      "Scripts/app/directives/validations.js",
+      "Scripts/app/directives/focusMe.js",
+      "Scripts/app/directives/sortableHeader.js",
+      "Scripts/app/services/shared/helperService.js",
+      "Scripts/app/services/login/loginService.js",
+      "Scripts/app/services/shared/utilitiesService.js",
+      "Scripts/app/services/portfolio/portfolioService.js",
+      "Scripts/app/helpers/errorHandler.js",
+      "Scripts/app/services/securities/securitiesService.js",
+      "Scripts/app/services/shared/lookupService.js",
+      "Scripts/app/services/shared/generalService.js",
+      "Scripts/app/services/prices/priceService.js",
+      "Scripts/app/services/backtesting/backtestingService.js",
+      "Scripts/app/services/shared/exportDataService.js",
+      "Scripts/app/services/shared/commonConstants.constant.js",
+      "Scripts/app/services/login/userService.js",
+      "Scripts/app/services/License/licenseService.js",
+      "Scripts/app/models/shared/enums.js",
+      "Scripts/app/models/shared/messages.js",
+      "Scripts/app/helpers/errorHandler.js",
+      "Scripts/app/directives/datepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/bundle.css",
+    "inputFiles": [
+      "Content/themes/base/bootstrap.css",
+      "Content/themes/base/checkbox-color.css",
+      "Content/themes/base/checkbox.css",
+      "Content/themes/base/bootstrap-multiselect.css",
+      "Content/themes/jqury.ui/jquery.ui.core.min.css",
+      "Content/themes/jqury.ui/jquery-ui.css",
+      "bower_components/select2/dist/css/select2.min.css",
+      "Content/themes/ngTable/ngTable.css",
+      "Content/themes/semantic.min.css",
+      "Content/themes/smoothness/jquery-ui.min.css",
+      "Content/themes/main.css",
+      "Content/content.css",
+      "Content/header.component.css",
+      "Scripts/app/partials/portfolio.css",
+      "Scripts/app/partials/backtesting.css"
+
+    ]
+  },
+  {
+    "outputFileName": "index.min.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/changeAccountDetails.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/changeAccountDetails.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/changeBillingDetails.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/changeBillingDetails.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/forgetPassword.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/forgetPassword.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/index.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/index.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/newPassword.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/newPassword.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/registration.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/registration.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/shared/registration_billing.min.html",
+    "inputFiles": [
+      "Scripts/app/views/shared/registration_billing.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/portfolios/customPortfolio.min.html",
+    "inputFiles": [
+      "Scripts/app/views/portfolios/customPortfolio.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/portfolios/optimizedPortfolio.min.html",
+    "inputFiles": [
+      "Scripts/app/views/portfolios/optimizedPortfolio.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/portfolios/portfolioDetails.min.html",
+    "inputFiles": [
+      "Scripts/app/views/portfolios/portfolioDetails.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/portfolios/portfoliosList.min.html",
+    "inputFiles": [
+      "Scripts/app/views/portfolios/portfoliosList.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/views/backtesting/backtesting.min.html",
+    "inputFiles": [
+      "Scripts/app/views/backtesting/backtesting.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/chartBar.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/chartBar.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/chartLine.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/chartLine.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/chartLineScroll.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/chartLineScroll.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/chartPie.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/chartPie.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/footer.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/footer.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/header.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/header.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/lineScattertest.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/lineScattertest.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/loader.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/loader.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/login.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/login.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/loginHeader.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/loginHeader.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/paypalPayment.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/paypalPayment.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/portfolio.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/portfolio.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app/partials/security.min.html",
+    "inputFiles": [
+      "Scripts/app/partials/security.html"
+    ]
+  }
+]

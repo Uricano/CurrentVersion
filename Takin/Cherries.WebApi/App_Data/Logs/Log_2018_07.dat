@@ -1,0 +1,1324 @@
+02.07.2018 13:53:00 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+02.07.2018 14:21:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+02.07.2018 14:26:43 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+02.07.2018 15:47:34 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+02.07.2018 15:53:41 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+02.07.2018 15:56:16 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+02.07.2018 15:56:37 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+02.07.2018 15:56:53 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+03.07.2018 10:55:02 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs. Line Number 310. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesQuantities() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 310
+
+
+03.07.2018 14:36:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+03.07.2018 15:06:11 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+03.07.2018 15:27:40 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+03.07.2018 16:14:51 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+03.07.2018 17:17:23 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 11:21:03 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 11:46:19 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 12:15:33 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 12:51:14 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 13:09:23 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 13:11:55 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 13:14:56 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 13:19:50 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 13:24:57 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 13:55:24 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 14:02:30 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 14:51:45 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:16:25 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:18:06 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:20:01 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:22:30 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:27:40 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:31:35 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:36:46 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:39:45 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:40:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+04.07.2018 15:57:20 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+05.07.2018 15:02:44 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+05.07.2018 15:18:03 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+05.07.2018 15:27:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+05.07.2018 15:33:17 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 232. Error MessageCould not find a part of the path 'C:\TempFiles\covarMatrix.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.DataManagement.StaticMethods.cClientStaticMethods.writeDataTableToCsv(DataTable sourceTable, String strFileName, Boolean includeHeaders) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\StaticMethods\cClientStaticMethods.cs:line 100
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.reportCovarianceMatrix(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 232
+
+
+06.07.2018 14:38:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+06.07.2018 14:44:40 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+06.07.2018 14:49:47 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+06.07.2018 14:57:48 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+06.07.2018 16:39:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+06.07.2018 17:01:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 11:36:22 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 12:30:09 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 13:13:53 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 13:15:23 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 13:24:55 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 960. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 218
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 212
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 234
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1001
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 960
+
+
+09.07.2018 13:26:15 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 14:13:06 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 14:36:20 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 14:52:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+09.07.2018 16:01:54 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs. Line Number 269. Error MessageCould not find a part of the path 'C:\TempFiles\pairANAB_BGNE.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at Cherries.TFI.BusinessLogic.GMath.cCovarCorrelHandler.createCovariancePairResults(ISecurities cSecsCol, String strSymbol1, String strSymbol2) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cCovarCorrelHandler.cs:line 269
+
+
+16.07.2018 12:53:20 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+16.07.2018 15:14:25 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 302. Error MessageThread was being aborted.
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass36_3.<AddSecuritiesToMemory>b__4(Price x) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 302
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass36_1.<AddSecuritiesToMemory>b__1(Security s) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 302
+
+
+17.07.2018 17:25:44 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 12:59:15 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 13:32:21 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 13:35:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 14:16:57 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 979. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 218
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 212
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 234
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1020
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 979
+
+
+18.07.2018 14:20:07 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 14:47:36 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 15:57:07 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 16:35:25 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 16:37:09 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+18.07.2018 17:00:19 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+19.07.2018 13:48:50 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 891. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesWeightsCollection(ISecurities cSecsCol, Int32 iRiskInd) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 530
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 891
+
+
+19.07.2018 13:55:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 891. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesWeightsCollection(ISecurities cSecsCol, Int32 iRiskInd) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 530
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 891
+
+
+19.07.2018 16:55:37 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 891. Error MessageIndex was outside the bounds of the array.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults.setSecuritiesWeightsCollection(ISecurities cSecsCol, Int32 iRiskInd) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 530
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.calculateNewBacktesting(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity, List`1 becnhMarkIDs) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 891
+
+
+20.07.2018 12:10:02 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+20.07.2018 13:39:26 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+20.07.2018 14:13:22 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+20.07.2018 14:56:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+23.07.2018 13:17:46 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 982. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 238
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 232
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 254
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1023
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 982
+
+
+23.07.2018 13:21:36 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+24.07.2018 14:11:24 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 322. Error MessageThread was being aborted.
+                                                                                                                                                                              24.07.2018 14:11:24 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 322. Error Message
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Cherries.Models.dbo.Price, Cherries.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[TFI.Entities.dbo.Price, TFI.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+
+Destination path:
+List`1
+
+Source value:
+System.Collections.Generic.List`1[Cherries.Models.dbo.Price]
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int3224.07.2018 14:11:24 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs length, Boolean reliable)
+   at System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   at System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   at System.Collections.Generic.List`1.Add(T item)
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass38_1.<AddSecuritiesToMemory>b__1(Security s) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 322
+
+  25.07.2018 9:55:09 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+25.07.2018 10:24:28 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+25.07.2018 11:09:08 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+25.07.2018 14:01:15 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1096. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1096
+
+
+26.07.2018 12:16:26 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 12:18:00 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 12:20:14 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 13:08:45 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 13:26:43 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 13:28:47 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 13:29:41 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 14:32:01 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1100. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1100
+
+
+26.07.2018 15:48:38 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+26.07.2018 15:48:53 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+26.07.2018 15:50:04 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id180_, selsecurit0_.strName as strName180_, selsecurit0_.strNameHeb as strNameHeb180_, selsecurit0_.isActive as isActive180_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id180_, selsecurit0_.strName as strName180_, selsecurit0_.strNameHeb as strNameHeb180_, selsecurit0_.isActive as isActive180_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+26.07.2018 17:04:00 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 986. Error MessageFailed to compare two elements in the array.
+   at System.Collections.Generic.ArraySortHelper`1.BinarySearch(T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Array.BinarySearch[T](T[] array, Int32 index, Int32 length, T value, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(Int32 index, Int32 count, T item, IComparer`1 comparer)
+   at System.Collections.Generic.List`1.BinarySearch(T item, IComparer`1 comparer)
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(ISecurity cCurrSec) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 240
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.searchSecurity(String strSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 234
+   at Cherries.TFI.BusinessLogic.Securities.cSecurities.getSecurityById(String iSecId) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecurities.cs:line 256
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getPortfolioCollectionOfSecs(IPortfolioBL cPort, ISecurities cOrigCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1027
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.getNewBacktestingPortfolio(IPortfolioBL cPort, DateTime dtStartDate, DateTime dtEndDate, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 986
+
+
+26.07.2018 17:04:20 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flYesterdayPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+26.07.2018 17:05:02 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flYesterdayPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+26.07.2018 17:05:28 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flYesterdayPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+26.07.2018 17:13:27 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flYesterdayPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+26.07.2018 17:14:33 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flYesterdayPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+26.07.2018 17:20:04 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 9:25:51 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 9:30:18 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 9:52:31 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 10:07:03 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 10:25:41 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 10:39:13 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+27.07.2018 10:51:23 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+30.07.2018 17:05:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:05:39 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:05:47 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:06:11 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:06:40 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:07:32 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:07:50 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:07:58 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:09:27 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:11:34 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:12:05 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:12:31 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:14:45 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 245. Error MessageCould not find a setter for property 'flCreationPrice' in class 'TFI.Entities.Sp.SecurityData'
+   at NHibernate.Properties.ChainedPropertyAccessor.GetSetter(Type theClass, String propertyName)
+   at NHibernate.Transform.AliasToBeanResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Custom.CustomLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   at NHibernate.Impl.SqlQueryImpl.List[T]()
+   at Ness.DataAccess.Repository.Repository.ExecuteSp[T](String spName, Dictionary`2 parameters) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 50
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.<>c__DisplayClass21_1`1.<fillPortDetails>b__0(ISession session) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 265
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in D:\Work\TakinNew\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.fillPortDetails[T](Int32 iPortID, Boolean isBacktPort) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 245
+
+
+30.07.2018 17:40:45 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 156. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.getSecIDsString(ISecurities cSecsCol) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 147
+   at Cherries.TFI.BusinessLogic.GMath.cRateHandler.setSecuritiesPriceReturns(ISecurities cSecsCol, DateTime fromDT, DateTime toDT, String calcCurrency) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\GMath\cRateHandler.cs:line 105
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiateVariablesForPortfolio(Boolean isCreateNew, String sCurrency, List`1 exchangesIds, List`1 securities) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 156
+
+
+31.07.2018 15:41:02 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+
+31.07.2018 16:31:47 Error In D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs. Line Number 1093. Error MessageCould not find a part of the path 'C:\TempFiles\backtestingReport.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at TFI.BusinessLogic.Classes.Optimization.Backtesting.cBacktestingHandler.reportBacktestingPortfolio(ISecurities cSecsCol, DataTable dtResults, OptimalPortfolio cPort, Double dEquity) in D:\Work\TakinNew\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\Backtesting\cBacktestingHandler.cs:line 1093
+
+

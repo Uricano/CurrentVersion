@@ -1,0 +1,857 @@
+19/11/2017 09:03:29 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity20_, price0_.dDate as dDate20_, price0_.fOpen as fOpen20_, price0_.fClose as fClose20_, price0_.fNISOpen as fNISOpen20_, price0_.fNISClose as fNISClose20_, price0_.FAC as FAC20_, price0_.isHoliday as isHoliday20_, price0_.dAdjPrice as dAdjPrice20_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+19/11/2017 13:05:18 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 13:06:13 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 15:52:47 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 15:53:58 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:00:25 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:17:52 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity22_, price0_.dDate as dDate22_, price0_.fOpen as fOpen22_, price0_.fClose as fClose22_, price0_.fNISOpen as fNISOpen22_, price0_.fNISClose as fNISClose22_, price0_.FAC as FAC22_, price0_.isHoliday as isHoliday22_, price0_.dAdjPrice as dAdjPrice22_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc ]
+  Name:p1 - Value:1109966
+[SQL: select price0_.Idsecurity as Idsecurity22_, price0_.dDate as dDate22_, price0_.fOpen as fOpen22_, price0_.fClose as fClose22_, price0_.fNISOpen as fNISOpen22_, price0_.fNISClose as fNISClose22_, price0_.FAC as FAC22_, price0_.isHoliday as isHoliday22_, price0_.dAdjPrice as dAdjPrice22_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+19/11/2017 16:24:10 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:27:08 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:29:45 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:34:23 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:37:01 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:39:21 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:40:52 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:41:05 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:42:01 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:49:06 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:51:12 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:52:03 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:53:41 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 16:56:36 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 17:03:04 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 17:05:23 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 17:07:32 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:43:58 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:45:23 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:46:56 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:48:15 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:50:15 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:52:08 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 20:57:11 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 22:48:04 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 22:50:06 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+19/11/2017 22:51:56 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:10:04 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:12:44 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:14:12 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:14:53 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:18:33 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:18:52 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 09:21:14 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 11:57:42 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 11:59:40 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 12:12:38 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+20/11/2017 15:30:14 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc ]
+  Name:p1 - Value:1.9363
+[SQL: select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+21/11/2017 09:37:25 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in C:\NetProjects\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+21/11/2017 09:38:01 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error MessageObject reference not set to an instance of an object.
+   at Ness.DataAccess.Fluent.NHibernateHelper.openSessionAndAddToContext(ISessionFactory factory) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 106
+   at Ness.DataAccess.Fluent.NHibernateHelper.getExistingOrNewSession(ISessionFactory factory) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 70
+   at Ness.DataAccess.Fluent.NHibernateHelper.GetSession() in C:\NetProjects\Dev\Ness.Infrastructure\DataAccess_Fluent\NHibernateHelper.cs:line 96
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 28
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+21/11/2017 09:42:27 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selsecurit0_.id as id35_, selsecurit0_.strName as strName35_, selsecurit0_.strNameHeb as strNameHeb35_, selsecurit0_.isActive as isActive35_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1 ]
+[SQL: select selsecurit0_.id as id35_, selsecurit0_.strName as strName35_, selsecurit0_.strNameHeb as strNameHeb35_, selsecurit0_.isActive as isActive35_ from dbo.v_tbSel_SecurityTypes selsecurit0_ where selsecurit0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+21/11/2017 09:42:37 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs. Line Number 63. Error Messagecould not execute query
+[ select selstockex0_.id as id38_, selstockex0_.strName as strName38_, selstockex0_.strNameHeb as strNameHeb38_, selstockex0_.LastUpdate as LastUpdate38_, selstockex0_.isActive as isActive38_, selstockex0_.idCurrency as idCurrency38_ from dbo.v_tbSel_StockMarkets selstockex0_ where selstockex0_.isActive=1 ]
+[SQL: select selstockex0_.id as id38_, selstockex0_.strName as strName38_, selstockex0_.strNameHeb as strNameHeb38_, selstockex0_.LastUpdate as LastUpdate38_, selstockex0_.isActive as isActive38_, selstockex0_.idCurrency as idCurrency38_ from dbo.v_tbSel_StockMarkets selstockex0_ where selstockex0_.isActive=1]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.<setCategoryItems>b__6_0[T](ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 67
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Categories.cCatItem.setCategoryItems[T]() in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Categories\cCatItems.cs:line 63
+
+
+21/11/2017 09:46:55 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+21/11/2017 10:08:06 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+21/11/2017 11:09:44 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:10:52 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:11:38 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:14:26 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:14:50 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:19:03 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:21:15 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 11:22:28 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:51:52 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:52:51 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:53:30 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:53:59 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:54:24 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:55:12 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:55:51 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:56:19 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:56:53 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:57:44 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 12:59:23 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 13:00:44 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 13:34:35 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 13:35:59 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 13:43:47 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:03:03 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:05:50 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:08:21 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:16:09 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:16:29 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:19:13 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:20:44 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:21:31 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:22:11 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:23:07 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:24:27 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:25:08 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:25:38 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:26:09 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:26:49 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:27:43 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:28:10 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:29:15 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:30:16 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:31:26 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:32:19 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:32:59 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:33:45 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:34:23 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:35:03 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:35:47 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:36:20 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:37:52 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:38:45 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+21/11/2017 17:39:01 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+23/11/2017 10:38:02 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 452. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity18_, price0_.dDate as dDate18_, price0_.fOpen as fOpen18_, price0_.fClose as fClose18_, price0_.fNISOpen as fNISOpen18_, price0_.fNISClose as fNISClose18_, price0_.FAC as FAC18_, price0_.isHoliday as isHoliday18_, price0_.dAdjPrice as dAdjPrice18_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:1.2110
+[SQL: select price0_.Idsecurity as Idsecurity18_, price0_.dDate as dDate18_, price0_.fOpen as fOpen18_, price0_.fClose as fClose18_, price0_.fNISOpen as fNISOpen18_, price0_.fNISClose as fNISClose18_, price0_.FAC as FAC18_, price0_.isHoliday as isHoliday18_, price0_.dAdjPrice as dAdjPrice18_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 454
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 452
+
+
+28/11/2017 10:58:28 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 290. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Securities.cSecProperties.getSecName(String oldName) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecProperties.cs:line 77
+   at Cherries.TFI.BusinessLogic.Securities.cSecProperties.set_HebName(String value) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cSecProperties.cs:line 135
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 417
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass36_2.<AddSecuritiesToMemory>b__2(Security s) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 290
+
+
+28/11/2017 11:05:46 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 453. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity21_, price0_.dDate as dDate21_, price0_.fOpen as fOpen21_, price0_.fClose as fClose21_, price0_.fNISOpen as fNISOpen21_, price0_.fNISClose as fNISClose21_, price0_.FAC as FAC21_, price0_.isHoliday as isHoliday21_, price0_.dAdjPrice as dAdjPrice21_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc ]
+  Name:p1 - Value:1.6347
+[SQL: select price0_.Idsecurity as Idsecurity21_, price0_.dDate as dDate21_, price0_.fOpen as fOpen21_, price0_.fClose as fClose21_, price0_.fNISOpen as fNISOpen21_, price0_.fNISClose as fNISClose21_, price0_.FAC as FAC21_, price0_.isHoliday as isHoliday21_, price0_.dAdjPrice as dAdjPrice21_ from dbo.v_Prices price0_ where price0_.Idsecurity=? order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 455
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 453
+
+
+28/11/2017 11:22:46 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 453. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity21_, price0_.dDate as dDate21_, price0_.fOpen as fOpen21_, price0_.fClose as fClose21_, price0_.fNISOpen as fNISOpen21_, price0_.fNISClose as fNISClose21_, price0_.FAC as FAC21_, price0_.isHoliday as isHoliday21_, price0_.dAdjPrice as dAdjPrice21_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 455
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 453
+
+
+28/11/2017 20:37:09 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 453. Error Messagecould not execute query
+[ select price0_.Idsecurity as Idsecurity76_, price0_.dDate as dDate76_, price0_.fOpen as fOpen76_, price0_.fClose as fClose76_, price0_.fNISOpen as fNISOpen76_, price0_.fNISClose as fNISClose76_, price0_.FAC as FAC76_, price0_.isHoliday as isHoliday76_, price0_.dAdjPrice as dAdjPrice76_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc ]
+  Name:p1 - Value:1820083
+[SQL: select price0_.Idsecurity as Idsecurity76_, price0_.dDate as dDate76_, price0_.fOpen as fOpen76_, price0_.fClose as fClose76_, price0_.fNISOpen as fNISOpen76_, price0_.fNISClose as fNISClose76_, price0_.FAC as FAC76_, price0_.isHoliday as isHoliday76_, price0_.dAdjPrice as dAdjPrice76_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc]
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 455
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 453
+
+
+28/11/2017 20:43:22 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 453. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 455
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 453
+
+
+28/11/2017 20:45:36 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 453. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity32_, price0_.dDate as dDate32_, price0_.fOpen as fOpen32_, price0_.fClose as fClose32_, price0_.fNISOpen as fNISOpen32_, price0_.fNISClose as fNISClose32_, price0_.FAC as FAC32_, price0_.isHoliday as isHoliday32_, price0_.dAdjPrice as dAdjPrice32_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 455
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 453
+
+
+28/11/2017 20:47:34 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+28/11/2017 20:56:45 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs. Line Number 453. Error MessageWhile preparing select price0_.Idsecurity as Idsecurity10_, price0_.dDate as dDate10_, price0_.fOpen as fOpen10_, price0_.fClose as fClose10_, price0_.fNISOpen as fNISOpen10_, price0_.fNISClose as fNISClose10_, price0_.FAC as FAC10_, price0_.isHoliday as isHoliday10_, price0_.dAdjPrice as dAdjPrice10_ from dbo.v_Prices price0_ where price0_.Idsecurity=@p0 order by price0_.dDate desc an error occurred
+   at NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.<>c__DisplayClass40_0.<getCurrSecurity>b__0(ISession session) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 455
+   at Ness.DataAccess.Repository.Repository.Execute(Action`1 execute) in C:\NetProjects\Dev\Ness.Infrastructure\DataAccessRepository\Repository.cs:line 30
+   at Cherries.TFI.BusinessLogic.Collections.cCollectionsHandler.getCurrSecurity(Security security, IPortfolioBL cCurrPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Securities\cCollectionsHandler.cs:line 453
+
+
+28/11/2017 23:40:41 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+28/11/2017 23:42:53 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+29/11/2017 15:44:34 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+
+29/11/2017 15:50:00 Error In C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs. Line Number 142. Error MessageObject reference not set to an instance of an object.
+   at Cherries.TFI.BusinessLogic.Optimization.cOptimizationResults..ctor(IPortfolioBL cPort) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Optimization\cOptimizationResults.cs:line 66
+   at Cherries.TFI.BusinessLogic.Portfolio.cPortfolio.instantiatePortfolioVariables(Boolean isFullProcess, String currency, List`1 exchangesPackagees, List`1 securities) in C:\NetProjects\Dev\Takin\TFI_BusinessLogic\Classes\Portfolio\cPortfolio.cs:line 142
+
+

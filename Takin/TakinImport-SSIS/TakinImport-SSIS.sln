@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "TakinImport-SSIS", "TakinImport-SSIS\TakinImport-SSIS.dtproj", "{FE1F5C6B-4226-4EA0-87E9-8D4B2F734B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1F5C6B-4226-4EA0-87E9-8D4B2F734B09}.Development|Default.ActiveCfg = Development
+		{FE1F5C6B-4226-4EA0-87E9-8D4B2F734B09}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://emptlcloud.cloudapp.net:8085/tfs/clal
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TakinImport-SSIS\\TakinImport-SSIS.dtproj
+		SccProjectName1 = TakinImport-SSIS
+		SccLocalPath1 = TakinImport-SSIS
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div style="width:100%; overflow:auto">
+        <canvas id="myChart" width="900" height="400"></canvas>
+    </div> 
+    <script src="Scripts/libs/jquery/jquery-1.11.2.min.js"></script>
+    <script src="Scripts/libs/chartjs/Chart.js"></script>
+
+    <script src="Scripts/libs/chartjs/Chart.Scatter.js"></script>
+    <script>
+        var data = [
+            {
+                pointDot: true,
+                data: [
+                      { x: 10, y: 20 },
+                      { x: 20, y: 40 },
+                      { x: 30, y: 47 }
+                ]
+            },
+
+    {
+        label: 'My First dataset',
+        strokeColor: 'green',
+        //pointColor: '#fff',
+        //pointStrokeColor: '#fff',
+        data: [
+          { x: 0, y: 0 },
+          { x: 9, y: 0 }
+          
+        ]
+    },
+    {
+        label: 'My Second dataset',
+        strokeColor: 'yellow',
+        //pointColor: '#007ACC',
+        //pointStrokeColor: '#fff',
+        data: [
+          { x: 9, y: 0 },
+          { x: 20, y: 0 }
+        ]
+    },
+    {
+        label: 'My Second dataset',
+        strokeColor: 'rgb(240, 187, 2)',
+        //pointColor: '#007ACC',
+        //pointStrokeColor: '#fff',
+        data: [
+          { x: 20, y: 0 },
+          { x: 30, y: 0 }
+        ]
+    },
+    {
+        label: 'My Second dataset',
+        strokeColor: 'darkorange',
+        //pointColor: '#007ACC',
+        //pointStrokeColor: '#fff',
+        data: [
+          { x: 30, y: 0 },
+          { x: 40, y: 0 }
+        ]
+    },
+    {
+        label: 'My Second dataset',
+        strokeColor: 'red',
+        
+        //pointColor: '#007ACC',
+        //pointStrokeColor: '#fff',
+        data: [
+          { x: 40, y: 0 },
+          { x: 50, y: 0 }
+        ]
+    }
+        ];
+        var ctx = document.getElementById("myChart").getContext("2d");
+        var chart = new Chart(ctx).Scatter(data, {
+            scaleLineWidth: 4,
+            xScaleOverride: true,
+            xScaleSteps:50,
+            xScaleStepWidth: 1,
+            xScaleStartValue:1,
+            onAnimationProgress: function () { drawDatasetPointsLabels() }, onAnimationComplete: function () { drawDatasetPointsLabels() }
+        });
+        var canvas = document.getElementById("myChart");
+
+        canvas.onclick = function (evt) {
+            if (!chart)
+                return;
+
+            var points = chart.getPointsAtEvent(evt);
+            alert(points.length);
+        };
+
+        canvas.onmousemove = function (evt) {
+            drawDatasetPointsLabels();
+        }
+
+        canvas.onmouseover = function (evt) {
+            setTimeout(function () { drawDatasetPointsLabels(); }, 1000);
+        }
+
+        canvas.onmouseenter = function (evt) {
+            setTimeout(function () { drawDatasetPointsLabels(); }, 1000);
+        }
+
+        canvas.onmouseout = function (evt) {
+            drawDatasetPointsLabels();
+        }
+
+
+        function drawDatasetPointsLabels() {
+            ctx.font = '.9rem "Gotham Book",sans-serif';
+            ctx.fontWeight = 'bold';
+            ctx.fillStyle = '#AAA';
+            ctx.textAlign = "center";
+            $(chart.datasets).each(function (idx, dataset) {
+                $(dataset.points).each(function (pdx, pointinfo) {
+                    if (pointinfo.value !== null) {
+                        ctx.fillText(pointinfo.value, pointinfo.x, pointinfo.y - 15);
+                    }
+                });
+            });
+            }
+    </script>
+</body>
+</html>
