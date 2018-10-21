@@ -144,6 +144,9 @@ app.run(["$rootScope", "$location", "$document", "$window", "utilitiesSvc", "tfi
 app.controller("takinMngrCtrl", ['$scope', "$location", "$window", "$translate", "lookupSvc", "portfolioSvc", "utilitiesSvc", "loginSvc", "$timeout", "$http", "isMobile", "backtestingSvc", "$document",
     function ($scope, $location, $window, $translate, lookupSvc, portfolioSvc, utilitiesSvc, loginSvc, $timeout, $http, isMobile, backtestingSvc, $document)
     {
+
+        // Alex: 18.10.2018
+
     $scope.screenName = "";
 
     $scope.rout = "";
