@@ -25,7 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs628C.tmp\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\laurar\AppData\Local\Temp\vsFF6D.tmp\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vs628C.tmp\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\laurar\AppData\Local\Temp\vsFF6D.tmp\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

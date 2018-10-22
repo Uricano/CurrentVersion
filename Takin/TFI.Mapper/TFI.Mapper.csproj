@@ -27,7 +27,7 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vsF4A.tmp\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\laurar\AppData\Local\Temp\vsFF8E.tmp\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,7 +37,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <IntermediateOutputPath>C:\Users\uriel\AppData\Local\Temp\vsF4A.tmp\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\laurar\AppData\Local\Temp\vsFF8E.tmp\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">

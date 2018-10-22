@@ -66,6 +66,8 @@ namespace TFI.BusinessLogic.Classes.Optimization.Backtesting
         //private DateTime constMinDT;    // = new DateTime(1900, 01, 01); // constant date, indicating that current date is the end date of period
         //private double m_dClosestPortRiskVal;
 
+        //LAURA GITHUB CHECKIN TEST
+
         #region Cloud
         private IRepository repository;// = new Repository();
 
